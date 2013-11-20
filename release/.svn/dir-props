@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 188
+qsqlpsql4.dll
+libpq.dll
+liblog.dll
+libcurl.dll
+ssleay32.dll
+libeay32.dll
+libssl32.dll
+libboost_regex-mgw44-1_48.dll
+libboost_regex-mgw44-mt-1_48.dll
+Updater0.dll
+libACE.dll
+libACE_SSL.dll
+
+END

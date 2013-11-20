@@ -1,0 +1,50 @@
+POST /cgiopac/opacg/direct.exe HTTP/1.1
+Host: opac.mgounb.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:9.0) Gecko/20100101 Firefox/9.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://opac.mgounb.ru/opacg/html/hidden_query_frame/index.html
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 262
+
+_xsl=%2Fopacg%2Fhtml%2Fcommon%2Fxsl%2Fview_records.xsl&_errorXsl=%2Fopacg%2Fhtml%2Fcommon%2Fxsl%2Ferror.xsl&_version=2.0.0&_service=STORAGE%3Aopacfindd%3AFindView&userId=GUES2&session=201576&iddb=1&outform=FULLFORM&ids%5B0%5D=RU%2F%CC%C3%CE%D3%CD%C1%2FEK%2F46632HTTP/1.0 200 OK
+Date: Tue, 22 Nov 2011 10:20:12 GMT
+Server: Apache/2.0.63 (Win32) mod_fastcgi/2.4.2
+Content-Type: text/xml
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.8)
+Connection: close
+
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="/opacg/html/common/xsl/view_records.xsl"?>
+<document size="1">
+<result>
+<entry isn="318108" id="RU/МГОУНБ/EK/46632" level="Full" iddb="1">
+<FULLFORM>
+<entry>&lt;Авторский знак:&gt; Т53</entry>
+<entry>&lt;1 Инвентарный номер:&gt; 1531265</entry>
+<entry>&lt;Автор:&gt; Толстой Л. Н.</entry>
+<entry>&lt;Основное заглавие:&gt; Анна Каренина</entry>
+<entry>&lt;Сведения, относящ. к заглавию:&gt; роман в 8 ч.</entry>
+<entry>&lt;Ответственность:&gt; Л. Н. Толстой</entry>
+<entry>&lt;Место издания:&gt; СПб.</entry>
+<entry>&lt;Издательство:&gt; Совет. писатель, С.-Петерб. отд-ние</entry>
+<entry>&lt;Дата издания:&gt; 1994</entry>
+<entry>&lt;Объем:&gt; 606, [2] с.</entry>
+<entry>&lt;Наименование темы как предмет&gt;: Женщина в России (х.л.)</entry>
+<entry>&lt;Наименование темы как предмет&gt;: Дворянство в России (х.л.)</entry>
+<entry>&lt;Наименование темы как предмет&gt;: Россия</entry>
+<entry>&lt;тематический подзаголовок&gt;: 19 в.(х.л.)</entry>
+<entry>Р13 - rubbk</entry>
+<entry>&lt;ISBN:&gt; 5-265-02788-2</entry>
+<entry>&lt;Язык текста:&gt; rus</entry>
+<entry>&lt;Организация службы первич.каталогизации:&gt; Мурманская ГОУНБ</entry>
+<entry>&lt;Организация службы первич.каталогизации:&gt; Мурманская ГОУНБ</entry>
+<entry>&lt;Дата формирования записи:&gt; 20100408105915.5</entry>
+<entry></entry>
+</FULLFORM>
+</entry>
+</result>
+</document>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы "
+                   projectFiles="true">
+      <itemPath>appUpdater.cpp</itemPath>
+      <itemPath>bdOper.cpp</itemPath>
+      <itemPath>bookParsing.cpp</itemPath>
+      <itemPath>datetime.cpp</itemPath>
+      <itemPath>engine.cpp</itemPath>
+      <itemPath>filework.cpp</itemPath>
+      <itemPath>formLogin.cpp</itemPath>
+      <itemPath>form_BookBaseUpdater.cpp</itemPath>
+      <itemPath>form_BookWork.cpp</itemPath>
+      <itemPath>form_DownloadBooks.cpp</itemPath>
+      <itemPath>form_Information.cpp</itemPath>
+      <itemPath>form_UserReRg.cpp</itemPath>
+      <itemPath>form_UserRegistration.cpp</itemPath>
+      <itemPath>form_bookInfo.cpp</itemPath>
+      <itemPath>C:/proj/crossIrbis/form_loadfile.cpp</itemPath>
+      <itemPath>form_loadfile.cpp</itemPath>
+      <itemPath>importBooks.cpp</itemPath>
+      <itemPath>isbnWork.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>parser.cpp</itemPath>
+      <itemPath>searchBook.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+      <itemPath>appUpdater.h</itemPath>
+      <itemPath>bdOper.h</itemPath>
+      <itemPath>bookParsing.h</itemPath>
+      <itemPath>consts.h</itemPath>
+      <itemPath>datetime.h</itemPath>
+      <itemPath>engine.h</itemPath>
+      <itemPath>filework.h</itemPath>
+      <itemPath>formLogin.h</itemPath>
+      <itemPath>form_BookBaseUpdater.h</itemPath>
+      <itemPath>form_BookWork.h</itemPath>
+      <itemPath>form_DownloadBooks.h</itemPath>
+      <itemPath>form_Information.h</itemPath>
+      <itemPath>form_UserReRg.h</itemPath>
+      <itemPath>form_UserRegistration.h</itemPath>
+      <itemPath>form_bookInfo.h</itemPath>
+      <itemPath>form_loadfile.h</itemPath>
+      <itemPath>importBooks.h</itemPath>
+      <itemPath>isbnWork.h</itemPath>
+      <itemPath>parser.h</itemPath>
+      <itemPath>passports.h</itemPath>
+      <itemPath>searchBook.h</itemPath>
+      <itemPath>structs.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+      <itemPath>appUpdater.ui</itemPath>
+      <itemPath>formLogin.ui</itemPath>
+      <itemPath>form_BookBaseUpdater.ui</itemPath>
+      <itemPath>form_BookWork.ui</itemPath>
+      <itemPath>form_DownloadBooks.ui</itemPath>
+      <itemPath>form_Information.ui</itemPath>
+      <itemPath>form_UserReRg.ui</itemPath>
+      <itemPath>form_UserRegistration.ui</itemPath>
+      <itemPath>form_bookInfo.ui</itemPath>
+      <itemPath>form_loadfile.ui</itemPath>
+      <itemPath>rcFile.rc</itemPath>
+      <itemPath>searchBook.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>ovd.cfg</itemPath>
+    <itemPath>streets.cfg</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>MinGW_Qt4.7.3|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <destdir>debug</destdir>
+        <modules>core gui network</modules>
+      </qt>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>QtNetworkd4</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="C:/proj/crossIrbis/form_loadfile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="appUpdater.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="appUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="appUpdater.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bdOper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bdOper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bookParsing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bookParsing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="consts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="datetime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datetime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="filework.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="filework.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="formLogin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="formLogin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="formLogin.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookBaseUpdater.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_BookBaseUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookBaseUpdater.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookWork.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_BookWork.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookWork.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_DownloadBooks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_DownloadBooks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_DownloadBooks.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_Information.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_Information.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_Information.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserReRg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_UserReRg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserReRg.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserRegistration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_UserRegistration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserRegistration.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_bookInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_bookInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_bookInfo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_loadfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_loadfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_loadfile.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="importBooks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="importBooks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="isbnWork.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="isbnWork.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ovd.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="passports.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rcFile.rc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="searchBook.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="searchBook.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="searchBook.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="streets.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <destdir>.</destdir>
+        <buildMode>1</buildMode>
+        <modules>core gui</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../psql/9.0/lib/libpq.a</linkerLibFileItem>
+            <linkerLibFileItem>../../Qt/4.8.0/lib/libcurl.a</linkerLibFileItem>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+            <linkerLibLibItem>pq</linkerLibLibItem>
+            <linkerLibLibItem>ACE</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="C:/proj/crossIrbis/form_loadfile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="appUpdater.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="appUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="appUpdater.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bdOper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bdOper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="bookParsing.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bookParsing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="consts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="datetime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="datetime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="filework.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="filework.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="formLogin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="formLogin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="formLogin.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookBaseUpdater.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_BookBaseUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookBaseUpdater.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookWork.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_BookWork.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_BookWork.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_DownloadBooks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_DownloadBooks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_DownloadBooks.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_Information.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_Information.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_Information.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserReRg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_UserReRg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserReRg.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserRegistration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_UserRegistration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_UserRegistration.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_bookInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_bookInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_bookInfo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_loadfile.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="form_loadfile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="form_loadfile.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="importBooks.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="importBooks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="isbnWork.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="isbnWork.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ovd.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="passports.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rcFile.rc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="searchBook.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="searchBook.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="searchBook.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="streets.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

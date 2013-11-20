@@ -1,0 +1,43 @@
+POST /cgiopac/opacg/direct.exe HTTP/1.1
+Host: opac.mgounb.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:9.0) Gecko/20100101 Firefox/9.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://opac.mgounb.ru/opacg/html/hidden_query_frame/index.html
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 472
+
+_errorXsl=%2Fopacg%2Fhtml%2Fcommon%2Fxsl%2Ferror.xsl&_wait=6M&_xsl=%2Fopacg%2Fhtml%2Fsearch%2Fxsl%2Fsearch_results.xsl&_version=2.0.0&_service=STORAGE%3Aopacfindd%3AFindView&outform=SHOTFORM&length=15&query%2Fbody=%28SB+5-265-02788-2%29&query%2Fopen=%7BNC%3A%3Cspan+class%3D%27red_text%27%3E%7D&query%2Fclose=%7BNC%3A%3C%2Fspan%3E%7D&userId=GUES2&session=201576&iddb=1&level%5B0%5D=Full&level%5B1%5D=Retro&level%5B2%5D=Unfinished&level%5B3%5D=Unknown&level%5B4%5D=Identify
+
+_errorXsl=%2Fopacg%2Fhtml%2Fcommon%2Fxsl%2Ferror.xsl&_wait=6M&_xsl=%2Fopacg%2Fhtml%2Fsearch%2Fxsl%2Fsearch_results.xsl&_version=2.0.0&_service=STORAGE%3Aopacfindd%3AFindView&outform=SHOTFORM&length=15&query%2Fbody=%28SB+5-265-02788-2%29&query%2Fopen=%7BNC%3A%3Cspan+class%3D%27red_text%27%3E%7D&query%2Fclose=%7BNC%3A%3C%2Fspan%3E%7D&userId=GUES2&session=201673&iddb=1&level%5B0%5D=Full&level%5B1%5D=Retro&level%5B2%5D=Unfinished&level%5B3%5D=Unknown&level%5B4%5D=Identify
+
+
+
+HTTP/1.0 200 OK
+Date: Tue, 22 Nov 2011 10:20:06 GMT
+Server: Apache/2.0.63 (Win32) mod_fastcgi/2.4.2
+Content-Type: text/xml
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.8)
+Connection: close
+
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="/opacg/html/search/xsl/search_results.xsl"?>
+<document maxLastResult="90000" size="1">
+<result>
+<entry isn="318108" id="RU/МГОУНБ/EK/46632" level="Full" iddb="1">
+<SHOTFORM>
+<content>
+<entry>Толстой Л. Н., Анна Каренина</entry>
+<entry> - 1994</entry>
+</content>
+<action>
+<entry id="SEE7" title="Местонахождение"/>
+<entry id="SEE6" title="Движение экземпляров"/>
+</action>
+</SHOTFORM>
+</entry>
+</result>
+</document>

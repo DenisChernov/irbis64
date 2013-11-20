@@ -1,0 +1,23 @@
+# This file is generated automatically. Do not edit.
+# Use project properties -> Build -> Qt -> Expert -> Custom Definitions.
+TEMPLATE = app
+DESTDIR = release
+TARGET = crossIrbis
+VERSION = 1.0.0
+CONFIG -= debug_and_release app_bundle lib_bundle
+CONFIG += release 
+QT = core gui
+SOURCES += datetime.cpp bdOper.cpp threads.cpp main.cpp isbnWork.cpp C:/proj/crossIrbis/engine.cpp form_BookWork.cpp mainForm.cpp C:/proj/crossIrbis/form_loadfile.cpp parser.cpp form_UserRegistration.cpp form_UserReRg.cpp tcpSocket.cpp form_Information.cpp formLogin.cpp
+HEADERS += isbnWork.h mainForm.h form_Information.h structs.h form_UserRegistration.h parser.h datetime.h bdOper.h form_UserReRg.h threads.h tcpSocket.h form_BookWork.h formLogin.h C:/proj/crossIrbis/form_loadfile.h passports.h C:/proj/crossIrbis/engine.h
+FORMS += C:/proj/crossIrbis/form_loadfile.ui form_UserRegistration.ui formLogin.ui form_UserReRg.ui form_Information.ui form_BookWork.ui mainForm.ui
+RESOURCES +=
+TRANSLATIONS +=
+OBJECTS_DIR = build/Release/MinGW_Qt_4.8.0-Windows
+MOC_DIR = 
+RCC_DIR = 
+UI_DIR = 
+QMAKE_CC = gcc.exe
+QMAKE_CXX = g++.exe
+DEFINES += 
+INCLUDEPATH += /C/develop/boost /C/develop/ACE_wrappers 
+LIBS += ../psql/9.0/lib/libpq.a ../../Qt/4.8.0/lib/libcurl.a -lcurl -lpq -lACE  

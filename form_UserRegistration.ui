@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_UserRegistration</class>
+ <widget class="QDialog" name="form_UserRegistration">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>718</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>498</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>631</width>
+    <height>718</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Регистрация пользователя</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QGroupBox" name="gbNewUserReg">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>0</y>
+     <width>621</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Регистрация нового пользователя</string>
+   </property>
+   <widget class="QLabel" name="lblFam">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>22</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Фамилия:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leFam_10">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>22</y>
+      <width>301</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>20</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leName_11">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>41</y>
+      <width>301</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>20</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblName">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Имя:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leSurname_12">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>60</y>
+      <width>301</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSurname">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Отчество:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblBirthYear">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Год рожд.:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leBirthYear_21">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>79</y>
+      <width>41</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>4</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbAdditionalCategory_67">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>79</y>
+      <width>251</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>9</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Взрослые инвалиды</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Дети до 14 лет вкл</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инвалиды 15-24 вкл.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Инвалиды дети до 14 л.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Обслуживание на дому</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Пенсионеры</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сироты дети до 14 лет</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Юношество 15-24 лет вкл</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QGroupBox" name="gbuserFoto">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>40</y>
+      <width>201</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Фото пользователя</string>
+    </property>
+    <widget class="QPushButton" name="pbBrowseFoto">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>214</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Выбрать</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbScanFoto">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>214</y>
+       <width>81</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Сканировать</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblUserFoto">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>181</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>images/nofoto.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbRequest">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>190</y>
+       <width>121</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Тест запросов</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="cbCategory_50">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>251</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>14</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Врачи, ср. мед. персонал</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Дошкольники</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ИТР</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Планово-финансовые работники, экономисты</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Преподаватели, воспитатели</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Прочие</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Рабочие</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Служащие</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Спец. др. профессий</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Учащиеся высших проф.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Учащиеся нач. проф.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Учащиеся общеобраз.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Учащиеся средних проф.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Юристы</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="leTelNumber_Home_17">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>140</y>
+      <width>121</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTelNumber">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>141</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Телефоны</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leTelNumber_Work_18">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>140</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbPassport_14">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>490</y>
+      <width>411</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Паспортные данные</string>
+    </property>
+    <widget class="QGroupBox" name="gbPassport_SerialNumber_14">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>211</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Серия, номер</string>
+     </property>
+     <widget class="QLineEdit" name="leSerial_14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>71</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+      <property name="maxLength">
+       <number>4</number>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="leNumber_14">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>16</y>
+        <width>111</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbDataOfIssue_14">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Выдан</string>
+     </property>
+     <widget class="QDateEdit" name="deDateOfIssue_14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QDateEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::UpDownArrows</enum>
+      </property>
+      <property name="currentSection">
+       <enum>QDateTimeEdit::YearSection</enum>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbPlaceOfIssue_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>391</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Место выдачи</string>
+     </property>
+     <widget class="QComboBox" name="cbPlaceOfIssue_14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>371</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>ОВД ЛЕНИНСКОГО ОКРУГА ГОРОДА МУРМАНСКА</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ОВД ОКТЯБРЬСКОГО ОКРУГА ГОРОДА МУРМАНСКА</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ОВД ПЕРВОМАЙСКОГО ОКРУГА ГОРОДА МУРМАНСКА</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ОУФМС РОССИИ ПО МО В ЛЕНИНСКОМ АО ГОРОДА МУРМАНСКА</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ОУФМС РОССИИ ПО МО В ОКТЯБРЬСКОМ АО ГОРОДА МУРМАНСКА</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ОУФМС РОССИИ ПО МО В ПЕРВОМАЙСКОМ АО ГОРОДА МУРМАНСКА</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbRegistrationAddress_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>110</y>
+       <width>401</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Адрес прописки</string>
+     </property>
+     <widget class="QGroupBox" name="gbCity_14">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>20</y>
+        <width>381</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Город</string>
+      </property>
+      <widget class="QComboBox" name="cbCity_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>16</y>
+         <width>361</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="gbStreet_14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Улица</string>
+      </property>
+      <widget class="QComboBox" name="cbStreet_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>16</y>
+         <width>241</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="gbHomeNumber_14">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>60</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Дом</string>
+      </property>
+      <widget class="QLineEdit" name="leHouseNumber_14">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>16</y>
+         <width>30</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="gbAppNumber_14">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>60</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Кв.</string>
+      </property>
+      <widget class="QLineEdit" name="leAppNumber_14">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>16</y>
+         <width>30</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbHomeAddress_13">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>411</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Домашний адрес</string>
+    </property>
+    <widget class="QGroupBox" name="gbCity_13">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Город</string>
+     </property>
+     <widget class="QComboBox" name="cbCity_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>341</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbStreet_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Улица</string>
+     </property>
+     <widget class="QComboBox" name="cbStreet_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>261</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbHouseNumber_13">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>60</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Дом</string>
+     </property>
+     <widget class="QLineEdit" name="leHouseNumber_13">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>16</y>
+        <width>30</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbAppNumber_13">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>60</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Кв.</string>
+     </property>
+     <widget class="QLineEdit" name="leAppNumber_13">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>16</y>
+        <width>30</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+      <property name="maxLength">
+       <number>3</number>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbOptions">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>290</y>
+      <width>181</width>
+      <height>202</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Дополнительно</string>
+    </property>
+    <widget class="QCheckBox" name="cbAddressRegistration">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Адрес прописки</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbSendToServer">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Сохранить</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbClearForm">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>141</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Очистить</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cbDontHavePassport">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>121</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Нет паспорта</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cbContract">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>50</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Договор</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cbEF_691">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>110</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ЕФ</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cbSPS_691">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>110</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>СПС</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cbMBA_691">
+     <property name="geometry">
+      <rect>
+       <x>125</x>
+       <y>110</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>МБА</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="cbEducation_20">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>251</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>8</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>начальное</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>осн. общее</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>заочное обучение</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>дошкольное</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>среднее проф.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>высшее проф.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>среднее (полное) общее</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>нач. проф.</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="lblEducation">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>121</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Образование:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAdditionalCategory">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>102</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Категория:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbTeachPlace_19">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>270</y>
+      <width>411</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Сведения о месте учебы</string>
+    </property>
+    <widget class="QGroupBox" name="gbTeachPlaceName_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>391</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Название учебного заведения</string>
+     </property>
+     <widget class="QComboBox" name="cbTeachPlaceName_19">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>16</y>
+        <width>341</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbStudy_19">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Форма обучения</string>
+     </property>
+     <widget class="QComboBox" name="cbStudy_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>121</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Дневное</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Вечернее</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Заочное</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbClass_19">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>60</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Класс / курс</string>
+     </property>
+     <widget class="QLineEdit" name="leClass_19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>113</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbWorkPlace_15">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>411</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Сведения о месте работы</string>
+    </property>
+    <widget class="QGroupBox" name="gbWorkPlaceName_15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>391</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Место работы</string>
+     </property>
+     <widget class="QLineEdit" name="leWorkPlaceName_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>371</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="gbJob_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>391</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Должность</string>
+     </property>
+     <widget class="QLineEdit" name="leJob_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>16</y>
+        <width>371</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbFilial">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>0</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Филиал</string>
+    </property>
+    <widget class="QComboBox" name="cbFilial">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>16</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lblTelNumber_work">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>141</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>служ.:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTelNumber_home">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>141</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>дом.:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>leFam_10</tabstop>
+  <tabstop>leName_11</tabstop>
+  <tabstop>leSurname_12</tabstop>
+  <tabstop>leBirthYear_21</tabstop>
+  <tabstop>cbAdditionalCategory_67</tabstop>
+  <tabstop>cbCategory_50</tabstop>
+  <tabstop>cbEducation_20</tabstop>
+  <tabstop>leTelNumber_Home_17</tabstop>
+  <tabstop>leTelNumber_Work_18</tabstop>
+  <tabstop>cbCity_13</tabstop>
+  <tabstop>cbStreet_13</tabstop>
+  <tabstop>leHouseNumber_13</tabstop>
+  <tabstop>leAppNumber_13</tabstop>
+  <tabstop>cbTeachPlaceName_19</tabstop>
+  <tabstop>cbStudy_19</tabstop>
+  <tabstop>leClass_19</tabstop>
+  <tabstop>leWorkPlaceName_15</tabstop>
+  <tabstop>leJob_16</tabstop>
+  <tabstop>leSerial_14</tabstop>
+  <tabstop>leNumber_14</tabstop>
+  <tabstop>deDateOfIssue_14</tabstop>
+  <tabstop>cbPlaceOfIssue_14</tabstop>
+  <tabstop>cbCity_14</tabstop>
+  <tabstop>cbStreet_14</tabstop>
+  <tabstop>leHouseNumber_14</tabstop>
+  <tabstop>leAppNumber_14</tabstop>
+  <tabstop>cbContract</tabstop>
+  <tabstop>pbSendToServer</tabstop>
+  <tabstop>pbClearForm</tabstop>
+  <tabstop>pbBrowseFoto</tabstop>
+  <tabstop>pbScanFoto</tabstop>
+  <tabstop>cbAddressRegistration</tabstop>
+  <tabstop>cbDontHavePassport</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

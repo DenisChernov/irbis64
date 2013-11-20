@@ -1,0 +1,12 @@
+No.     Time        Source                Destination           Protocol Info
+   1541 54.397047   192.168.9.120         192.168.9.18          TCP      7084 > ircu [PSH, ACK] Seq=1 Ack=1 Win=64240 Len=42
+
+Frame 1541 (96 bytes on wire, 96 bytes captured)
+Ethernet II, Src: Giga-Byt_a5:c5:8d (00:1d:7d:a5:c5:8d), Dst: IntelCor_62:f6:fd (00:15:17:62:f6:fd)
+Internet Protocol, Src: 192.168.9.120 (192.168.9.120), Dst: 192.168.9.18 (192.168.9.18)
+Transmission Control Protocol, Src Port: 7084 (7084), Dst Port: ircu (6666), Seq: 1, Ack: 1, Len: 42
+Data (42 bytes)
+
+0000  33 39 0a 48 0a 43 0a 48 0a 35 31 33 32 37 33 0a   39.H.C.H.513273.
+0010  32 35 0a 66 31 30 0a 66 31 30 0a 0a 0a 0a 52 44   25.f10.f10....RD
+0020  52 0a 50 4f 56 44 3d 0a 32 37                     R.POVD=.27

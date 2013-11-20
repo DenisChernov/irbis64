@@ -1,0 +1,47 @@
+No.     Time        Source                Destination           Protocol Length Info
+    155 4.625382    192.168.9.120         192.168.9.18          TCP      421    53524 > 6666 [PSH, ACK] Seq=1 Ack=1 Win=65536 Len=367
+
+Frame 155: 421 bytes on wire (3368 bits), 421 bytes captured (3368 bits)
+Ethernet II, Src: BiostarM_aa:3a:c3 (00:30:67:aa:3a:c3), Dst: IntelCor_62:f6:fd (00:15:17:62:f6:fd)
+Internet Protocol Version 4, Src: 192.168.9.120 (192.168.9.120), Dst: 192.168.9.18 (192.168.9.18)
+Transmission Control Protocol, Src Port: 53524 (53524), Dst Port: 6666 (6666), Seq: 1, Ack: 1, Len: 367
+    Source port: 53524 (53524)
+    Destination port: 6666 (6666)
+    [Stream index: 5]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 368    (relative sequence number)]
+    Acknowledgement number: 1    (relative ack number)
+    Header length: 20 bytes
+    Flags: 0x18 (PSH, ACK)
+    Window size value: 256
+    [Calculated window size: 65536]
+    [Window size scaling factor: 256]
+    Checksum: 0x9564 [validation disabled]
+    [SEQ/ACK analysis]
+Data (367 bytes)
+
+0000  33 36 33 0a 4b 0a 43 0a 4b 0a 32 33 38 30 35 37   363.K.C.K.238057
+0010  0a 32 36 0a 66 31 30 0a 66 31 30 0a 0a 0a 0a 52   .26.f10.f10....R
+0020  44 52 0a 0a 32 31 0a 31 0a 6d 70 6c 2c 26 55 4e   DR..21.1.mpl,&UN
+0030  49 46 4f 52 28 27 2b 30 27 29 27 26 26 26 26 26   IFOR('+0')'&&&&&
+0040  27 22 20 28 ca e0 f2 2e 20 22 7c 2c 20 7c 2b 76   '" (.... "|, |+v
+0050  35 30 22 29 22 2c 22 20 2d 20 22 76 31 30 2c 22   50")"," - "v10,"
+0060  20 22 76 31 31 2c 22 20 22 76 31 32 2c 22 2c 20    "v11," "v12,", 
+0070  22 76 32 31 22 2e 22 2c 69 66 20 76 39 32 30 3a   "v21".",if v920:
+0080  27 56 55 5a 27 20 74 68 65 6e 20 27 d3 f7 e5 e1   'VUZ' then '....
+0090  ed fb e5 20 e4 e8 f1 f6 e8 ef eb e8 ed fb 20 e4   ... .......... .
+00a0  eb ff 20 d4 e0 ea 2e 2f d1 e5 ec 2e 2f d1 ef e5   .. ..../..../...
+00b0  f6 2e 3a 20 20 20 27 2c 6d 64 6c 2c 76 36 38 20   ..:   ',mdl,v68 
+00c0  66 69 2c 6d 70 6c 2c 69 66 20 76 35 32 3a 27 5e   fi,mpl,if v52:'^
+00d0  63 27 20 74 68 65 6e 20 65 6c 73 65 20 69 66 20   c' then else if 
+00e0  76 35 31 3a 27 5e 63 27 74 68 65 6e 27 20 c7 e0   v51:'^c'then' ..
+00f0  ef e8 f1 e0 ed 20 e2 20 27 28 7c 3b 20 7c 2b 76   ..... . '(|; |+v
+0100  35 31 5e 63 29 20 66 69 20 66 69 2c 69 66 20 76   51^c) fi fi,if v
+0110  35 32 3a 27 5e 63 27 74 68 65 6e 27 20 c7 e0 ef   52:'^c'then' ...
+0120  e8 f1 e0 ed 20 e2 20 27 28 7c 3b 20 7c 2b 76 35   .... . '(|; |+v5
+0130  32 5e 63 29 20 66 69 0a 31 0a 34 37 31 33 31 0a   2^c) fi.1.47131.
+0140  21 28 69 66 20 56 31 30 20 3a 20 27 d0 a7 d0 b5   !(if V10 : '....
+0150  d1 80 d0 bd d0 be d0 b2 27 20 74 68 65 6e 20 27   ........' then '
+0160  31 27 20 65 6c 73 65 20 27 30 27 20 66 69 29      1' else '0' fi)
+    Data: 3336330a4b0a430a4b0a3233383035370a32360a6631300a...
+    [Length: 367]

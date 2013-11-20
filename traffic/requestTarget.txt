@@ -1,0 +1,23 @@
+No.     Time        Source                Destination           Protocol Length Info
+   7847 306.484420  192.168.9.120         192.168.9.20          TCP      218    27654 > 6666 [PSH, ACK] Seq=1 Ack=1 Win=65536 Len=164
+
+Frame 7847: 218 bytes on wire (1744 bits), 218 bytes captured (1744 bits)
+Ethernet II, Src: Giga-Byt_a5:c5:8d (00:1d:7d:a5:c5:8d), Dst: IntelCor_4e:85:9c (00:15:17:4e:85:9c)
+Internet Protocol Version 4, Src: 192.168.9.120 (192.168.9.120), Dst: 192.168.9.20 (192.168.9.20)
+Transmission Control Protocol, Src Port: 27654 (27654), Dst Port: 6666 (6666), Seq: 1, Ack: 1, Len: 164
+Data (164 bytes)
+
+0000  31 36 30 0a 4b 0a 43 0a 4b 0a 31 32 30 36 34 34   160.K.C.K.120644
+0010  0a 31 34 0a 66 31 30 0a 66 31 30 0a 0a 0a 0a 55   .14.f10.f10....U
+0020  43 48 45 54 53 50 52 0a 0a 34 32 0a 31 0a 6d 70   CHETSPR..42.1.mp
+0030  6c 2c 26 55 4e 49 46 4f 52 28 27 2b 30 27 29 27   l,&UNIFOR('+0')'
+0040  26 26 26 26 26 27 76 32 2c 27 2d 27 2c 76 33 2c   &&&&&'v2,'-',v3,
+0050  27 2d 27 2c 76 34 2c 27 2d 27 2c 76 35 2c 27 2d   '-',v4,'-',v5,'-
+0060  27 2c 76 36 2c 27 2d 27 2c 76 37 0a 31 0a 39 36   ',v6,'-',v7.1.96
+0070  37 35 36 0a 21 28 69 66 20 56 34 20 3a 20 27 d1   756.!(if V4 : '.
+0080  83 d1 87 d0 b5 d0 b1 d0 bd d0 b0 d1 8f 27 20 74   .............' t
+0090  68 65 6e 20 27 31 27 20 65 6c 73 65 20 27 30 27   hen '1' else '0'
+00a0  20 66 69 29                                        fi)
+
+
+UCHETSPR..42.1.mpl,&UNIFOR('+0')'&&&&&'v2,'-',v3,'-',v4,'-',v5,'-',v6,'-',v7.1.96756.!(if V4 : '..............' then '1' else '0' fi)

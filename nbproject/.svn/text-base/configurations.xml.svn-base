@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы "
+                   projectFiles="true">
+      <itemPath>bdOper.cpp</itemPath>
+      <itemPath>datetime.cpp</itemPath>
+      <itemPath>C:/proj/crossIrbis/engine.cpp</itemPath>
+      <itemPath>C:/proj/crossIrbis/engine.h</itemPath>
+      <itemPath>formLogin.cpp</itemPath>
+      <itemPath>form_BookWork.cpp</itemPath>
+      <itemPath>form_Information.cpp</itemPath>
+      <itemPath>form_UserReRg.cpp</itemPath>
+      <itemPath>form_UserRegistration.cpp</itemPath>
+      <itemPath>C:/proj/crossIrbis/form_loadfile.cpp</itemPath>
+      <itemPath>isbnWork.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>mainForm.cpp</itemPath>
+      <itemPath>parser.cpp</itemPath>
+      <itemPath>tcpSocket.cpp</itemPath>
+      <itemPath>threads.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+      <itemPath>bdOper.h</itemPath>
+      <itemPath>datetime.h</itemPath>
+      <itemPath>formLogin.h</itemPath>
+      <itemPath>form_BookWork.h</itemPath>
+      <itemPath>form_Information.h</itemPath>
+      <itemPath>form_UserReRg.h</itemPath>
+      <itemPath>form_UserRegistration.h</itemPath>
+      <itemPath>C:/proj/crossIrbis/form_loadfile.h</itemPath>
+      <itemPath>isbnWork.h</itemPath>
+      <itemPath>mainForm.h</itemPath>
+      <itemPath>parser.h</itemPath>
+      <itemPath>passports.h</itemPath>
+      <itemPath>structs.h</itemPath>
+      <itemPath>tcpSocket.h</itemPath>
+      <itemPath>threads.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+      <itemPath>formLogin.ui</itemPath>
+      <itemPath>form_BookWork.ui</itemPath>
+      <itemPath>form_Information.ui</itemPath>
+      <itemPath>form_UserReRg.ui</itemPath>
+      <itemPath>form_UserRegistration.ui</itemPath>
+      <itemPath>C:/proj/crossIrbis/form_loadfile.ui</itemPath>
+      <itemPath>mainForm.ui</itemPath>
+      <itemPath>rcFile.rc</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Makefile.Debug</itemPath>
+    <itemPath>Makefile.Release</itemPath>
+    <itemPath>ovd.cfg</itemPath>
+    <itemPath>streets.cfg</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MinGW_Qt4.7.3|MinGW</compilerSet>
+      </toolsSet>
+      <qt>
+        <destdir>debug</destdir>
+        <modules>core gui network</modules>
+      </qt>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>QtNetworkd4</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>MinGW_Qt_4.8.0|MinGW</compilerSet>
+      </toolsSet>
+      <qt>
+        <destdir>release</destdir>
+        <buildMode>1</buildMode>
+        <modules>core gui</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>C:/develop/boost</pElem>
+            <pElem>C:/develop/ACE_wrappers</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../psql/9.0/lib/libpq.a</linkerLibFileItem>
+            <linkerLibFileItem>../../Qt/4.8.0/lib/libcurl.a</linkerLibFileItem>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+            <linkerLibLibItem>pq</linkerLibLibItem>
+            <linkerLibLibItem>ACE</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

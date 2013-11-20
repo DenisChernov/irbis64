@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="/opacg/html/search/xsl/search_results.xsl"?>
+<document maxLastResult="90000" size="1">
+<result>
+<entry isn="302843" id="RU/������/EK/30403" level="Full" iddb="1">
+<FULLFORM>
+<entry>&lt;��������� ����:&gt; �52</entry>
+<entry>&lt;1 ����������� �����:&gt; 00440383</entry>
+<entry>&lt;1 ����������� �����:&gt; 1492101</entry>
+<entry>&lt;1 ����������� �����:&gt; 1492103</entry>
+<entry>&lt;1 ����������� �����:&gt; 1492104</entry>
+<entry>&lt;1 ����������� �����:&gt; 1492105</entry>
+<entry>&lt;1 ����������� �����:&gt; 1494533</entry>
+<entry>&lt;�������� ��������:&gt; ��� ��������</entry>
+<entry>&lt;���� �������:&gt; 1992</entry>
+<entry>&lt;�����:&gt; 352 �.</entry>
+<entry>&lt;������������ ���� ��� �������&gt;: ������ ���������� (�.�.)</entry>
+<entry>�(����) - rubbk</entry>
+<entry>&lt;ISBN:&gt; 5-8352-0030-7</entry>
+<entry>&lt;���� ������:&gt; rus</entry>
+<entry>&lt;����������� ������ ������.�������������:&gt; ���������� �����</entry>
+<entry>&lt;����������� ������ ������.�������������:&gt; ���������� �����</entry>
+<entry>&lt;���� ������������ ������:&gt; 20070315</entry>
+<entry></entry>
+</FULLFORM>
+</entry>
+</result>
+</document>

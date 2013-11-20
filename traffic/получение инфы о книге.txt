@@ -1,0 +1,1508 @@
+POST /PublicationsView.aspx HTTP/1.1
+Host: rbip.bookchamber.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://rbip.bookchamber.ru/PublicationsView.aspx
+Cookie: ASP.NET_SessionId=ksvnks55xqh2xzbgmxc2ed55
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 5623
+
+__LASTFOCUS=&__EVENTTARGET=ctl00%24cphMain%24grvPublications&__EVENTARGUMENT=Select%240&__VIEWSTATE=naJarCBcNYQX%2BP%2B8mEjDcNFAFberVppYSELq93j7S4%2FbwrnWnD%2B75r38bNtWSqKABjHEAgnlX%2F4dSKx5hNX9jU4U1Dmic3byUJBowxDaa7sMM31j4oi%2BralcouxrTRxWfShrXhOct7tzjRLeWxHdwj5rFfyHnEGD4ALk1cWAn3eAM%2BBi4W5NMyPyR8H8AFTr8WQeOHgXhjOsb5MLBFVEdTL6bz%2B3kMVg3rylTaBq%2FenwAVasrU77YuPB1l4PqdU%2FcXVD6xdd2qoYpwV4ToYnKHI4u4HKCp8a77ZZr9DOdsBtN%2BaapnnySpHpvwYDZ72aB6S5raE4JX0M2F6mYiGFvFkGxb4NMMVdrxW77Veqo5FYgkUv5PTn6aIk%2B48tErURqAqNglorofz2mCms4LZGKVceDqJxs15C8uH3%2Fm%2FxyypvFo9lqtLCNzLoqVPGpAUnf5%2BWZxPsOSqJtgMbTuZl72CkHIulTq4VBZEiqwT8VoeJryfNYb8C8qllKRTOwNl2PfyCBuG%2Fl14PaM72A9IUjWM%2FpAvD9dacsl0hNaDBbq2iyWLRDwn3yWaVL7KwwiHt%2BlgVnn49stpS8oVVMJf8olXS9IhSsJ2LiWtgektiCn02mBInmFb3%2B%2BLPh1XHnv%2BWNFlTTRTaX6jnwThc57iK8CdMcTDsVrYzc8kd41ESQY1pBCMXjZLxGm5Qjs%2F8SfRWjwhBRKNJdv4Tkad5UdaaoAJ4Qa83WQW9vAKhe4a3x7IxhTVeoL%2Fn7E0warUt4AGZbLJzLx%2FyYxgCsIFVmPtdMhyXFCaxjxQZlUo2h0QCDkDVTZQVr2iEC1JBnqMGiRLQrfYktoOzxqlKMnp4PJ2wtWjfAgHrlq8TAS2pfpTfqFbdeRvU1j6997G%2Fz9DOWrQSgTYYCVnol89TP7zUOonyNrRkvByoUJN4bw8yCJfTUzroxTWj4T3kC9OLJ60b6OVW82%2Bn3QMISha0uVNipCBoNVz22UXGTq%2BcjSSnTJj31JOEqWzqpKzq0wzYt3ZCL2ZMqMnBFMyU%2FPov6838qxduPBNeoNNWvO%2FQh7ocoRLtul28tENw%2F5zU1g73jYATpkJg%2BMe82HhZ%2FaKnAsXfm3gl3nLrWfoKvK1RH3P7xzvuYQaAHjGMBo2UqinOGmSU5g0RyXhzUgKoimWiiMJrofs46IKiPqBwI8OtBarvOLfwZzXgKoAkO9XhjAZVcCtJypLdp0WvdUUnB2B%2Fu4t5obgnPleb3NInNR%2BspdPW73wHD%2B1r80kqnOTvGVd2gszEmTfTn7cx4k8Yo8ti8BL6Jhz5JE%2FSi%2Bo8O5eBd9YTL%2FIDiEcmvxUFrZLQIJlmBVYZ32s7wH%2Fb7DkBvviN0uLqQgLlUvviXbpTzzTRRaUbi813wtDUmtXPVZdhkpxYSYa1BkrfCAanpcup8iNZ5SBMdNT3HTu16gd2IlnYPxcApY1GqwWB20xLJLPrbO4PtnQu4C4b2av9T0eAiHmbmazvk3gMEecBmXlEgTHfCNzNqN0aC0v2%2BHYm5sF4oBPN2shDwDxwAsqG%2BxdU2Qj%2BmGJ%2BRa7JDUSzkR3yVadTqo5dcQ%2Bciqi0ETha59xQmGYehFS144%2Btw64MbuG1eY6uEAtE3rtuQbeRjrgz8WxNTt3mSf1kqsiP9V6YJ%2BHWNEZZgVEWHIJxOtg6gijMUWYaIq2S8lpPBs2i5Qcn1ixF3MZjHeVIqZ1NxB7Bt37tEgeXmnBqPVQZviE6zVCKhICWJ52XEEbSEFmhyMNipJs1aLy7MhbMEPqyzIqKnqbQulp%2FrYTu4druWImyK%2FDgAdoKReJ1dV1U2gVHGzFimgUCzeEBoWw6buRmFvP8e4RHmTj1dlchO%2BIByGPF78G5x58xOYCd8eUZ2sZYBuatzO2ctJTtpQH9ugAthY%2FVXG%2FgKcAYw7DS6OdNq70%2BfWNMGLmKegVsqY0hWRlhbrGQjsRBIm3zCU8fqzKXG6WaBHDHfKA%2Ffoz6vpuUdAaEYiPKYMA50L2CkHJc1gVT8ZNLB%2BFK66nscIBg1tsFMi%2FWIRBNRPja0g8CGtCTKkVsowiGAL1l1l7x%2FMOFcdA29zIBx4up%2FmvgCp6r50y581BhfQFgONy27pR%2FnzMsJQmP6gZeI6osGLwned%2F5g3uhAmmRs9t%2BY6lFF5s%2FD9S77%2BKS7bqBPlohoLmSiwyj3K7sTYSwnUvwNjaYsc4SXX%2BtrdJ%2BkkpGmZkQOwN%2B2v%2B7jeQHHseFyiGj23qaGXlYhJY3Int78uR%2BUM9guOVMAXgK7RIjBJN6yCVkKOUG%2BIdn%2F48%2Bf3uAaHd%2F6E8MHq2pkFythiQraBPqT5S7W4Hr4k6cO4zPkaKqb7hKMUs3kF0E4f2mcy%2FOXVj5xgMGyqCgY7b1kZAVk5ciuJNKpHPqSlkXqASWK%2FMiggHwGqv3TCDnOAGf0gJsoSSBLkZEDvclU84FHQIl96BJydxkjr3odrxxCZsoQr5tekE8ric38qORatE1d2Hfyc3kdYsj%2FFWJj9q76Omm80R2Cu5xrI9rxRPQvdXr2isLs%2FAzpCIwn0vgUactzSnY4D7eZWQ2xpWsdafrEv%2FnaxzeiQ8T7s%2F1tQ%2BIyrXKAdj1F5f%2FWnAi%2BePAdJD3gMoprSd3%2BHk5ScJF32qBn8HUBAxg%2BOcwaqVRn6dLH9xUddxeVrMs2sxgTlyBToQccbmToJf%2F6iHqjZFAf7plsAh3O0JTf1eMYSRzTJboAoYUB%2FAvbRaj4XlB%2FSpJnsttsvONhmU4Jg2NqWKuj4QU42r9GI7X76Sxghw9iE4kp89tuO1wUTrrZSlVnrv43lzt3uPnTKtb7GOESe9VWmMnEq4xgxHD7qUpIgNFiQx6e1JVdVjZ3hQD09vrfyLTOt2N0qlKF3aERxly3e5RPQIhPETFzezrgtVz1GK2Ox2nCF32zFcQphlIQR8Pof8Mui0wTq%2Bls2ddoj8a3%2F6%2BLGJXG7TEb1ea19bAJ6hqhGoEUOrboRZGrA0YHOwNXCH4jJiErU7ZXcIAXU%2BAJB4ahEQcjYl6LpQJiiP2IeWTdHRudzN0yQ60xZUvjGYL80YuWdQRrUdrXvL5dLvOEm%2F747u4RKIz7hq9UXa84dQJRz736NY8BlTlfwIVZvOq%2BjtWNyKAurvVkdhim%2FDzMzvgpAqK1Ng9Hw3TFicvUPaILsai1KgvyF43CiGUQXya8V0xbW1QAE63orvrJtNcBxWKcKK2XjghkHDXLLAc4K5tdD84ThI5JUqudKzAJF8ZPbMEHHR4NwwEtg%2FXy86M7l4V5BbWLyt8XQRZyHHj%2FkKCZK6ysClScAigT5j0PVVA93W1Z2ECFaSSuDdkV3Dq%2FtZz3Ja2T2cNR6xe0poPbi2q22TwsZRy9VohLkbWaB9vi%2F1XRUXMlcZDFORooJGXw03xrREOgK1n%2BSFt8mOgMufbWjPmIg5cwH6cGXPBfb4PFvDNUNa%2F7W4DSiU10zz8%2FPkDXi1uEv6HbOyfMTolOxNu3tw4kfStiy%2Flj51Bvt5fSFfFm9MZsOkKG8gfY0YC7Tf%2BUGFxZeSK1SpGUUoV%2BnloQ8jJXqC3yXwUw6w6VCB%2FxLHiWOrmXzbveZJHAq0SatujH44M3VzzFwpB1CJb%2BHjpA6MEBdosMoQr%2FKZ4TJ3T048TShqGZOX9h3dsDYg0TRTAgVkzQN8wJ%2Bkg9I%2FukZC78DBYQ3TNk%2FS5eIIuHViex1W9BeL9db%2BwT00ZYJHuRFt8k7w%2Fe7NcEsz8rEbNOja%2FnUBGY0UJvbrlIXV7qtNGOZDP6I834L7GY4276hdpfXY6Iouvz332Vlsm8rhXm34isS3E9e5ev%2FPgL%2BNLaUDEZO5IbeHvjVaPyIWPyfyrCoOq%2BYhqu8f95VkSYRzeR7%2FxiU%2Flxu0YFRRYtvndr3Zs6sug0LcsBmMZsC5GI7OLmRwY8bZtN%2BdYf6XenhAvWPGyWwiL8HPIjtGgk4UIf8A9%2BtZeCdJ7wBUxL%2FemZO14VxtJRLYnRY1trmmp2sdsbEl4Yi6vSNxQoqCFQJOMCTtYnZTEWvtLUjBiVy7NsdA72LspLMS2jUPEhWCUQOtK5%2Fy5EjbU7zsRcTYjikHPoB9u7P0VXYrogCDqKSDUNlH0rcQju2Pr6tV3fmkslfEj1HR1MJK3W1F99ZNjcQkt9H3fGeIanU6pahvtEmJ0FZsa8U4rjQvszpij%2FJNSESrqX%2BZK3s6i9Jkm%2F7U3no4cme5yQbUBA2dt6VfKVzyhl5zAFV5Xa88jY%2Bazc7jT5p3pH4bqZrw%2FXoXLRkeoRRzJ6L42XfFNHr4BetJIEiO4%2BPiXGnpfWOkQyV1Hqv7UHNST0DK9aFcsdYLHVPtVI%2BOEds3cafuoWPBCOuLaCBf86tPzgRl0c6rF%2BDkZWotyuINvA9QH9eizVrEsZtrFq3uyVwWvuWNilfT6d45F0m8ffo%2FDaGVEd1OYTylwVn19qHJmJWrUla2An2DlYhAasssZ%2BBJ6PMI214FO9a8CyVTNL%2BRH1jUkxoQpnrJx21o%2B9%2ByEuiERCsLQLhBRDgOpSeaeh%2FKgs2ZwxXtchr9wV0aLCXbbS%2B4O6nZLUA5wSD89K0284tf8R%2BznITIrEEPuswocSJcQad3BcmHwUrixRoFkj2k6dDSuwEJBtCDUzaqjlq3dG2JKFPWXarOVFWfE%2BNV7BsEcaAmILAmhBoklJyXk8Fapp7P60HoMkv27xWd6UGliOKiEBRyxHihLuag5TW2p6igsnah1HEw3ct64O6OY%2BYNeCyizl%2B8kxBTdb1ogykfG64CXAuLcYJk7K5JfUXlebNfgsUuL7K9btXQRgWeP9TD7qQB%2FjPLvNH0CQHpM1r7SOJRE8pKoinCfr%2FtAn%2BlFsdsOxCcTgdGqeTZgJ9U55k5yeK95nPvGIkGps1a1TSuGslpT48JmseyM2Uu%2F3wU96M2RA5UO11dExQJxSNKHcWHqyG3RmHGKDNlSs2iV%2F2lEJp9V%2B8idbTXideu9lq3UcmgiZ1RV3Rq5vVjZ8evScNovZZGkNXSX%2F%2FJ%2FFzPJtz4RbLOJvQ%3D%3D&__VIEWSTATEENCRYPTED=&__EVENTVALIDATION=XnRVeGVxKXmzd9P2vYypNMagxLIZGZKl1FHD%2BehYLufXy6a2%2FVmO10lapZ7DyM2B1PaQeNfa9CE4d7DCyPBhuwhSYqhd5TVx9sUkyowNgNQhhmCiyYdQveBT%2Fl2qAbw2heYBDxfxKhb8kq%2F33d%2BWTw%3D%3DHTTP/1.0 302 Moved Temporarily
+Content-Length: 163
+Date: Tue, 20 Mar 2012 13:14:24 GMT
+Location: /PublicationCard.aspx?product_no=1540050
+Content-Type: text/html; charset=utf-8
+Cache-Control: private
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.18)
+Connection: keep-alive
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="%2fPublicationCard.aspx%3fproduct_no%3d1540050">here</a>.</h2>
+</body></html>
+GET /PublicationCard.aspx?product_no=1540050 HTTP/1.1
+Host: rbip.bookchamber.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://rbip.bookchamber.ru/PublicationsView.aspx
+Cookie: ASP.NET_SessionId=ksvnks55xqh2xzbgmxc2ed55
+DNT: 1
+Connection: keep-alive
+
+HTTP/1.0 200 OK
+Content-Length: 59127
+Date: Tue, 20 Mar 2012 13:14:25 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.18)
+Connection: keep-alive
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Российская книжная палата: Книги в наличии и печати
+</title><link rel="stylesheet" href="StyleSheet.css" />
+    
+    <script language="javascript" type="text/javascript">
+        // <![[CDATA[
+
+        var tm;
+        
+        var tm1;
+        
+        var tm2;    
+        
+        var imgTimeOut=3000; 
+        
+        var imgTimeOut1=40;
+       
+        var imgTimeOut2=40; 
+        
+        var imgStepsCount=8;
+        
+        var leftImgPathDefault = '';
+               
+        var leftImgChangingFlag = 0;
+        
+        var maxLeftImgCount = 10;
+        
+        var leftImgNum = 0;
+ 
+        var leftImgCounter = 0;
+        
+        var leftImgSizeCounter1 = 0; 
+        
+        var leftImgSizeCounter2 = 0;
+        
+        var leftSideBarWidth = 0;          
+                            
+        //alert('Начало imgCounter='+imgCounter);                               
+
+        var leftImgCacheArr = new Array();
+        
+        var leftImgPathArr = new Array();
+        
+        var curLeftImgPath='';
+        
+        var curLeftImgI010o='';     
+ 
+        
+        var attrWin;        
+        var clientWin;   
+        var calendarWin; 
+        
+        var defaultPageFlag=0; 
+
+        var isSearchingFlag=0;
+                
+        
+        function RB_getElementById(id)
+        { 
+        
+            var el=window.document.getElementById(id);
+            
+            if (!el)
+            {
+            
+                if (window.document.all)
+                {
+            
+                    el=window.document.all.item(id);
+                
+                }
+            
+            }
+            
+            return el;
+        
+        }                     
+  
+        function RB_popupAttrDictionary(attrId)
+        {  
+                    
+ 
+                RB_closeAttrDictionary();
+ 
+                var dictHeight=0.7*window.screen.availHeight;
+                
+                var dictWidth=0.6*window.screen.availWidth;   
+                
+                var dictTop=0.1*window.screen.availHeight;
+                
+                var dictLeft=0.1*window.screen.availWidth;                               
+                
+                var options='width='+dictWidth+', height='+dictHeight+', top='+dictTop+', left='+dictLeft+', scrollbars=1, status=1';
+                              
+                attrWin = window.open('AttrDictionary.aspx?attrId='+attrId,'',options);
+                                                                                                                                                                                     
+                 
+        }
+        
+        function RB_popupClientDictionary(attrId)
+        {  
+        
+         
+                RB_closeClientDictionary(); 
+                
+                
+                var dictHeight=0.7*window.screen.availHeight;
+                
+                var dictWidth=0.6*window.screen.availWidth;   
+                
+                var dictTop=0.1*window.screen.availHeight;
+                
+                var dictLeft=0.1*window.screen.availWidth;                               
+                
+                var options='width='+dictWidth+', height='+dictHeight+', top='+dictTop+', left='+dictLeft+', scrollbars=1, status=1';
+                                                                    
+                clientWin = window.open('ClientDictionary.aspx?clientAttrId='+attrId,'',options);
+                                                                                                  
+                 
+        }  
+        
+        function RB_popupCalendar(attrId)
+        {  
+                    
+ 
+                RB_closeCalendar();
+ 
+                
+                calendarWin = window.open('Calendar.aspx?attrId='+attrId,'','width=500, height=400, top=30, left=30, scrollbars=1,status=1');
+                                                                                                                                                                      
+                 
+        }        
+        
+        function RB_closeAttrDictionary()
+        {  
+                    
+                if (attrWin)
+                {
+                    attrWin.close();
+                }
+                
+                             
+        }   
+        
+        function RB_closeClientDictionary()
+        {  
+                    
+                if (clientWin)
+                {
+                    clientWin.close();
+                }
+                
+                             
+        }   
+        
+        function RB_closeCalendar()
+        {  
+                    
+                if (calendarWin)
+                {
+                    calendarWin.close();
+                }
+                
+                             
+        }         
+        
+        function RB_closeDicts()
+        {
+        
+      
+            RB_closeAttrDictionary();
+            
+            RB_closeClientDictionary();
+            
+            RB_closeCalendar();            
+        
+        }             
+      
+       function RB_clearEdit(attrId)
+       {                
+                
+             var editor = RB_getElementById("ee" + attrId);
+             
+             if (editor)
+             {
+              
+                 editor.value = ""; 
+                 
+                 editor.focus;
+             
+             }             
+                 
+       } 
+       
+       function RB_changeMenu1Button(el, x)
+       {
+       
+            var g = el.getElementsByTagName('img');
+            
+            if (g)
+            {
+                    
+                if (x=="0")
+                {
+                   g[0].src='IMAGES/buttonMenu.gif';
+                }
+                else
+                {
+                   g[0].src='IMAGES/buttonMenu-h.gif';                
+                }
+                
+            
+            }
+       
+       }    
+       
+   function RB_changeMenu2Button(el, x)
+       {
+       
+            var g = el.getElementsByTagName('img');
+            
+            if (g)
+            {
+                    
+                if (x=="0")
+                {
+                   g[0].src='IMAGES/TreeButton.gif';
+                }
+                else
+                {
+                   g[0].src='IMAGES/TreeButton-h.gif';                
+                }
+                
+            
+            }
+       
+       }                                 
+
+      function RB_changeTreeButton(el,idx1,idx2,x)
+      {
+        
+            var row = el.parentNode; 
+            
+            var tds = row.getElementsByTagName('td');                                                 
+    
+            if (tds)
+            
+            {                                                                                 
+                var td1 = tds[idx1];
+                
+                if (td1)
+                {
+                
+                    var td2 = tds[idx2];
+                    
+                }
+                    
+            }                                                                                      
+          
+            var gg = td1.getElementsByTagName('img');
+            
+            if (gg)
+            {
+                       
+                var ggg = gg[0];
+                
+                if (ggg)
+                {
+                                      
+                    if (x=='1')
+                    {                       
+                        
+                        ggg.src='IMAGES/TreeButton-h.gif'; 
+                        
+                    
+                    }
+                    else
+                    {
+                         ggg.src='IMAGES/TreeButton.gif';
+                                              
+                                                 
+                    }
+                
+                }
+            
+            }   
+         
+         
+       }  
+       
+       
+       function RB_initTree0()
+       {
+            RB_initTreeEx('ctl00_TreeView1',1,2,1);       
+       }  
+       
+       function RB_initTree1()
+       {
+            RB_initTreeEx('ctl00_TreeView1n0Nodes',2,3,100);
+       }             
+
+
+       function RB_initTreeEx(id,idx1,idx2,nMax)
+       {
+       
+         
+            var tv = RB_getElementById(id);       
+                                          
+            if (tv)
+            {
+                       
+                var rows = tv.getElementsByTagName('tr');
+                
+                                                           
+                if (rows)
+                
+                {
+                
+                    var rowsCount = rows.length;
+                                   
+                             
+                    for (var i = 0; i < Math.min(rowsCount,nMax); i++)
+                    {
+                    
+                        var row = rows[i];
+                                     
+                    
+                        var tds = row.getElementsByTagName('td');
+                                                            
+                
+                        if (tds)
+                        
+                        {                                                                                 
+                                var td1 = tds[idx1];
+                                
+                                if (td1)
+                                {
+                                
+                                    var td2 = tds[idx2];
+                                                               
+                    
+                                    td1.onmouseover = function(){RB_changeTreeButton(this,idx1,idx2,1)};
+                                    
+                                    td2.onmouseover = function(){RB_changeTreeButton(this,idx1,idx2,1);TreeView_HoverNode(ctl00_TreeView1_Data,this)};
+                                                            
+                                    td1.onmouseout =  function(){RB_changeTreeButton(this,idx1,idx2,0)}; 
+                                    
+                                    td2.onmouseout = function(){RB_changeTreeButton(this,idx1,idx2,0);TreeView_UnhoverNode(this)};
+ 
+                                                                                     
+                                
+                                }                                                     
+                                                           
+                           
+                        }
+                
+                    }
+                
+                }
+            
+            }
+       
+       } 
+ 
+       
+       function RB_clearTimeout()
+       {
+           
+            if (tm)
+            {
+                window.clearTimeout(tm);
+                                
+            }
+          
+       
+       }
+       
+       function RB_clearTimeout1()
+       {
+           
+            if (tm1)
+            {
+                window.clearTimeout(tm1);
+                                
+            }
+          
+       
+       }   
+       
+      function RB_clearTimeout2()
+       {
+           
+            if (tm1)
+            {
+                window.clearTimeout(tm2);
+                                
+            }
+          
+       
+       }             
+           
+       function RB_setExpressFocus()
+       {
+       
+            var el=RB_getElementById('ctl00_eExpress');
+            
+            if (el)
+            {
+            
+                el.focus();
+            
+            }
+ 
+       
+       } 
+       
+       
+       function RB_setMainSize()
+       {
+       
+            
+            if (defaultPageFlag==1)
+            
+            {            
+       
+                var el=RB_getElementById('MainCell');
+                     
+                if (el)
+                {
+                
+                    var h=Math.round(0.94*screen.availHeight);
+                                 
+                    el.height=h; 
+                                  
+                
+                }
+     
+ 
+            }
+       
+       }
+       
+       function RB_saveLeftImgI010o()
+       {
+            var el = RB_getElementById("eeLeftImgI010o"); 
+            
+            if (el)
+            {
+                el.value=curLeftImgI010o;  
+            }        
+       }   
+       
+       function RB_readLeftImgI010o()
+       {
+            var el = RB_getElementById("eeLeftImgI010o"); 
+            
+            if (el)
+            {
+                curLeftImgI010o = el.value; 
+                
+                //alert('RB_readLeftImgI010o = '+ curLeftImgI010o);
+                 
+            }        
+       }     
+
+       function RB_syncLeftImgCounter()
+       {
+                                
+            if (curLeftImgI010o!='')
+            {
+                                                  
+                   for (var i=0;i<leftImgNum;i++)
+                   {                                                   
+                        
+                        if (leftImgPathArr[i])
+                        {
+                        
+                            if (leftImgPathArr[i].indexOf(curLeftImgI010o)>=0)
+                            {
+                            
+                                leftImgCounter=i;
+                                
+                                break;
+                            
+                            }
+                        
+                        }
+                       
+                    
+                    }                            
+                                    
+            
+            } 
+       
+       } 
+       
+       function RB_showPublicationCard()
+       {
+       
+            RB_clearLeftImgChanging();
+       
+            RB_clearTimeouts();
+                                
+            RB_saveLeftImgI010o();
+                                                                                                                                
+            if (curLeftImgI010o!='')
+            {                        
+                
+                var el=RB_getElementById('ctl00_btnShowPublicationCard');
+                
+                if (el)
+                {
+                
+                    el.click();
+                
+                }
+                                              
+  
+            }
+          
+       
+       }   
+
+ 
+       
+                     
+                                   
+       
+    //]]>   
+       
+    </script> 
+    
+    <script language="javascript" type="text/javascript">
+        // <![[CDATA[
+        
+              
+          
+        function RB_prepareLeftImgArr()
+        {
+        
+            if (defaultPageFlag==1)
+            {
+            
+                leftImgNum=0;
+                  
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                
+                {
+                
+                    leftImgPathDefault = img.src;
+       
+                    var el = RB_getElementById("eeLeftImgPathArrStr");
+                    
+                    if (el)
+                    {
+                    
+                        var v = el.value;              
+                                      
+                        if ((v)&&(v.length>0))
+                        {
+                        
+                            //alert('prepareImgCache v1='+v1);
+                                                                 
+                            eval(v);                             
+                              
+                            for (var i=0;i<maxLeftImgCount;i++)
+                            {
+                            
+                                if (leftImgPathArr[i])
+                                {
+                            
+                                    leftImgCacheArr[i]=new Image();
+                                    
+                                    leftImgCacheArr[i].src = leftImgPathArr[i];
+                                    
+                                    leftImgNum++;
+                                
+                                }
+                               
+                            
+                            }
+                        
+                        }
+                                                                              
+                    
+                    }
+                
+                }                 
+                
+                
+            }                
+         
+       } //конец RB_prepareLeftImgArr 
+       
+       
+       function RB_setLeftImgSize1()
+       {
+       
+            if (leftImgChangingFlag==1)
+            {
+       
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                {
+                
+                    if (img.src!=leftImgPathDefault)
+                    {
+                
+                        var newWidth=Math.round(leftSideBarWidth*((leftImgSizeCounter1+1)/imgStepsCount));
+                                 
+                        img.style.width = newWidth + "px";
+                    
+                    }
+                            
+                
+                }    
+                
+                leftImgSizeCounter1++;
+                
+                if (leftImgSizeCounter1>=imgStepsCount)
+                {
+                    leftImgSizeCounter1=0;                
+                    leftImgSizeCounter2=0; 
+                    
+                    RB_setLeftImgTimeout();
+                                                                
+                                           
+                } 
+                else
+                {
+                
+                    RB_setLeftImgTimeout1();
+                           
+                }
+                       
+            }
+                
+       }       
+       
+       
+       function RB_setLeftImgSize2()
+       {
+     
+     
+            if (leftImgChangingFlag==1)
+            {
+       
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                {
+                
+                    if (img.src!=leftImgPathDefault)
+                    {
+                
+                        var newWidth=Math.round(leftSideBarWidth*(1-leftImgSizeCounter2/imgStepsCount));
+                    
+                        img.style.width = newWidth + "px";                         
+                    
+                    }
+                
+                }    
+                
+                leftImgSizeCounter2++;
+                
+                if (leftImgSizeCounter2>=imgStepsCount)
+                {
+                    leftImgSizeCounter2=0;                             
+                    RB_setLeftImg();                         
+                } 
+                else
+                {
+                
+                    RB_setLeftImgTimeout2();
+                 
+                }
+             
+            }                    
+              
+       }       
+       
+       function RB_setLeftImg()
+       { 
+              
+            if (leftImgChangingFlag==1)
+            {                  
+                       
+                curLeftImgPath = leftImgPathArr[leftImgCounter];
+                
+                //alert('RB_setLeftImg leftImgCounter=' +leftImgCounter + ' curLeftImgPath=' + curLeftImgPath);
+                                       
+                if (curLeftImgPath)
+                {       
+     
+                    var i1=curLeftImgPath.indexOf('/');
+                    
+                    var i2=curLeftImgPath.indexOf('.');
+                    
+                    curLeftImgI010o = curLeftImgPath.slice(i1+1,i2);
+
+                    RB_saveLeftImgI010o();
+                                                                                                     
+                    var img = RB_getElementById("LeftImg");
+                    
+                    if (img)
+                    {
+                    
+                        if (leftSideBarWidth>0)
+                        {
+                    
+                            img.style.width = "5px";                        
+                       
+                            img.src = curLeftImgPath;                             
+                            
+                            leftImgCounter++;
+                            
+                            if (leftImgCounter>=leftImgNum)
+                            {            
+                                leftImgCounter=0;            
+                            }
+                            
+                            leftImgSizeCounter1=0;                           
+                            RB_setLeftImgTimeout1();
+                        
+                        }
+                        else
+                        {
+                                             
+                            img.src = curLeftImgPath;                             
+                            
+                            leftImgCounter++;
+                            
+                            if (leftImgCounter>=imgStepsCount)
+                            {            
+                                leftImgCounter=0;            
+                            }
+                                                           
+                            leftSideBarWidth=img.width; 
+                            
+                            //alert('leftSideBarWidth='+leftSideBarWidth);                                                                      
+                                                   
+                            leftImgSizeCounter2=0;                           
+                            RB_setLeftImgTimeout();                   
+                        
+                        }
+                    
+                    }
+                
+                }
+             
+            }        
+                          
+                
+       }  //конец RB_setLeftImg 
+       
+       
+       function RB_setLeftImgTimeout()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+      
+               tm2=window.setTimeout('RB_setLeftImgSize2()',  imgTimeOut);      
+           
+           }
+       }
+       
+       function RB_setLeftImgTimeout1()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+           
+               tm1=window.setTimeout('RB_setLeftImgSize1()',  imgTimeOut1);
+                    
+           }
+       }   
+       
+       function RB_setLeftImgTimeout2()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+           
+                tm2=window.setTimeout('RB_setLeftImgSize2()', imgTimeOut2);  
+                    
+           }
+       } 
+       
+       function RB_setLeftImgChanging()
+       {
+       
+            if (defaultPageFlag==1)
+            {
+       
+                leftImgChangingFlag = 1;
+            
+            }
+            else
+            {
+                leftImgChangingFlag = 0;           
+            }
+                        
+       
+       }  
+       
+       function RB_clearLeftImgChanging()
+       {
+       
+            leftImgChangingFlag = 0;
+       
+       } 
+       
+       function RB_clearTimeouts()
+       {
+       
+            if (defaultPageFlag==1)
+            {
+       
+                RB_clearTimeout2();
+                RB_clearTimeout1();            
+                RB_clearTimeout();            
+            
+            }
+       
+       }  
+              
+       function RB_startDefaultPage()
+       {
+       
+             //alert('flag='+defaultPageFlag);   
+              
+             if (defaultPageFlag==1)
+             {   
+           
+                 RB_prepareLeftImgArr();
+                 
+                 RB_readLeftImgI010o();
+                 
+                 RB_syncLeftImgCounter();
+                 
+                 RB_setLeftImgChanging();          
+                                  
+                 RB_setLeftImg();
+                 
+                 RB_setExpressFocus()             
+             
+             }
+
+       
+       } 
+       
+       function RB_stopDefaultPage()
+       {
+             if (defaultPageFlag==1)
+             {             
+                RB_clearLeftImgChanging();
+                RB_clearTimeouts();
+                RB_saveLeftImgI010o();            
+             }      
+       } 
+       
+       function RB_changeDoSearchButton(el,op)
+       {
+       
+           if (isSearchingFlag==0)
+           {  
+       
+                if (op==1)
+                {
+                    el.src='IMAGES/SmallSearch-h.gif';
+                }
+                else if (op==2)
+                {
+                   el.src='IMAGES/SmallSearch-d.gif';
+                   
+                 
+                }
+                else if (op==3)
+                {
+                
+                   el.src='IMAGES/SmallSearch-p.gif';
+                   
+                   //isSearchingFlag=1;
+                   
+                }
+                
+            }                                    
+                                                   
+            return true;          
+          
+       }                   
+                                                          
+        
+    //]]>   
+       
+    </script>            
+    
+     
+<style type="text/css">
+	.ctl00_Menu1_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_Menu1_1 { text-decoration:none; }
+	.ctl00_Menu1_2 { width:100%; }
+	.ctl00_Menu1_3 { padding:0px 0px 0px 0px; }
+	.ctl00_Menu1_4 { border-style:none; }
+	.ctl00_Menu1_5 {  }
+	.ctl00_Menu1_6 { border-style:none; }
+	.ctl00_Menu1_7 {  }
+	.ctl00_Menu2_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_Menu2_1 { text-decoration:none; }
+	.ctl00_Menu2_2 { width:100%; }
+	.ctl00_Menu2_3 { border-style:none; }
+	.ctl00_Menu2_4 {  }
+	.ctl00_Menu2_5 { padding:0px 0px 0px 0px; }
+	.ctl00_Menu2_6 { border-style:none; }
+	.ctl00_Menu2_7 {  }
+	.ctl00_Menu2_8 { border-style:none; }
+	.ctl00_Menu2_9 {  }
+
+</style></head>
+<body onload="RB_startDefaultPage()" onunload="RB_stopDefaultPage();RB_closeDicts()">
+    <form name="aspnetForm" method="post" action="PublicationCard.aspx?product_no=1540050" id="aspnetForm">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=K8Z-1blS2YDnbdPkWvAsLQ2&amp;t=633527929956801634" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=gi_JsZ7G4PBcii9H5DYteg2&amp;t=633527929956801634" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="EBljc6Z1W9feJMFFe221Ucjvipm3YPANug4++YK82OW3LBa3oQvqFHeFR2NMPVuUHgQhvTF1iBo2WnzJMO2ReOJXR5GjQh5w2TLOwHiTksNad5v0x1+YKwFhiVnXcyT5" />
+</div>
+    <div>
+    
+        <table class="MainTable" >
+        
+        <tr>
+        
+        <td class="MainCellTd">
+    
+        <table class="MainFormTable">
+        
+            <tr>
+                <td class="TopBarTd" colspan="3">
+                    <img id="ctl00_TopBarImg" src="Images/title.gif" style="border-width:0px;" />
+                </td>        
+            </tr>
+                  
+            <tr>
+            
+                <td class="Menu1BarTd" colspan="3">
+                
+                    <table class="Menu1Bar1Table" width="100%">
+                    
+                    <tr>
+                                        
+                    <td align="left" valign="bottom" class="Menu1Bar1Td">
+                    
+                    <a href="#ctl00_Menu1_SkipLink"><img alt="Проход по ссылкам навигации" src="/WebResource.axd?d=gam73ZOu9JE2AF6YSkFI8Q2&amp;t=633527929956801634" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_Menu1" class="Menu1BarCtrl ctl00_Menu1_3 ctl00_Menu1_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n0"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          В начало
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_Menu1_3">
+			<tr>
+				<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n1"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Он-лайн каталог')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Он-лайн каталог
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n2"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Поставщики')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Поставщики
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n3"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\О сайте')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          О сайте
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n4"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\О проекте')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          О проекте
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n5"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Контактная информация')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Контактная информация
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n6"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\На главную РКП')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          На главную РКП
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Menu1_SkipLink"></a> 
+                    
+                   </td>                                        
+                   </tr>                                       
+                   </table>                    
+                                   
+                </td>
+                
+                 
+            </tr>
+         
+                                     
+            <tr>
+            
+                
+            
+                <td  class="ContentBarTd">
+                    
+
+    <table>
+    <tr>
+    
+    <td>
+ 
+    <table class="PublicationFormViewCtrl" cellspacing="0" border="0" id="ctl00_cphMain_frvPublication" style="border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+        
+            <table class="PublicationTable">
+
+            <tr>
+            
+            <td class="PublicationTitleTd" colspan="2">
+            
+                <span>Шмидт Д.С., Хьюстон С.Д. </span> <span>Программирование сетевых приложений на С++.Т. 1. Программирование сетевых приложений на С++ / Д.С. Шмидт, С.Д. Хьюстон; Пер. с англ. А.П. Караваев. - ил. - (С++ In-Depth).</span>
+            
+            </td>
+            
+            </tr>
+
+            <tr>
+            
+            <td  class="PublicationImgTd">
+         
+                <!--
+                <img src="IMAGES/noImage.gif" />
+                -->
+                
+                <img class=PublicationImgCtrl src="images/noImage.gif" />
+
+          
+                      
+            </td>
+                 
+            <td class="PublicationDescriptionTd">
+         
+            <table class="Publication2Table">
+          
+ 
+                <tr><td class="PublicationSectionNameTd" colspan="2">Общие&nbsp;сведения</td></tr><tr><td class="PublicationAttrLabelTd">Статус публикации</td><td class="PublicationAttrValueTd">В наличии</td></tr><tr><td class="PublicationAttrLabelTd">Дата&nbsp;поступления</td><td class="PublicationAttrValueTd">03.10.2011 19:06:34</td></tr><tr><td class="PublicationAttrLabelTd">Дата&nbsp;обновления</td><td class="PublicationAttrValueTd">28.02.2012 21:32:36</td></tr>
+
+                <tr><td class="PublicationSectionNameTd" colspan="2">Идентификация</td></tr><tr><td class="PublicationAttrLabelTd">Первый&nbsp;ISBN</td><td class="PublicationAttrValueTd">978-5-9518-0362-7</td></tr>
+ 
+                
+                              
+                <tr><td class="PublicationSectionNameTd" colspan="2">Блок&nbsp;описательной&nbsp;информации</td></tr><tr><td class="PublicationAttrLabelTd">Основное&nbsp;заглавие публикации</td><td class="PublicationAttrValueTd">Программирование сетевых приложений на С++.Т. 1. Программирование сетевых приложений на С++ / Д.С. Шмидт, С.Д. Хьюстон; Пер. с англ. А.П. Караваев. - ил. - (С++ In-Depth).</td></tr><tr><td class="PublicationAttrLabelTd">Издательство</td><td class="PublicationAttrValueTd">Бином-Пресс</td></tr><tr><td class="PublicationAttrLabelTd">Количество&nbsp;страниц</td><td class="PublicationAttrValueTd">304</td></tr> 
+                              
+               <tr><td class="PublicationSectionNameTd" colspan="2">Блок&nbsp;интеллектуальной&nbsp;ответственности</td></tr><tr><td class="PublicationAttrLabelTd">Авторы&nbsp;публикации</td><td class="PublicationAttrValueTd">Шмидт Д.С., Хьюстон С.Д.</td></tr><tr><td class="PublicationAttrLabelTd">Первый&nbsp;автор публикации</td><td class="PublicationAttrValueTd">Шмидт Д.С.</td></tr>                                
+                              
+                 
+                              
+               
+                              
+  
+                              
+                
+                              
+               
+                              
+              <tr><td class="PublicationSectionNameTd" colspan="2">Доп.сведения</td></tr><tr><td class="PublicationAttrLabelTd">Сведения&nbsp;о полиграфическом исполнении переплета</td><td class="PublicationAttrValueTd">Обл.</td></tr>
+            </table>
+ 
+            </td>
+            
+            </tr>            
+            
+            </table>                            
+                  
+        </td>
+	</tr>
+</table>
+ 
+ 
+    &nbsp;
+    
+    <table class="SalesViewTable">
+  
+    <tr>
+    <td class="SalesLabelTd">
+    
+        <b>Книгораспространители и цены</b>       
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    <td  class="SalesGridViewTd">
+      
+    <div>
+	<table class="SalesGridViewCtrl" cellspacing="2" cellpadding="2" rules="all" border="1" id="ctl00_cphMain_GridView1">
+		<tr>
+			<th scope="col">&nbsp;</th><th scope="col">Кратк. наименование,<br> ссылка на сайт</th><th scope="col">Полн. наименование</th><th scope="col">Город</th><th scope="col">Адрес</th><th scope="col">Цена, руб.</th><th scope="col">Дата обновления</th>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$0')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://www.infra-m.ru" TARGET="+_blank ">Инфра-М</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Издательский дом Инфра-М                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Полярная, д. 31в                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    209                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    28.02.2012                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$1')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://knorus.ru" TARGET="+_blank ">КноРус</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Издательский торговый дом КноРус                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Б. Переяславская, д. 46                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    219,5                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    09.02.2012                  
+                    </span>                                      
+                 </td>
+		</tr>
+	</table>
+</div>
+    
+    </td>    
+    </tr>
+
+    <tr>
+    <td>
+    
+        <br />
+    
+    </td>
+    
+    </tr>
+
+   </table>
+
+    </td>
+
+    </tr>
+    
+    </table>
+   
+    
+    &nbsp;
+    
+        
+
+  <script language="javascript" type="text/javascript">
+
+    //<!CDATA[ 
+ 
+   
+
+        defaultPageFlag = 0;
+       
+         
+
+    //]]>  
+    
+    </script>    
+
+        
+
+                </td>
+                                
+            </tr>
+                
+            
+            <tr>
+                        
+                <td class="BottomBarTd">
+                
+                <table class="BottomBarTable">
+                <tr>
+                
+                <td>
+                </td>
+                
+                <td  class="Menu2BarTd">
+                
+                <a href="#ctl00_Menu2_SkipLink"><img alt="Проход по ссылкам навигации" src="/WebResource.axd?d=gam73ZOu9JE2AF6YSkFI8Q2&amp;t=633527929956801634" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_Menu2" class="Menu2BarCtrl ctl00_Menu2_5 ctl00_Menu2_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n0"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          В начало
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_Menu2_5">
+			<tr>
+				<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n1"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало\\Он-лайн каталог')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Он-лайн каталог
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n2"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало\\Поставщики')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Поставщики
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Menu2_SkipLink"></a>
+                                 
+                </td>
+                <td>
+                </td>
+                </tr>                
+                <tr>
+               
+                <td  class="CopyRightTd" colspan="3">
+                  ©&nbsp;Российская&nbsp;книжная&nbsp;палата,&nbsp;1995-2012                
+                </td>
+                </tr>
+                </table>
+                 
+                </td>
+                
+                 
+            </tr>
+            
+        </table>
+        
+        
+        </td>        
+        </tr>          
+        </table>        
+  
+               
+    </div>
+        
+        &nbsp;&nbsp;
+                
+        <div>
+                                  
+        
+                   
+        </div>
+        
+        <a href="Web2.sitemap"></a>         
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_Menu1_Data = new Object();
+ctl00_Menu1_Data.disappearAfter = 0;
+ctl00_Menu1_Data.horizontalOffset = 0;
+ctl00_Menu1_Data.verticalOffset = 0;
+ctl00_Menu1_Data.staticHoverClass = 'ctl00_Menu1_7 Menu1BarHoverCtrl';
+ctl00_Menu1_Data.staticHoverHyperLinkClass = 'ctl00_Menu1_6 Menu1BarHoverCtrl';
+var ctl00_Menu2_Data = new Object();
+ctl00_Menu2_Data.disappearAfter = 0;
+ctl00_Menu2_Data.horizontalOffset = 0;
+ctl00_Menu2_Data.verticalOffset = 0;
+ctl00_Menu2_Data.staticHoverClass = 'ctl00_Menu2_9 Menu2BarHoverCtrl';
+ctl00_Menu2_Data.staticHoverHyperLinkClass = 'ctl00_Menu2_8 Menu2BarHoverCtrl';
+//]]>
+</script>
+</form>  
+    
+    <script language="javascript" type="text/javascript">
+    //<!CDATA[ 
+ 
+   
+        RB_initTree0();
+        RB_initTree1(); 
+        
+        RB_setMainSize();        
+         
+
+    //]]>
+    
+    </script>    
+    
+</body>
+</html>

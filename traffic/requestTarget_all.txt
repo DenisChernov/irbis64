@@ -1,0 +1,20 @@
+No.     Time        Source                Destination           Protocol Length Info
+ 182218 917.103841  192.168.9.120         192.168.9.20          TCP      178    40057 > 6666 [PSH, ACK] Seq=1 Ack=1 Win=65536 Len=124
+
+Frame 182218: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Ethernet II, Src: Giga-Byt_a5:c5:8d (00:1d:7d:a5:c5:8d), Dst: IntelCor_4e:85:9c (00:15:17:4e:85:9c)
+Internet Protocol Version 4, Src: 192.168.9.120 (192.168.9.120), Dst: 192.168.9.20 (192.168.9.20)
+Transmission Control Protocol, Src Port: 40057 (40057), Dst Port: 6666 (6666), Seq: 1, Ack: 1, Len: 124
+Data (124 bytes)
+
+0000  31 32 30 0a 4b 0a 43 0a 4b 0a 38 38 30 39 39 34   120.K.C.K.880994
+0010  0a 31 35 0a 66 31 30 0a 66 31 30 0a 0a 0a 0a 55   .15.f10.f10....U
+0020  43 48 45 54 53 50 52 0a 22 54 53 3d d0 9a d0 9e   CHETSPR."TS=....
+0030  d0 94 d0 95 d0 9a d0 a1 22 0a 34 32 0a 31 0a 6d   ........".42.1.m
+0040  70 6c 2c 26 55 4e 49 46 4f 52 28 27 2b 30 27 29   pl,&UNIFOR('+0')
+0050  27 26 26 26 26 26 27 76 32 2c 27 2d 27 2c 76 33   '&&&&&'v2,'-',v3
+0060  2c 27 2d 27 2c 76 34 2c 27 2d 27 2c 76 35 2c 27   ,'-',v4,'-',v5,'
+0070  2d 27 2c 76 36 2c 27 2d 27 2c 76 37               -',v6,'-',v7
+
+
+120.K.C.K.880994.15.f10.f10....UCHETSPR."TS=............".42.1.mpl,&UNIFOR('+0')'&&&&&'v2,'-',v3,'-',v4,'-',v5,'-',v6,'-',v7

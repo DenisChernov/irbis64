@@ -1,0 +1,3187 @@
+POST /SearchPublications.aspx HTTP/1.1
+Host: rbip.bookchamber.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://rbip.bookchamber.ru/SearchPublications.aspx
+Cookie: ASP.NET_SessionId=addchln5bnmgqpesvjupln45
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15337
+
+__LASTFOCUS=&__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2FwEPDwUKLTcyOTU3MzgwNA9kFgJmD2QWAgIDD2QWCgIDDzwrAA0CAA8WAh4LXyFEYXRhQm91bmRnZAwUKwACBQcyOjAsMDowFCsAAhYMHgRUZXh0BQ%2FQkiDQvdCw0YfQsNC70L4eBVZhbHVlBQ%2FQkiDQvdCw0YfQsNC70L4eB0VuYWJsZWRnHgpTZWxlY3RhYmxlZx4IRGF0YVBhdGgFJDM5ODA3OTliLWIxZmItNGM0YS05MWVlLWVmZmJkNDdlNTJkOR4JRGF0YUJvdW5kZxQrAAcFFzA6MCwwOjEsMDoyLDA6MywwOjQsMDo1FCsAAhYOHwEFHNCe0L0t0LvQsNC50L0g0LrQsNGC0LDQu9C%2B0LMfAgUc0J7QvS3Qu9Cw0LnQvSDQutCw0YLQsNC70L7Qsx8DZx8EZx8FBSQ0ZGZjMzlkZC1hNmE0LTRkODUtYWVhMy0wOGIxMjY5MDk5MDUfBmceCFNlbGVjdGVkZ2QUKwACFgwfAQUU0J%2FQvtGB0YLQsNCy0YnQuNC60LgfAgUU0J%2FQvtGB0YLQsNCy0YnQuNC60LgfA2cfBGcfBQUkZjYzY2YzNDktZjIzMy00M2NmLTllZDAtYjNiZTE2Y2M5ODVhHwZnZBQrAAIWDB8BBQ3QniDRgdCw0LnRgtC1HwIFDdCeINGB0LDQudGC0LUfA2cfBGcfBQUkZTBjMjIxZTAtZjU5Mi00ZGZmLWE1NzUtMTc4MDFmZDgxNzJjHwZnZBQrAAIWDB8BBRHQniDQv9GA0L7QtdC60YLQtR8CBRHQniDQv9GA0L7QtdC60YLQtR8DZx8EZx8FBSRiZDZhYzM5MS1lMDM5LTQwYzMtYmYzOS0xYmJlYzk3NGQzYmMfBmdkFCsAAhYMHwEFKdCa0L7QvdGC0LDQutGC0L3QsNGPINC40L3RhNC%2B0YDQvNCw0YbQuNGPHwIFKdCa0L7QvdGC0LDQutGC0L3QsNGPINC40L3RhNC%2B0YDQvNCw0YbQuNGPHwNnHwRnHwUFJGQ4NmZhNGExLTAxNDMtNGM4Yi1iMjFlLTE2OGRkYTk5YTY4Nh8GZ2QUKwACFgwfAQUa0J3QsCDQs9C70LDQstC90YPRjiDQoNCa0J8fAgUa0J3QsCDQs9C70LDQstC90YPRjiDQoNCa0J8fA2cfBGcfBQUkODI1OWZiNDQtOWM3Ni00NWJmLWFiMzgtMmE3YmEzZmYyYzg4HwZnZBYOZg9kFgJmDxUBD9CSINC90LDRh9Cw0LvQvmQCAQ9kFgJmDxUBHNCe0L0t0LvQsNC50L0g0LrQsNGC0LDQu9C%2B0LNkAgIPZBYCZg8VARTQn9C%2B0YHRgtCw0LLRidC40LrQuGQCAw9kFgJmDxUBDdCeINGB0LDQudGC0LVkAgQPZBYCZg8VARHQniDQv9GA0L7QtdC60YLQtWQCBQ9kFgJmDxUBKdCa0L7QvdGC0LDQutGC0L3QsNGPINC40L3RhNC%2B0YDQvNCw0YbQuNGPZAIGD2QWAmYPFQEa0J3QsCDQs9C70LDQstC90YPRjiDQoNCa0J9kAgUPFgIeB1Zpc2libGVoFgQCAQ8PFgIfAWVkZAICDw8WAh8BBYQDbGVmdEltZ1BhdGhBcnJbMF09J2NhY2hlLzAwLTQ3NTQuZ2lmJztsZWZ0SW1nUGF0aEFyclsxXT0nY2FjaGUvMDEtMzgyNzguZ2lmJztsZWZ0SW1nUGF0aEFyclsyXT0nY2FjaGUvMDEtMzkxNTguZ2lmJztsZWZ0SW1nUGF0aEFyclszXT0nY2FjaGUvMDEtNDg4MjYuZ2lmJztsZWZ0SW1nUGF0aEFycls0XT0nY2FjaGUvMDEtNTE4ODIuZ2lmJztsZWZ0SW1nUGF0aEFycls1XT0nY2FjaGUvMDItMjU3Ny5naWYnO2xlZnRJbWdQYXRoQXJyWzZdPSdjYWNoZS8wMi00OTMxMC5naWYnO2xlZnRJbWdQYXRoQXJyWzddPSdjYWNoZS8wMi01NzA0Ny5naWYnO2xlZnRJbWdQYXRoQXJyWzhdPSdjYWNoZS8wMi01NzEyNS5naWYnO2xlZnRJbWdQYXRoQXJyWzldPSdjYWNoZS8wMi02MDM0My5naWYnO2RkAgcPZBYIAjEPEA8WAh8AZ2QQFQUAGdCd0LUg0L7Qv9GA0LXQtNC10LvQtdC90L4N0JIg0L%2FQu9Cw0L3QtRvQkiDQv9GA0L7QuNC30LLQvtC00YHRgtCy0LUR0JIg0L3QsNC70LjRh9C40LgVBQAZ0J3QtSDQvtC%2F0YDQtdC00LXQu9C10L3Qvg3QkiDQv9C70LDQvdC1G9CSINC%2F0YDQvtC40LfQstC%2B0LTRgdGC0LLQtRHQkiDQvdCw0LvQuNGH0LjQuBQrAwVnZ2dnZxYBZmQCQA8QDxYCHwBnZBAVlwEAATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjE5AjIwAjIxAjIyAjIzAjI0AjI1AjI2AjI3AjI4AjI5AjMwAjMxAjMyAjMzAjM0AjM1AjM2AjM3AjM4AjM5AjQwAjQxAjQyAjQzAjQ0AjQ1AjQ2AjQ3AjQ4AjQ5AjUwAjUxAjUyAjUzAjU0AjU1AjU2AjU3AjU4AjU5AjYwAjYxAjYyAjYzAjY0AjY1AjY2AjY3AjY4AjY5AjcwAjcxAjcyAjczAjc0Ajc1Ajc2Ajc3Ajc4Ajc5AjgwAjgxAjgyAjgzAjg0Ajg1Ajg2Ajg3Ajg4Ajg5AjkwAjkxAjkyAjkzAjk0Ajk1Ajk2Ajk3Ajk4Ajk5AzEwMAMxMDEDMTAyAzEwMwMxMDQDMTA1AzEwNgMxMDcDMTA4AzEwOQMxMTADMTExAzExMgMxMTMDMTE0AzExNQMxMTYDMTE3AzExOAMxMTkDMTIwAzEyMQMxMjIDMTIzAzEyNAMxMjUDMTI2AzEyNwMxMjgDMTI5AzEzMAMxMzEDMTMyAzEzMwMxMzQDMTM1AzEzNgMxMzcDMTM4AzEzOQMxNDADMTQxAzE0MgMxNDMDMTQ0AzE0NQMxNDYDMTQ3AzE0OAMxNDkDMTUwFZcBAAExATIBMwE0ATUBNgE3ATgBOQIxMAIxMQIxMgIxMwIxNAIxNQIxNgIxNwIxOAIxOQIyMAIyMQIyMgIyMwIyNAIyNQIyNgIyNwIyOAIyOQIzMAIzMQIzMgIzMwIzNAIzNQIzNgIzNwIzOAIzOQI0MAI0MQI0MgI0MwI0NAI0NQI0NgI0NwI0OAI0OQI1MAI1MQI1MgI1MwI1NAI1NQI1NgI1NwI1OAI1OQI2MAI2MQI2MgI2MwI2NAI2NQI2NgI2NwI2OAI2OQI3MAI3MQI3MgI3MwI3NAI3NQI3NgI3NwI3OAI3OQI4MAI4MQI4MgI4MwI4NAI4NQI4NgI4NwI4OAI4OQI5MAI5MQI5MgI5MwI5NAI5NQI5NgI5NwI5OAI5OQMxMDADMTAxAzEwMgMxMDMDMTA0AzEwNQMxMDYDMTA3AzEwOAMxMDkDMTEwAzExMQMxMTIDMTEzAzExNAMxMTUDMTE2AzExNwMxMTgDMTE5AzEyMAMxMjEDMTIyAzEyMwMxMjQDMTI1AzEyNgMxMjcDMTI4AzEyOQMxMzADMTMxAzEzMgMxMzMDMTM0AzEzNQMxMzYDMTM3AzEzOAMxMzkDMTQwAzE0MQMxNDIDMTQzAzE0NAMxNDUDMTQ2AzE0NwMxNDgDMTQ5AzE1MBQrA5cBZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAkcPEA8WAh8AZ2QQFSAAIOKEliDQs9C%2B0YHRgNC10LPQuNGB0YLRgNCw0YbQuNC4IdCQ0LLRgtC%2B0YDRiyDQv9GD0LHQu9C40LrQsNGG0LjQuAbQkdCR0JoV0JPQvtC0INC40LfQtNCw0L3QuNGPHdCU0LDRgtCwINC%2B0LHQvdC%2B0LLQu9C10L3QuNGPH9CU0LDRgtCwINC%2F0L7RgdGC0YPQv9C70LXQvdC40Y8Y0JjQt9C00LDRgtC10LvRjNGB0YLQstC%2BJ9CY0LfQtNCw0YLQtdC70YzRgdGC0LLQvi3Qv9Cw0YDRgtC90LXRgBPQmNC90LTQtdC60YEg0KPQlNCaKtCa0L7QtCDRgdGC0LDRgtGD0YHQsCDQv9GD0LHQu9C40LrQsNGG0LjQuCPQmtC%2B0LvQuNGH0LXRgdGC0LLQviDRgdGC0YDQsNC90LjRhhnQnNC10YHRgtC%2BINC40LfQtNCw0L3QuNGPNNCc0LXRgdGC0L4g0LjQt9C00LDRgtC10LvRjNGB0YLQstCwLdC%2F0LDRgNGC0L3QtdGA0LAj0J3QsNC70LjRh9C40LUg0LfQsNC%2F0LjRgdC4IFJVU01BUkM00J3QsNC70LjRh9C40LUg0LjQt9C%2B0LHRgNCw0LbQtdC90LjRjyDQvtCx0LvQvtC20LrQuDbQntGB0L3QvtCy0L3QvtC1INC30LDQs9C70LDQstC40LUg0L%2FRg9Cx0LvQuNC60LDRhtC40LhB0J%2FQtdGA0LLRi9C1INGB0LLQtdC00LXQvdC40Y8g0L7QsSDQvtGC0LLQtdGC0YHRgtCy0LXQvdC90L7RgdGC0LgR0J%2FQtdGA0LLRi9C5IElTQk4s0J%2FQtdGA0LLRi9C5INCw0LLRgtC%2B0YAg0L%2FRg9Cx0LvQuNC60LDRhtC40LgT0KDQsNC30LzQtdGALCDRgdC8LlrQodCy0LXQtNC10L3QuNGPINC%2BINC%2F0L7Qu9C40LPRgNCw0YTQuNGH0LXRgdC60L7QvCDQuNGB0L%2FQvtC70L3QtdC90LjQuCDQv9C10YDQtdC%2F0LvQtdGC0LAk0KHQstC10LTQtdC90LjRjyDQvtCxINC40LfQtNCw0L3QuNC4PNCh0LLQtdC00LXQvdC40Y8sINC%2B0YLQvdC%2B0YHRj9GJ0LjQtdGB0Y8g0Log0LfQsNCz0LvQsNCy0LjRjgrQodC10YDQuNGPENCi0LXQvNCw0YLQuNC60LAU0KLQuNC%2F0L7Qs9GA0LDRhNC40Y8K0KLQuNGA0LDQtgzQpNC%2B0YDQvNCw0YIy0KbQtdC70LXQstC%2B0LUg0L3QsNC30L3QsNGH0LXQvdC40LUg0LjQt9C00LDQvdC40Y8b0K%2FQt9GL0Log0L7RgNC40LPQuNC90LDQu9CwFdCv0LfRi9C6INGC0LXQutGB0YLQsBUgACDihJYg0LPQvtGB0YDQtdCz0LjRgdGC0YDQsNGG0LjQuCHQkNCy0YLQvtGA0Ysg0L%2FRg9Cx0LvQuNC60LDRhtC40LgG0JHQkdCaFdCT0L7QtCDQuNC30LTQsNC90LjRjx3QlNCw0YLQsCDQvtCx0L3QvtCy0LvQtdC90LjRjx%2FQlNCw0YLQsCDQv9C%2B0YHRgtGD0L%2FQu9C10L3QuNGPGNCY0LfQtNCw0YLQtdC70YzRgdGC0LLQvifQmNC30LTQsNGC0LXQu9GM0YHRgtCy0L4t0L%2FQsNGA0YLQvdC10YAT0JjQvdC00LXQutGBINCj0JTQmirQmtC%2B0LQg0YHRgtCw0YLRg9GB0LAg0L%2FRg9Cx0LvQuNC60LDRhtC40Lgj0JrQvtC70LjRh9C10YHRgtCy0L4g0YHRgtGA0LDQvdC40YYZ0JzQtdGB0YLQviDQuNC30LTQsNC90LjRjzTQnNC10YHRgtC%2BINC40LfQtNCw0YLQtdC70YzRgdGC0LLQsC3Qv9Cw0YDRgtC90LXRgNCwI9Cd0LDQu9C40YfQuNC1INC30LDQv9C40YHQuCBSVVNNQVJDNNCd0LDQu9C40YfQuNC1INC40LfQvtCx0YDQsNC20LXQvdC40Y8g0L7QsdC70L7QttC60Lg20J7RgdC90L7QstC90L7QtSDQt9Cw0LPQu9Cw0LLQuNC1INC%2F0YPQsdC70LjQutCw0YbQuNC4QdCf0LXRgNCy0YvQtSDRgdCy0LXQtNC10L3QuNGPINC%2B0LEg0L7RgtCy0LXRgtGB0YLQstC10L3QvdC%2B0YHRgtC4EdCf0LXRgNCy0YvQuSBJU0JOLNCf0LXRgNCy0YvQuSDQsNCy0YLQvtGAINC%2F0YPQsdC70LjQutCw0YbQuNC4E9Cg0LDQt9C80LXRgCwg0YHQvC5a0KHQstC10LTQtdC90LjRjyDQviDQv9C%2B0LvQuNCz0YDQsNGE0LjRh9C10YHQutC%2B0Lwg0LjRgdC%2F0L7Qu9C90LXQvdC40Lgg0L%2FQtdGA0LXQv9C70LXRgtCwJNCh0LLQtdC00LXQvdC40Y8g0L7QsSDQuNC30LTQsNC90LjQuDzQodCy0LXQtNC10L3QuNGPLCDQvtGC0L3QvtGB0Y%2FRidC40LXRgdGPINC6INC30LDQs9C70LDQstC40Y4K0KHQtdGA0LjRjxDQotC10LzQsNGC0LjQutCwFNCi0LjQv9C%2B0LPRgNCw0YTQuNGPCtCi0LjRgNCw0LYM0KTQvtGA0LzQsNGCMtCm0LXQu9C10LLQvtC1INC90LDQt9C90LDRh9C10L3QuNC1INC40LfQtNCw0L3QuNGPG9Cv0LfRi9C6INC%2B0YDQuNCz0LjQvdCw0LvQsBXQr9C30YvQuiDRgtC10LrRgdGC0LAUKwMgZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dkZAJODxAPFgIfAGdkEBVkATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjE5AjIwAjIxAjIyAjIzAjI0AjI1AjI2AjI3AjI4AjI5AjMwAjMxAjMyAjMzAjM0AjM1AjM2AjM3AjM4AjM5AjQwAjQxAjQyAjQzAjQ0AjQ1AjQ2AjQ3AjQ4AjQ5AjUwAjUxAjUyAjUzAjU0AjU1AjU2AjU3AjU4AjU5AjYwAjYxAjYyAjYzAjY0AjY1AjY2AjY3AjY4AjY5AjcwAjcxAjcyAjczAjc0Ajc1Ajc2Ajc3Ajc4Ajc5AjgwAjgxAjgyAjgzAjg0Ajg1Ajg2Ajg3Ajg4Ajg5AjkwAjkxAjkyAjkzAjk0Ajk1Ajk2Ajk3Ajk4Ajk5AzEwMBVkATEBMgEzATQBNQE2ATcBOAE5AjEwAjExAjEyAjEzAjE0AjE1AjE2AjE3AjE4AjE5AjIwAjIxAjIyAjIzAjI0AjI1AjI2AjI3AjI4AjI5AjMwAjMxAjMyAjMzAjM0AjM1AjM2AjM3AjM4AjM5AjQwAjQxAjQyAjQzAjQ0AjQ1AjQ2AjQ3AjQ4AjQ5AjUwAjUxAjUyAjUzAjU0AjU1AjU2AjU3AjU4AjU5AjYwAjYxAjYyAjYzAjY0AjY1AjY2AjY3AjY4AjY5AjcwAjcxAjcyAjczAjc0Ajc1Ajc2Ajc3Ajc4Ajc5AjgwAjgxAjgyAjgzAjg0Ajg1Ajg2Ajg3Ajg4Ajg5AjkwAjkxAjkyAjkzAjk0Ajk1Ajk2Ajk3Ajk4Ajk5AzEwMBQrA2RnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCCQ8WAh8IaBYIAgEPPCsACQIADxYEHg1OZXZlckV4cGFuZGVkZx8AZ2QIFCsAAgUDMDowFCsAAhYQHwEFD9CSINC90LDRh9Cw0LvQvh8CBQ%2FQkiDQvdCw0YfQsNC70L4eDFNlbGVjdEFjdGlvbgsqLlN5c3RlbS5XZWIuVUkuV2ViQ29udHJvbHMuVHJlZU5vZGVTZWxlY3RBY3Rpb24AHwUFJDM5ODA3OTliLWIxZmItNGM0YS05MWVlLWVmZmJkNDdlNTJkOR8GZx4QUG9wdWxhdGVPbkRlbWFuZGgeCEV4cGFuZGVkZx4JUG9wdWxhdGVkZxQrAAcFFzA6MCwwOjEsMDoyLDA6MywwOjQsMDo1FCsAAhYOHwEFHNCe0L0t0LvQsNC50L0g0LrQsNGC0LDQu9C%2B0LMfAgUc0J7QvS3Qu9Cw0LnQvSDQutCw0YLQsNC70L7Qsx8KCysEAB8FBSQ0ZGZjMzlkZC1hNmE0LTRkODUtYWVhMy0wOGIxMjY5MDk5MDUfBmcfB2cfDGdkFCsAAhYMHwEFFNCf0L7RgdGC0LDQstGJ0LjQutC4HwIFFNCf0L7RgdGC0LDQstGJ0LjQutC4HwoLKwQAHwUFJGY2M2NmMzQ5LWYyMzMtNDNjZi05ZWQwLWIzYmUxNmNjOTg1YR8GZx8MZ2QUKwACFgwfAQUN0J4g0YHQsNC50YLQtR8CBQ3QniDRgdCw0LnRgtC1HwoLKwQAHwUFJGUwYzIyMWUwLWY1OTItNGRmZi1hNTc1LTE3ODAxZmQ4MTcyYx8GZx8MZ2QUKwACFgwfAQUR0J4g0L%2FRgNC%2B0LXQutGC0LUfAgUR0J4g0L%2FRgNC%2B0LXQutGC0LUfCgsrBAAfBQUkYmQ2YWMzOTEtZTAzOS00MGMzLWJmMzktMWJiZWM5NzRkM2JjHwZnHwxnZBQrAAIWDB8BBSnQmtC%2B0L3RgtCw0LrRgtC90LDRjyDQuNC90YTQvtGA0LzQsNGG0LjRjx8CBSnQmtC%2B0L3RgtCw0LrRgtC90LDRjyDQuNC90YTQvtGA0LzQsNGG0LjRjx8KCysEAB8FBSRkODZmYTRhMS0wMTQzLTRjOGItYjIxZS0xNjhkZGE5OWE2ODYfBmcfDGdkFCsAAhYMHwEFGtCd0LAg0LPQu9Cw0LLQvdGD0Y4g0KDQmtCfHwIFGtCd0LAg0LPQu9Cw0LLQvdGD0Y4g0KDQmtCfHwoLKwQAHwUFJDgyNTlmYjQ0LTljNzYtNDViZi1hYjM4LTJhN2JhM2ZmMmM4OB8GZx8MZ2RkAgcPDxYCHwFlZGQCDQ8QDxYCHgdDaGVja2VkZ2RkZGQCDw8QDxYCHw5nZGRkZAILDzwrAA0CAA8WAh8AZ2QMFCsAAgUHMjowLDA6MBQrAAIWDB8BBQ%2FQkiDQvdCw0YfQsNC70L4fAgUP0JIg0L3QsNGH0LDQu9C%2BHwNnHwRnHwUFJGU0MjBmNDE2LTU1OTMtNGZhNi04OTAxLTJjOTMwYzc1ODY4Nx8GZxQrAAMFBzA6MCwwOjEUKwACFg4fAQUc0J7QvS3Qu9Cw0LnQvSDQutCw0YLQsNC70L7Qsx8CBRzQntC9LdC70LDQudC9INC60LDRgtCw0LvQvtCzHwNnHwRnHwUFJDE5Nzk5NGM3LTU4NWUtNGMwMC1hNGExLTE1YzcxODAzMjg0Mh8GZx8HZ2QUKwACFgwfAQUU0J%2FQvtGB0YLQsNCy0YnQuNC60LgfAgUU0J%2FQvtGB0YLQsNCy0YnQuNC60LgfA2cfBGcfBQUkOTIxODI0NTMtYzY3OS00YjM2LWIxNGYtNGRkODAwNDUzYWY2HwZnZBYGZg9kFgJmDxUBD9CSINC90LDRh9Cw0LvQvmQCAQ9kFgJmDxUBHNCe0L0t0LvQsNC50L0g0LrQsNGC0LDQu9C%2B0LNkAgIPZBYCZg8VARTQn9C%2B0YHRgtCw0LLRidC40LrQuGQYAwUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgQFGGN0bDAwJGNwaE1haW4kZUltYWdlRmxhZwUYY3RsMDAkY3BoTWFpbiRlSTAxMG9GbGFnBRxjdGwwMCRjcGhNYWluJGVPcmRlckRlc2NGbGFnBR9jdGwwMCRjcGhNYWluJGVNZXJnZUV4cHJlc3NGbGFnBQtjdGwwMCRNZW51Mg8PZAUs0JIg0L3QsNGH0LDQu9C%2BXNCe0L0t0LvQsNC50L0g0LrQsNGC0LDQu9C%2B0LNkBQtjdGwwMCRNZW51MQ8PZAUs0JIg0L3QsNGH0LDQu9C%2BXNCe0L0t0LvQsNC50L0g0LrQsNGC0LDQu9C%2B0LNkGGC5eVJkHoQE7Mg%2BBLPr%2BnPTGN4%3D&__EVENTVALIDATION=%2FwEWigMCrcaa1w0C3ceYrA8Cqt6r0gkCy8TxqQgC0v2jsAMC4v3Fig8CzfD7kgsCxq%2F77QMCt%2BqD9Q8Cv5eQ1gsCgM%2Fk8g8CrqabtAoC8amAngwCm6vhBALYxoTkAgK2yp7CCAKAz%2ByNDgKuppPLCwLxqYjhDQKbq%2Bn7AQLYxoybAwK2ypa9CQLtztC2CwLDp6%2FwDgKcqLTaCAL2qtXABAK1x7CgBgLby6qGDALtzrAfAsOnz9kFApyo1PMDAvaqtekPArXH0IkNAtvLyq8HAu3O3LcLAsOno%2FEOApyouNsIAvaq2cEEArXHvKEGAtvLpocMAq%2FP3LcLAoGmo%2FEOAt6puNsIAu3OpMMFAsOn2wUCnKjArwYC9qqhtQoCtcfE1QgC28ve8wICj4HmggwCoeiZxAkC%2FueC7g8ClOXj9AMC14iGlAECuYScsgsC1IOZzgMC%2BurmiAYCpeX9IgLP55y4DAKMivnYDgLihuP%2BBALY%2BISWBQL2kftQAqme4PoGAsOcgeAKAoDx5IAIAu79%2FqYCAs6V%2Fu0KAuD8gasPAr%2FzmoEJAtXx%2B5sFApacnvsHAviQhN0NAsiE9bsDAubtiv0GArnikVcC0%2BDwzQwCkI2VrQ4C%2FoGPiwQClJLh4AgCuvuepg0C5fSFjAsCj%2FbklgcCzJuB9gUCopeb0A8CmtGS6QYCtLjtrwMC67f2hQUCgbWXnwkCwtjy%2FwsCrNTo2QEClKbKbQK6z7WrBQLlwK6BAwKEiKaGBQLYwJuPCALGtqLzDALd9I%2F8DwLTpdqSBwLxga2xBALf6NL3AQKA58ndBwK17ojiCAK6gaKMBAK7gaKMBAK4gaKMBAK5gaKMBAK%2BgaKMBAK%2FgaKMBAK8gaKMBAKtgaKMBAKigaKMBAK6geKPBAK6ge6PBAK6geqPBAK6gdaPBAK6gdKPBAK6gd6PBAK6gdqPBAK6gcaPBAK6gYKMBAK6gY6MBAK7geKPBAK7ge6PBAK7geqPBAK7gdaPBAK7gdKPBAK7gd6PBAK7gdqPBAK7gcaPBAK7gYKMBAK7gY6MBAK4geKPBAK4ge6PBAK4geqPBAK4gdaPBAK4gdKPBAK4gd6PBAK4gdqPBAK4gcaPBAK4gYKMBAK4gY6MBAK5geKPBAK5ge6PBAK5geqPBAK5gdaPBAK5gdKPBAK5gd6PBAK5gdqPBAK5gcaPBAK5gYKMBAK5gY6MBAK%2BgeKPBAK%2Bge6PBAK%2BgeqPBAK%2BgdaPBAK%2BgdKPBAK%2Bgd6PBAK%2BgdqPBAK%2BgcaPBAK%2BgYKMBAK%2BgY6MBAK%2FgeKPBAK%2Fge6PBAK%2FgeqPBAK%2FgdaPBAK%2FgdKPBAK%2Fgd6PBAK%2FgdqPBAK%2FgcaPBAK%2FgYKMBAK%2FgY6MBAK8geKPBAK8ge6PBAK8geqPBAK8gdaPBAK8gdKPBAK8gd6PBAK8gdqPBAK8gcaPBAK8gYKMBAK8gY6MBAKtgeKPBAKtge6PBAKtgeqPBAKtgdaPBAKtgdKPBAKtgd6PBAKtgdqPBAKtgcaPBAKtgYKMBAKtgY6MBAKigeKPBAKige6PBAKigeqPBAKigdaPBAKigdKPBAKigd6PBAKigdqPBAKigcaPBAKigYKMBAKigY6MBAKcwIXYAwLx%2BaOtDQLq7sGGBwLPh%2B6bAQKgvYztDAKF0qrGBgL%2By8hbAtPg1qwKAuSKlvICAtmjtMcMApzAgdgDAvH5r60NAuruzYYHAs%2BH6psBAqC9iO0MAoXSlsYGAv7LtFsC0%2BDSrAoC5IqS8gIC2aOwxwwCnMCN2AMC8fmrrQ0C6u7JhgcCz4fWmwECoL307AwChdKSxgYC%2FsuwWwLT4N6sCgLkip7yAgLZo7zHDAKcwInYAwLx%2BZetDQLq7rWGBwLPh9KbAQKgvfDsDAKF0p7GBgL%2By7xbAtPg2qwKAuSKmvICAtmjuMcMApzA9dsDAvH5k60NAurusYYHAs%2BH3psBAqC9%2FOwMAoXSmsYGAv7LuFsC0%2BDGrAoC5IqG8gIC2aOkxwwCnMDx2wMClNHXmAEC9Jqy4AUC%2BeC4pwsCrYDYygoCy%2F7V3QUCvoDdxQkC6Nup9A0CsY%2Fj5QgCkMfiywMC5838hw8CxtDKygIClbGKzg0CraainwsCzdHEPgKI4vTkBAKW783aBAKEtsoXAtGe54cBAqLn9NEFAojUkeYBArzf2%2BgKApSjm5MHAvTM6eYKAr3hq%2BYLAvKxl90EAsiq%2FP8FAu%2FnklgCif77IwLr6Kr0BQKp5oaUDQL15tbQAwLQs7raDgL3tffiBgLzreD1BwK8wZrZDAKUg6HnDAK%2FgpP3AgK%2BgpP3AgK9gpP3AgK8gpP3AgK7gpP3AgK6gpP3AgK5gpP3AgKogpP3AgKngpP3AgK%2FgtP0AgK%2Fgt%2F0AgK%2Fgtv0AgK%2Fguf0AgK%2FguP0AgK%2Fgu%2F0AgK%2Fguv0AgK%2Fgvf0AgK%2FgrP3AgK%2Fgr%2F3AgK%2BgtP0AgK%2Bgt%2F0AgK%2Bgtv0AgK%2Bguf0AgK%2BguP0AgK%2Bgu%2F0AgK%2Bguv0AgK%2Bgvf0AgK%2BgrP3AgK%2Bgr%2F3AgK9gtP0AgK9gt%2F0AgK9gtv0AgK9guf0AgK9guP0AgK9gu%2F0AgK9guv0AgK9gvf0AgK9grP3AgK9gr%2F3AgK8gtP0AgK8gt%2F0AgK8gtv0AgK8guf0AgK8guP0AgK8gu%2F0AgK8guv0AgK8gvf0AgK8grP3AgK8gr%2F3AgK7gtP0AgK7gt%2F0AgK7gtv0AgK7guf0AgK7guP0AgK7gu%2F0AgK7guv0AgK7gvf0AgK7grP3AgK7gr%2F3AgK6gtP0AgK6gt%2F0AgK6gtv0AgK6guf0AgK6guP0AgK6gu%2F0AgK6guv0AgK6gvf0AgK6grP3AgK6gr%2F3AgK5gtP0AgK5gt%2F0AgK5gtv0AgK5guf0AgK5guP0AgK5gu%2F0AgK5guv0AgK5gvf0AgK5grP3AgK5gr%2F3AgKogtP0AgKogt%2F0AgKogtv0AgKoguf0AgKoguP0AgKogu%2F0AgKoguv0AgKogvf0AgKogrP3AgKogr%2F3AgKngtP0AgKngt%2F0AgKngtv0AgKnguf0AgKnguP0AgKngu%2F0AgKnguv0AgKngvf0AgKngrP3AgKngr%2F3AgKZw7SjBQLyl4aODwK%2Fl8jXCwKOi%2BHsDAL5ktKSCgKYiIjpC7O3vcT9MDfQBMqizEs1xk8nQfmh&eeF700x=&ctl00%24cphMain%24eF700xMode=%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0&eeF700z=&ctl00%24cphMain%24eF700zMode=%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE&eeF200a=&ctl00%24cphMain%24eF200aMode=%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0&eeF210d=&ctl00%24cphMain%24eF210dMode=%D0%9F%D0%BE%D0%BB%D0%B5&eeF210a=&ctl00%24cphMain%24eF210aMode=%D0%9F%D0%BE%D0%BB%D0%B5&eeF010a=978-5-9518-0362-7&ctl00%24cphMain%24eF010aMode=%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE+%D0%BF%D0%BE%D0%BB%D1%8F&eeF210c=&ctl00%24cphMain%24eF210cMode=%D0%9F%D0%BE%D0%BB%D0%B5&eeF9071=&ctl00%24cphMain%24eF9071Mode=%D0%9F%D0%BE%D0%BB%D0%B5&eeF225a=&ctl00%24cphMain%24eF225aMode=%D0%A1%D0%BB%D0%BE%D0%B2%D0%BE&eeType_info=&ctl00%24cphMain%24eType_infoMode=%D0%9F%D0%BE%D0%BB%D0%B5&eeF333=&ctl00%24cphMain%24eF333Mode=%D0%9F%D0%BE%D0%BB%D0%B5&eeF675a=&ctl00%24cphMain%24eF675aMode=%D0%9F%D0%BE%D0%BB%D0%B5&eeBbk=&ctl00%24cphMain%24eBbkMode=%D0%9F%D0%BE%D0%BB%D0%B5&eeAnnotation=&ctl00%24cphMain%24eAnnotationMode=%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE+%D1%81%D0%BB%D0%BE%D0%B2%D0%B0&eeI010o=&ctl00%24cphMain%24eI010oMode=%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE+%D0%BF%D0%BE%D0%BB%D1%8F&ctl00%24cphMain%24eStatusNo=&eeClient=&ctl00%24cphMain%24eClientMode=%D0%9F%D0%BE%D0%BB%D0%B5&eePublDateFrom=&eePublDateTo=&eeSaleDateFrom=&eeSaleDateTo=&ctl00%24cphMain%24eNews=&ctl00%24cphMain%24eOrderAttr=&ctl00%24cphMain%24ePageSize=10&ctl00%24cphMain%24btnDoSearch=%D0%92%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C+%D0%BF%D0%BE%D0%B8%D1%81%D0%BAHTTP/1.0 302 Moved Temporarily
+Content-Length: 141
+Date: Sat, 24 Mar 2012 14:35:28 GMT
+Location: /PublicationsView.aspx
+Content-Type: text/html; charset=utf-8
+Cache-Control: private
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.18)
+Connection: keep-alive
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="%2fPublicationsView.aspx">here</a>.</h2>
+</body></html>
+GET /PublicationsView.aspx HTTP/1.1
+Host: rbip.bookchamber.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://rbip.bookchamber.ru/SearchPublications.aspx
+Cookie: ASP.NET_SessionId=addchln5bnmgqpesvjupln45
+DNT: 1
+Connection: keep-alive
+
+HTTP/1.0 200 OK
+Content-Length: 53328
+Date: Sat, 24 Mar 2012 14:35:28 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.18)
+Connection: keep-alive
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Российская книжная палата: Книги в наличии и печати
+</title><link rel="stylesheet" href="StyleSheet.css" />
+    
+    <script language="javascript" type="text/javascript">
+        // <![[CDATA[
+
+        var tm;
+        
+        var tm1;
+        
+        var tm2;    
+        
+        var imgTimeOut=3000; 
+        
+        var imgTimeOut1=40;
+       
+        var imgTimeOut2=40; 
+        
+        var imgStepsCount=8;
+        
+        var leftImgPathDefault = '';
+               
+        var leftImgChangingFlag = 0;
+        
+        var maxLeftImgCount = 10;
+        
+        var leftImgNum = 0;
+ 
+        var leftImgCounter = 0;
+        
+        var leftImgSizeCounter1 = 0; 
+        
+        var leftImgSizeCounter2 = 0;
+        
+        var leftSideBarWidth = 0;          
+                            
+        //alert('Начало imgCounter='+imgCounter);                               
+
+        var leftImgCacheArr = new Array();
+        
+        var leftImgPathArr = new Array();
+        
+        var curLeftImgPath='';
+        
+        var curLeftImgI010o='';     
+ 
+        
+        var attrWin;        
+        var clientWin;   
+        var calendarWin; 
+        
+        var defaultPageFlag=0; 
+
+        var isSearchingFlag=0;
+                
+        
+        function RB_getElementById(id)
+        { 
+        
+            var el=window.document.getElementById(id);
+            
+            if (!el)
+            {
+            
+                if (window.document.all)
+                {
+            
+                    el=window.document.all.item(id);
+                
+                }
+            
+            }
+            
+            return el;
+        
+        }                     
+  
+        function RB_popupAttrDictionary(attrId)
+        {  
+                    
+ 
+                RB_closeAttrDictionary();
+ 
+                var dictHeight=0.7*window.screen.availHeight;
+                
+                var dictWidth=0.6*window.screen.availWidth;   
+                
+                var dictTop=0.1*window.screen.availHeight;
+                
+                var dictLeft=0.1*window.screen.availWidth;                               
+                
+                var options='width='+dictWidth+', height='+dictHeight+', top='+dictTop+', left='+dictLeft+', scrollbars=1, status=1';
+                              
+                attrWin = window.open('AttrDictionary.aspx?attrId='+attrId,'',options);
+                                                                                                                                                                                     
+                 
+        }
+        
+        function RB_popupClientDictionary(attrId)
+        {  
+        
+         
+                RB_closeClientDictionary(); 
+                
+                
+                var dictHeight=0.7*window.screen.availHeight;
+                
+                var dictWidth=0.6*window.screen.availWidth;   
+                
+                var dictTop=0.1*window.screen.availHeight;
+                
+                var dictLeft=0.1*window.screen.availWidth;                               
+                
+                var options='width='+dictWidth+', height='+dictHeight+', top='+dictTop+', left='+dictLeft+', scrollbars=1, status=1';
+                                                                    
+                clientWin = window.open('ClientDictionary.aspx?clientAttrId='+attrId,'',options);
+                                                                                                  
+                 
+        }  
+        
+        function RB_popupCalendar(attrId)
+        {  
+                    
+ 
+                RB_closeCalendar();
+ 
+                
+                calendarWin = window.open('Calendar.aspx?attrId='+attrId,'','width=500, height=400, top=30, left=30, scrollbars=1,status=1');
+                                                                                                                                                                      
+                 
+        }        
+        
+        function RB_closeAttrDictionary()
+        {  
+                    
+                if (attrWin)
+                {
+                    attrWin.close();
+                }
+                
+                             
+        }   
+        
+        function RB_closeClientDictionary()
+        {  
+                    
+                if (clientWin)
+                {
+                    clientWin.close();
+                }
+                
+                             
+        }   
+        
+        function RB_closeCalendar()
+        {  
+                    
+                if (calendarWin)
+                {
+                    calendarWin.close();
+                }
+                
+                             
+        }         
+        
+        function RB_closeDicts()
+        {
+        
+      
+            RB_closeAttrDictionary();
+            
+            RB_closeClientDictionary();
+            
+            RB_closeCalendar();            
+        
+        }             
+      
+       function RB_clearEdit(attrId)
+       {                
+                
+             var editor = RB_getElementById("ee" + attrId);
+             
+             if (editor)
+             {
+              
+                 editor.value = ""; 
+                 
+                 editor.focus;
+             
+             }             
+                 
+       } 
+       
+       function RB_changeMenu1Button(el, x)
+       {
+       
+            var g = el.getElementsByTagName('img');
+            
+            if (g)
+            {
+                    
+                if (x=="0")
+                {
+                   g[0].src='IMAGES/buttonMenu.gif';
+                }
+                else
+                {
+                   g[0].src='IMAGES/buttonMenu-h.gif';                
+                }
+                
+            
+            }
+       
+       }    
+       
+   function RB_changeMenu2Button(el, x)
+       {
+       
+            var g = el.getElementsByTagName('img');
+            
+            if (g)
+            {
+                    
+                if (x=="0")
+                {
+                   g[0].src='IMAGES/TreeButton.gif';
+                }
+                else
+                {
+                   g[0].src='IMAGES/TreeButton-h.gif';                
+                }
+                
+            
+            }
+       
+       }                                 
+
+      function RB_changeTreeButton(el,idx1,idx2,x)
+      {
+        
+            var row = el.parentNode; 
+            
+            var tds = row.getElementsByTagName('td');                                                 
+    
+            if (tds)
+            
+            {                                                                                 
+                var td1 = tds[idx1];
+                
+                if (td1)
+                {
+                
+                    var td2 = tds[idx2];
+                    
+                }
+                    
+            }                                                                                      
+          
+            var gg = td1.getElementsByTagName('img');
+            
+            if (gg)
+            {
+                       
+                var ggg = gg[0];
+                
+                if (ggg)
+                {
+                                      
+                    if (x=='1')
+                    {                       
+                        
+                        ggg.src='IMAGES/TreeButton-h.gif'; 
+                        
+                    
+                    }
+                    else
+                    {
+                         ggg.src='IMAGES/TreeButton.gif';
+                                              
+                                                 
+                    }
+                
+                }
+            
+            }   
+         
+         
+       }  
+       
+       
+       function RB_initTree0()
+       {
+            RB_initTreeEx('ctl00_TreeView1',1,2,1);       
+       }  
+       
+       function RB_initTree1()
+       {
+            RB_initTreeEx('ctl00_TreeView1n0Nodes',2,3,100);
+       }             
+
+
+       function RB_initTreeEx(id,idx1,idx2,nMax)
+       {
+       
+         
+            var tv = RB_getElementById(id);       
+                                          
+            if (tv)
+            {
+                       
+                var rows = tv.getElementsByTagName('tr');
+                
+                                                           
+                if (rows)
+                
+                {
+                
+                    var rowsCount = rows.length;
+                                   
+                             
+                    for (var i = 0; i < Math.min(rowsCount,nMax); i++)
+                    {
+                    
+                        var row = rows[i];
+                                     
+                    
+                        var tds = row.getElementsByTagName('td');
+                                                            
+                
+                        if (tds)
+                        
+                        {                                                                                 
+                                var td1 = tds[idx1];
+                                
+                                if (td1)
+                                {
+                                
+                                    var td2 = tds[idx2];
+                                                               
+                    
+                                    td1.onmouseover = function(){RB_changeTreeButton(this,idx1,idx2,1)};
+                                    
+                                    td2.onmouseover = function(){RB_changeTreeButton(this,idx1,idx2,1);TreeView_HoverNode(ctl00_TreeView1_Data,this)};
+                                                            
+                                    td1.onmouseout =  function(){RB_changeTreeButton(this,idx1,idx2,0)}; 
+                                    
+                                    td2.onmouseout = function(){RB_changeTreeButton(this,idx1,idx2,0);TreeView_UnhoverNode(this)};
+ 
+                                                                                     
+                                
+                                }                                                     
+                                                           
+                           
+                        }
+                
+                    }
+                
+                }
+            
+            }
+       
+       } 
+ 
+       
+       function RB_clearTimeout()
+       {
+           
+            if (tm)
+            {
+                window.clearTimeout(tm);
+                                
+            }
+          
+       
+       }
+       
+       function RB_clearTimeout1()
+       {
+           
+            if (tm1)
+            {
+                window.clearTimeout(tm1);
+                                
+            }
+          
+       
+       }   
+       
+      function RB_clearTimeout2()
+       {
+           
+            if (tm1)
+            {
+                window.clearTimeout(tm2);
+                                
+            }
+          
+       
+       }             
+           
+       function RB_setExpressFocus()
+       {
+       
+            var el=RB_getElementById('ctl00_eExpress');
+            
+            if (el)
+            {
+            
+                el.focus();
+            
+            }
+ 
+       
+       } 
+       
+       
+       function RB_setMainSize()
+       {
+       
+            
+            if (defaultPageFlag==1)
+            
+            {            
+       
+                var el=RB_getElementById('MainCell');
+                     
+                if (el)
+                {
+                
+                    var h=Math.round(0.94*screen.availHeight);
+                                 
+                    el.height=h; 
+                                  
+                
+                }
+     
+ 
+            }
+       
+       }
+       
+       function RB_saveLeftImgI010o()
+       {
+            var el = RB_getElementById("eeLeftImgI010o"); 
+            
+            if (el)
+            {
+                el.value=curLeftImgI010o;  
+            }        
+       }   
+       
+       function RB_readLeftImgI010o()
+       {
+            var el = RB_getElementById("eeLeftImgI010o"); 
+            
+            if (el)
+            {
+                curLeftImgI010o = el.value; 
+                
+                //alert('RB_readLeftImgI010o = '+ curLeftImgI010o);
+                 
+            }        
+       }     
+
+       function RB_syncLeftImgCounter()
+       {
+                                
+            if (curLeftImgI010o!='')
+            {
+                                                  
+                   for (var i=0;i<leftImgNum;i++)
+                   {                                                   
+                        
+                        if (leftImgPathArr[i])
+                        {
+                        
+                            if (leftImgPathArr[i].indexOf(curLeftImgI010o)>=0)
+                            {
+                            
+                                leftImgCounter=i;
+                                
+                                break;
+                            
+                            }
+                        
+                        }
+                       
+                    
+                    }                            
+                                    
+            
+            } 
+       
+       } 
+       
+       function RB_showPublicationCard()
+       {
+       
+            RB_clearLeftImgChanging();
+       
+            RB_clearTimeouts();
+                                
+            RB_saveLeftImgI010o();
+                                                                                                                                
+            if (curLeftImgI010o!='')
+            {                        
+                
+                var el=RB_getElementById('ctl00_btnShowPublicationCard');
+                
+                if (el)
+                {
+                
+                    el.click();
+                
+                }
+                                              
+  
+            }
+          
+       
+       }   
+
+ 
+       
+                     
+                                   
+       
+    //]]>   
+       
+    </script> 
+    
+    <script language="javascript" type="text/javascript">
+        // <![[CDATA[
+        
+              
+          
+        function RB_prepareLeftImgArr()
+        {
+        
+            if (defaultPageFlag==1)
+            {
+            
+                leftImgNum=0;
+                  
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                
+                {
+                
+                    leftImgPathDefault = img.src;
+       
+                    var el = RB_getElementById("eeLeftImgPathArrStr");
+                    
+                    if (el)
+                    {
+                    
+                        var v = el.value;              
+                                      
+                        if ((v)&&(v.length>0))
+                        {
+                        
+                            //alert('prepareImgCache v1='+v1);
+                                                                 
+                            eval(v);                             
+                              
+                            for (var i=0;i<maxLeftImgCount;i++)
+                            {
+                            
+                                if (leftImgPathArr[i])
+                                {
+                            
+                                    leftImgCacheArr[i]=new Image();
+                                    
+                                    leftImgCacheArr[i].src = leftImgPathArr[i];
+                                    
+                                    leftImgNum++;
+                                
+                                }
+                               
+                            
+                            }
+                        
+                        }
+                                                                              
+                    
+                    }
+                
+                }                 
+                
+                
+            }                
+         
+       } //конец RB_prepareLeftImgArr 
+       
+       
+       function RB_setLeftImgSize1()
+       {
+       
+            if (leftImgChangingFlag==1)
+            {
+       
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                {
+                
+                    if (img.src!=leftImgPathDefault)
+                    {
+                
+                        var newWidth=Math.round(leftSideBarWidth*((leftImgSizeCounter1+1)/imgStepsCount));
+                                 
+                        img.style.width = newWidth + "px";
+                    
+                    }
+                            
+                
+                }    
+                
+                leftImgSizeCounter1++;
+                
+                if (leftImgSizeCounter1>=imgStepsCount)
+                {
+                    leftImgSizeCounter1=0;                
+                    leftImgSizeCounter2=0; 
+                    
+                    RB_setLeftImgTimeout();
+                                                                
+                                           
+                } 
+                else
+                {
+                
+                    RB_setLeftImgTimeout1();
+                           
+                }
+                       
+            }
+                
+       }       
+       
+       
+       function RB_setLeftImgSize2()
+       {
+     
+     
+            if (leftImgChangingFlag==1)
+            {
+       
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                {
+                
+                    if (img.src!=leftImgPathDefault)
+                    {
+                
+                        var newWidth=Math.round(leftSideBarWidth*(1-leftImgSizeCounter2/imgStepsCount));
+                    
+                        img.style.width = newWidth + "px";                         
+                    
+                    }
+                
+                }    
+                
+                leftImgSizeCounter2++;
+                
+                if (leftImgSizeCounter2>=imgStepsCount)
+                {
+                    leftImgSizeCounter2=0;                             
+                    RB_setLeftImg();                         
+                } 
+                else
+                {
+                
+                    RB_setLeftImgTimeout2();
+                 
+                }
+             
+            }                    
+              
+       }       
+       
+       function RB_setLeftImg()
+       { 
+              
+            if (leftImgChangingFlag==1)
+            {                  
+                       
+                curLeftImgPath = leftImgPathArr[leftImgCounter];
+                
+                //alert('RB_setLeftImg leftImgCounter=' +leftImgCounter + ' curLeftImgPath=' + curLeftImgPath);
+                                       
+                if (curLeftImgPath)
+                {       
+     
+                    var i1=curLeftImgPath.indexOf('/');
+                    
+                    var i2=curLeftImgPath.indexOf('.');
+                    
+                    curLeftImgI010o = curLeftImgPath.slice(i1+1,i2);
+
+                    RB_saveLeftImgI010o();
+                                                                                                     
+                    var img = RB_getElementById("LeftImg");
+                    
+                    if (img)
+                    {
+                    
+                        if (leftSideBarWidth>0)
+                        {
+                    
+                            img.style.width = "5px";                        
+                       
+                            img.src = curLeftImgPath;                             
+                            
+                            leftImgCounter++;
+                            
+                            if (leftImgCounter>=leftImgNum)
+                            {            
+                                leftImgCounter=0;            
+                            }
+                            
+                            leftImgSizeCounter1=0;                           
+                            RB_setLeftImgTimeout1();
+                        
+                        }
+                        else
+                        {
+                                             
+                            img.src = curLeftImgPath;                             
+                            
+                            leftImgCounter++;
+                            
+                            if (leftImgCounter>=imgStepsCount)
+                            {            
+                                leftImgCounter=0;            
+                            }
+                                                           
+                            leftSideBarWidth=img.width; 
+                            
+                            //alert('leftSideBarWidth='+leftSideBarWidth);                                                                      
+                                                   
+                            leftImgSizeCounter2=0;                           
+                            RB_setLeftImgTimeout();                   
+                        
+                        }
+                    
+                    }
+                
+                }
+             
+            }        
+                          
+                
+       }  //конец RB_setLeftImg 
+       
+       
+       function RB_setLeftImgTimeout()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+      
+               tm2=window.setTimeout('RB_setLeftImgSize2()',  imgTimeOut);      
+           
+           }
+       }
+       
+       function RB_setLeftImgTimeout1()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+           
+               tm1=window.setTimeout('RB_setLeftImgSize1()',  imgTimeOut1);
+                    
+           }
+       }   
+       
+       function RB_setLeftImgTimeout2()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+           
+                tm2=window.setTimeout('RB_setLeftImgSize2()', imgTimeOut2);  
+                    
+           }
+       } 
+       
+       function RB_setLeftImgChanging()
+       {
+       
+            if (defaultPageFlag==1)
+            {
+       
+                leftImgChangingFlag = 1;
+            
+            }
+            else
+            {
+                leftImgChangingFlag = 0;           
+            }
+                        
+       
+       }  
+       
+       function RB_clearLeftImgChanging()
+       {
+       
+            leftImgChangingFlag = 0;
+       
+       } 
+       
+       function RB_clearTimeouts()
+       {
+       
+            if (defaultPageFlag==1)
+            {
+       
+                RB_clearTimeout2();
+                RB_clearTimeout1();            
+                RB_clearTimeout();            
+            
+            }
+       
+       }  
+              
+       function RB_startDefaultPage()
+       {
+       
+             //alert('flag='+defaultPageFlag);   
+              
+             if (defaultPageFlag==1)
+             {   
+           
+                 RB_prepareLeftImgArr();
+                 
+                 RB_readLeftImgI010o();
+                 
+                 RB_syncLeftImgCounter();
+                 
+                 RB_setLeftImgChanging();          
+                                  
+                 RB_setLeftImg();
+                 
+                 RB_setExpressFocus()             
+             
+             }
+
+       
+       } 
+       
+       function RB_stopDefaultPage()
+       {
+             if (defaultPageFlag==1)
+             {             
+                RB_clearLeftImgChanging();
+                RB_clearTimeouts();
+                RB_saveLeftImgI010o();            
+             }      
+       } 
+       
+       function RB_changeDoSearchButton(el,op)
+       {
+       
+           if (isSearchingFlag==0)
+           {  
+       
+                if (op==1)
+                {
+                    el.src='IMAGES/SmallSearch-h.gif';
+                }
+                else if (op==2)
+                {
+                   el.src='IMAGES/SmallSearch-d.gif';
+                   
+                 
+                }
+                else if (op==3)
+                {
+                
+                   el.src='IMAGES/SmallSearch-p.gif';
+                   
+                   //isSearchingFlag=1;
+                   
+                }
+                
+            }                                    
+                                                   
+            return true;          
+          
+       }                   
+                                                          
+        
+    //]]>   
+       
+    </script>            
+    
+     
+<style type="text/css">
+	.ctl00_Menu1_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_Menu1_1 { text-decoration:none; }
+	.ctl00_Menu1_2 { width:100%; }
+	.ctl00_Menu1_3 { padding:0px 0px 0px 0px; }
+	.ctl00_Menu1_4 { border-style:none; }
+	.ctl00_Menu1_5 {  }
+	.ctl00_Menu1_6 { border-style:none; }
+	.ctl00_Menu1_7 {  }
+	.ctl00_Menu2_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_Menu2_1 { text-decoration:none; }
+	.ctl00_Menu2_2 { width:100%; }
+	.ctl00_Menu2_3 { border-style:none; }
+	.ctl00_Menu2_4 {  }
+	.ctl00_Menu2_5 { padding:0px 0px 0px 0px; }
+	.ctl00_Menu2_6 { border-style:none; }
+	.ctl00_Menu2_7 {  }
+	.ctl00_Menu2_8 { border-style:none; }
+	.ctl00_Menu2_9 {  }
+
+</style></head>
+<body onload="RB_startDefaultPage()" onunload="RB_stopDefaultPage();RB_closeDicts()">
+    <form name="aspnetForm" method="post" action="PublicationsView.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=K8Z-1blS2YDnbdPkWvAsLQ2&amp;t=633527929956801634" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=gi_JsZ7G4PBcii9H5DYteg2&amp;t=633527929956801634" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="oHEY1U0qNJvE4GD7j5WLYvNGNDH/1Jps1bhKzdAQlFw9Xvth3I3UlU44cooi86oeXYk15+624kF6rtJHUCRsdZP/vAzkom/W3JaPIxiZUXt92XTojyfRWmrVnPYxx3yyeUpkpXoaQoZpb1UAjl5oFA==" />
+</div>
+    <div>
+    
+        <table class="MainTable" >
+        
+        <tr>
+        
+        <td class="MainCellTd">
+    
+        <table class="MainFormTable">
+        
+            <tr>
+                <td class="TopBarTd" colspan="3">
+                    <img id="ctl00_TopBarImg" src="Images/title.gif" style="border-width:0px;" />
+                </td>        
+            </tr>
+                  
+            <tr>
+            
+                <td class="Menu1BarTd" colspan="3">
+                
+                    <table class="Menu1Bar1Table" width="100%">
+                    
+                    <tr>
+                                        
+                    <td align="left" valign="bottom" class="Menu1Bar1Td">
+                    
+                    <a href="#ctl00_Menu1_SkipLink"><img alt="Проход по ссылкам навигации" src="/WebResource.axd?d=gam73ZOu9JE2AF6YSkFI8Q2&amp;t=633527929956801634" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_Menu1" class="Menu1BarCtrl ctl00_Menu1_3 ctl00_Menu1_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n0"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          В начало
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_Menu1_3">
+			<tr>
+				<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n1"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Он-лайн каталог')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Он-лайн каталог
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n2"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Поставщики')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Поставщики
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n3"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\О сайте')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          О сайте
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n4"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\О проекте')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          О проекте
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n5"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Контактная информация')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Контактная информация
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n6"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\На главную РКП')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          На главную РКП
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Menu1_SkipLink"></a> 
+                    
+                   </td>                                        
+                   </tr>                                       
+                   </table>                    
+                                   
+                </td>
+                
+                 
+            </tr>
+         
+                                     
+            <tr>
+            
+                
+            
+                <td  class="ContentBarTd">
+                    
+
+    <table class="PublicationsViewTable">
+
+    <tr>
+    <td class="PublicationsViewCaptionTd">
+    
+        <span id="ctl00_cphMain_lblPublicationsViewCaption">Результаты поиска</span>
+    </td>
+    
+    </tr>
+
+    <tr>
+
+    <td class="PublicationsViewWorkTd">
+
+    <div>
+	<table class="PublicationsGridViewCtrl" cellspacing="0" border="0" id="ctl00_cphMain_grvPublications" style="border-collapse:collapse;">
+		<tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$grvPublications','Select$0')">Подробно...</a></td><td>
+                  <input type="image" name="ctl00$cphMain$grvPublications$ctl02$btnShowPublication" id="ctl00_cphMain_grvPublications_ctl02_btnShowPublication" src="Images/noImageSmall.gif" style="border-width:0px;" />            
+                  <ItemStyle CssClass="DetailsSelectImg" />
+               </td><td>
+ 
+                    <b>Шмидт Д. </b> <b>Программирование сетевых приложений на C++. Том 1</b>: Бином-Пресс, 2011. - 304 с. - ISBN <span class="FoundTextFrag">978-5-9518-0362-7</span>                  
+                                     
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$grvPublications','Select$1')">Подробно...</a></td><td>
+                  <input type="image" name="ctl00$cphMain$grvPublications$ctl03$btnShowPublication" id="ctl00_cphMain_grvPublications_ctl03_btnShowPublication" src="Images/noImageSmall.gif" style="border-width:0px;" />            
+                  <ItemStyle CssClass="DetailsSelectImg" />
+               </td><td>
+ 
+                    <b>Шмидт Д., Хьюстон С. </b> <b>Программирование сетевых приложений на С++: пер. с англ. Т.1. Т:1</b> - М.: Бином, 2009. - 302 с. - ISBN <span class="FoundTextFrag">978-5-9518-0362-7</span>                  
+                                     
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$grvPublications','Select$2')">Подробно...</a></td><td>
+                  <input type="image" name="ctl00$cphMain$grvPublications$ctl04$btnShowPublication" id="ctl00_cphMain_grvPublications_ctl04_btnShowPublication" src="Images/noImageSmall.gif" style="border-width:0px;" />            
+                  <ItemStyle CssClass="DetailsSelectImg" />
+               </td><td>
+ 
+                    <b>Шмидт Д.С., Хьюстон С.Д. </b> <b>Программирование сетевых приложений на С++.Т. 1. Программирование сетевых приложений на С++ / Д.С. Шмидт, С.Д. Хьюстон; Пер. с англ. А.П. Караваев. - ил. - (С++ In-Depth).</b>: Бином-Пресс. - 304 с. - ISBN <span class="FoundTextFrag">978-5-9518-0362-7</span>                  
+                                     
+                 </td>
+		</tr>
+	</table>
+</div>
+    
+    </td>    
+    
+    </tr>
+    
+    <tr>
+    
+    <td>
+    
+      <table>
+  
+      <tr>
+      
+      <td class="RecsCountTitleTd">
+          &nbsp;<span id="ctl00_cphMain_lblRecsCountTitle">Выбрано записей:</span>
+ 
+      </td>     
+      
+      <td class="RecsCountValueTd">
+          &nbsp;<span id="ctl00_cphMain_lblRecsCountValue">3</span>
+ 
+      </td>  
+        
+      <td class="RecsCountTitleTd">
+          &nbsp;<span id="ctl00_cphMain_lblSearchDurationTitle">(время поиска:</span>
+ 
+      </td>     
+      
+      <td class="RecsCountValueTd">
+          &nbsp;<span id="ctl00_cphMain_lblSearchDurationValue">00:00:00.0150000)</span>
+ 
+      </td>   
+      
+      <td class="RecsCountTitleTd">
+          &nbsp;
+ 
+      </td>     
+      
+      <td class="RecsCountValueTd">
+          &nbsp;
+ 
+      </td>   
+      
+      <td class="RecsCountTitleTd">
+          &nbsp;
+ 
+      </td>     
+      
+      <td class="RecsCountValueTd">
+          &nbsp;
+               
+      </td>  
+      
+      <td width=50%>
+      
+      </td>        
+        
+      <td class="ActualDateTimeTitleTd">
+          &nbsp;<span id="ctl00_cphMain_lblActualDateTimeTitle">Актуальность БД:</span>
+ 
+      </td>
+
+      <td  class="ActualDateTimeValueTd">
+      
+         <table cellspacing="0" border="0" id="ctl00_cphMain_FormView1" style="border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+                   <span id="ctl00_cphMain_FormView1_lblActualDateTimeValue">23.03.2012&nbsp;16:17:51</span><br />
+              </td>
+	</tr>
+</table>      
+      
+      
+     </td>
+     
+     </tr>     
+     
+     </table>      
+
+     </td> 
+                                                       
+     </tr>             
+    
+    
+    </table>
+    
+    
+    
+    
+        
+        
+  <script language="javascript" type="text/javascript">
+
+    //<!CDATA[ 
+ 
+   
+
+        defaultPageFlag = 0;
+       
+         
+
+    //]]>  
+    
+    </script>            
+        
+        
+        
+
+                </td>
+                                
+            </tr>
+                
+            
+            <tr>
+                        
+                <td class="BottomBarTd">
+                
+                <table class="BottomBarTable">
+                <tr>
+                
+                <td>
+                </td>
+                
+                <td  class="Menu2BarTd">
+                
+                <a href="#ctl00_Menu2_SkipLink"><img alt="Проход по ссылкам навигации" src="/WebResource.axd?d=gam73ZOu9JE2AF6YSkFI8Q2&amp;t=633527929956801634" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_Menu2" class="Menu2BarCtrl ctl00_Menu2_5 ctl00_Menu2_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n0"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          В начало
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_Menu2_5">
+			<tr>
+				<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n1"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало\\Он-лайн каталог')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Он-лайн каталог
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n2"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало\\Поставщики')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Поставщики
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Menu2_SkipLink"></a>
+                                 
+                </td>
+                <td>
+                </td>
+                </tr>                
+                <tr>
+               
+                <td  class="CopyRightTd" colspan="3">
+                  ©&nbsp;Российская&nbsp;книжная&nbsp;палата,&nbsp;1995-2012                
+                </td>
+                </tr>
+                </table>
+                 
+                </td>
+                
+                 
+            </tr>
+            
+        </table>
+        
+        
+        </td>        
+        </tr>          
+        </table>        
+  
+               
+    </div>
+        
+        &nbsp;&nbsp;
+                
+        <div>
+                                  
+        
+                   
+        </div>
+        
+        <a href="Web2.sitemap"></a>         
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_Menu1_Data = new Object();
+ctl00_Menu1_Data.disappearAfter = 0;
+ctl00_Menu1_Data.horizontalOffset = 0;
+ctl00_Menu1_Data.verticalOffset = 0;
+ctl00_Menu1_Data.staticHoverClass = 'ctl00_Menu1_7 Menu1BarHoverCtrl';
+ctl00_Menu1_Data.staticHoverHyperLinkClass = 'ctl00_Menu1_6 Menu1BarHoverCtrl';
+var ctl00_Menu2_Data = new Object();
+ctl00_Menu2_Data.disappearAfter = 0;
+ctl00_Menu2_Data.horizontalOffset = 0;
+ctl00_Menu2_Data.verticalOffset = 0;
+ctl00_Menu2_Data.staticHoverClass = 'ctl00_Menu2_9 Menu2BarHoverCtrl';
+ctl00_Menu2_Data.staticHoverHyperLinkClass = 'ctl00_Menu2_8 Menu2BarHoverCtrl';
+//]]>
+</script>
+</form>  
+    
+    <script language="javascript" type="text/javascript">
+    //<!CDATA[ 
+ 
+   
+        RB_initTree0();
+        RB_initTree1(); 
+        
+        RB_setMainSize();        
+         
+
+    //]]>
+    
+    </script>    
+    
+</body>
+</html>
+POST /PublicationsView.aspx HTTP/1.1
+Host: rbip.bookchamber.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://rbip.bookchamber.ru/PublicationsView.aspx
+Cookie: ASP.NET_SessionId=addchln5bnmgqpesvjupln45
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 5619
+
+__LASTFOCUS=&__EVENTTARGET=ctl00%24cphMain%24grvPublications&__EVENTARGUMENT=Select%241&__VIEWSTATE=naJarCBcNYQX%2BP%2B8mEjDcNFAFberVppYSELq93j7S4%2FbwrnWnD%2B75r38bNtWSqKABjHEAgnlX%2F4dSKx5hNX9jU4U1Dmic3byUJBowxDaa7sMM31j4oi%2BralcouxrTRxWfShrXhOct7tzjRLeWxHdwj5rFfyHnEGD4ALk1cWAn3eAM%2BBi4W5NMyPyR8H8AFTruWUDqwKP%2BWRdufTQnAtL3HQQR%2FLFmav%2FYGcIWwquXNj7eiUe2q%2B6hyqbiWsyIgAQfwpZNSOkelTHoPpoP1%2FlxI8D%2B0TWDxhKB0CKZzmCu2vEhLrILCHmTRgIAWWtV6Lrn4wNFlnWjgkvkobHQAduPFEi%2Fr69MqZ1yIMwA8a0ppa7o0GCgqp5085Cm7AXU10j7UIk5NjcAvKocrDJvcXErN69VihMRDv6fizAFBAPqL5Zp3Ke5rqNlFmcIuqZuU6ZI915qgCWqRdv1gSHLpGfWvLMz1sErRlsUDWaBj6hV0ztt18sHGb1C5Q7p5khvfGwIe4PrZjWXpSnn1qz%2BUkNj8wiCD6ki3P1pMHWuSLGuIro%2FzO%2BtLsitWh2LKfxjiNeaW7oJFG94PZLvRIpcFtsYnVXMQG8nP0DlAAbXH0CVubPMay7VuajLLtOItNer7uQ22InEhP5H7gFMNkP2p47uDI8zeOS7YyDoU%2FNnt8j3w0PpkgfUkyCeVe8I11xlOfNDkjoUy9vQoLfS6073b%2BmrT0y0KdEEDVVrI5Ta%2F85VTju9lLycKGIgq0m8IcxeH3wEKtH5olOphaLaR1wYYwlnEDTJpJnGa2X6kkKpFEJ7s0wr5C%2F1xMu5ebZIoo1qZ9r%2FEJUXIyncJWwrP4OLjiGXTnYXFOmiuS05ycrWy%2FDjS9Tc6cXyHKO3Ky9kO5B%2FaSOxsMKPnf%2B4jAjGKvecC8sT36UOyYb9bKRPwqGEJrhKHjDH%2Fhg4zofWyziBHk%2B11c%2FXGM%2BA9nW5c%2FBOULT0uah0z3XPzX3J7KA4LHDMzpxwPrZK%2BG2xRBP7i8RWohiYPhLKOtojZ%2Fv1BvMimSAIrmmj%2FCPH3v94pAPVpohna3AIKXjtv6gbDs4x0wl%2BIhYtU4oSteuk9vZGPMp3QhODU8LKjaaVdSdHJlcn7DjIU4NQK0p425zUqhVpxaI79%2F6Y4t1CulwAKhwaZprOQXUpA8FLQx1jyEg2Fhzh9pIKV8%2BpgJZammT9KqcEoLM2IAPWp8ybhzIY1VP%2BCbCq8eHJo8ZFCW7ILaWzGO5xFWjCCHs18N8HyxpSKiM%2FfzmJGA%2ByC2C%2Bihtq7CiLT%2Fc4J8wDhr%2F9lly10B9V64uMi1LIaLnqKv6EwEMpUuze5tAynI8zEZor3xApH68E8Ic3PPPRkkIKkHBmHCO2rjlp3VM%2Br8ZzyJmu5GRH6o70S%2BU%2B9c2kv3vX1%2BwOCLIhvQlLesAUfU6VO%2FSP72FkiO9ObDp2CbyolLvT7HdMH27glIfTC%2FN%2FSs1FVkRUHROuCx2SXfnVix9uGDApytDSBlhZuhvAUwowHL%2BD1%2FbRkn%2FbxQGrNTnj4qld7Eo4ZjxF%2BtzJzYzKGA%2BmbnJg1%2B0JMJZKtcAU7%2BzO4gFn95qzTi0pnz29rL6s0QZO0J98ngCkqoZ%2FtK9N2xzhy%2FoMTLDG5pg3FWZ57g0FlHblzjgAEnclK7533UvMVOXEitBLa%2BWIladOYFWIDEr%2Fp9uXNrUMR2uZX%2FYlZpVfqwY4q2tFH4R1FXOxzExPpwtyhloToin5P3vgjLAmBkIK6lnygLgUW7l2RjgOG0uLRXpKfUORjtpaapoeKTGxn%2BAs47Bf8xeV1xpZq6mhwRR7RHSG83YOxKX359LDN%2BzYidjqscDOcd2o3BcCO%2FV%2FaRjh%2FJ%2FvjIOMvfXnR845mChrWeTzXzig%2FhSeSg%2BqweTr1LyFTpraq0aLJG5s%2B%2FLYCHGm4vkgN4jXc4Jd%2BIdxve3Vm%2FEPaHt3GjUkRR9KJtpvSBEq6BsxUSxuGv4wF0Zs2WTbfZ%2FAZ0lnVImj3Zp8QOSjEeBPk48qvz%2F7%2B3ukrkRZ3%2F2Pz5v9FJrcNrCbnHLmmw7aFqnHVsu5L7UY1FZwCHM4%2BbwBMzibnqKzHoBqvtXsFa1mGYutQz4GOZZUBOKuANGpjx0DjgCR3ZVegO2%2F2WdnL1XUWROa0v73vnuP7kUmA2ApJNcVeoAQEmkuw9eOGWecREST4B1Lv8JgrDV3oybyQbYA6QQZ%2BTOvuyNYVxzQppDrCp2uFNn2GTQyMra7WubRyxWIDjPLkb6JSfF9rVlciVRDu3Oca79INfkopettU4Fw37M%2FwrsEy9V2hpSLfevGbD3TL7KUEnO2ZygSbyOVvPtX4ZyTmWEmVpxsJ7ZWgGcfja%2FlUMYcM8CS5Uv2FiDxxVRr%2F0VvMtcR3PA1QDk%2FD1PiW6RzxbiNY0YT5rE6wIWHn4aOpvzIyQ06JVgFz3FEa1ZlVOhWLa0E7WuCu1wLDae205lV7sckMMm9tsLI1ZirGSSAtDZT4k%2B%2BS3fyIEU61qCfCC%2FDHUcHm04eq0ZHi8WHPIUJO5CtnrBFNjA8dfBRBHsx1llgk5RH48nkUVAxHscs8%2FfVze8yWvoulvdoI7WlIWIvAfpwVwFNuoCxbmrtqZa90C%2FgAWGLinubzXy%2BA8un%2BwewW6JGfnBNHhupW3tXBUCWk9%2Fctrziza8yKqF%2FAUy9OSOY2QNOJzlQ9zZwexhPgVlpdlwTKmQayysyd7CtzKVOiOArbWIYVTPDvC0FzEtUGh76WCwLnx7T3DmmpDBnYz2E4g8Y2YJsUbmkuEC9iKv49wOQBdEiyJnH1caW%2BICRYLwo0d1xKERXKsh0w0Fw4yYVC9UsmiLdVp4NRTLZrPoYCaMIXuO3H8ztNlIsDoGt5tkTUCTYnUBhitYg8AKIkuGMmmVB4bcUy%2F3NGJCgr6rsXlKtBz73a7r4lozAqhpcZQ2ALVVMmODdH63DFlsl6ccZN1VPJuag2KPxcn7aKam%2BtJtMXp1ppJbOVNRHnSpUXbRu%2FrIIZRzH69Nfeic6htWjTfhSQEtuFdNNQmWJ5%2BoPWliyEaMvmAcfpkm9ybGbfp3OXlIdTcII6U2G4uNVbw4eb2S7rYg5z%2FLBEXQLglvo2vzTWM9%2BJXjS5gCGOPEf3oTN6J1Sl1kbbXebrg9Eo69yLS0FUbeipTO%2BiEErnB0WjfPZiy5IovlEDVCnpv9SQtxRmZ%2FDQmg8GOEmJ2np%2FpN5rld0fRZb2jdxm9W2Nkh4pZx8813uFxcMrg2yJ44LMktxpElzMxX4OMRvSSHucGB2YBvq10s%2FRJEW59H5kvZGZivSLBlEAZYClCmGOye%2FUClkCtVzLoXUvbA%2BHzqZ6mHYd8g9GnE09RXDgCeFqNJaQZqXa4%2BR1%2BlWhsguefb%2FXjDIXPexXvyQC44IpHmf6ub510bisSdnYKE8fnaV%2BAkCxhn3pz6D3dSJcB4pxA2UY33hdN24e52HwIv5fEMy0%2FL5KIHFgBDugJVa4N7PL2I%2FYtEyDl1KewR6kFKARxSJOg15MXgBQdsqiDhfPyf%2FqcX9gOgB0e0V%2BJm4GhLjWO59tKmIz33efXxSsMpQPOX14nfXmI2k8WOVkyc%2B%2BsZ1L9FA2f0lHU5sHTnt%2BBfu1xHnBeLS8V26csYKwyhhk6yJUTDHA45FJdIKUwYg7J009BkvZCkr28hx4SXpwNRqtl322NyHX%2BE17Fpeo1POjJoWLKc0j0CGdDSAmtSFoL9GyNYXnAqEdj1sU6WQVKZR%2BYOz34OYLCZu2r8tUHz9dLIW1qF9YgPoyTwSLCMPBwCDXyS6To532254GvVeAI88bT4Atnj8h2%2FhqqH8Qvs6m6YsHHWLZ8wnH%2BeFIMZg06RZy9KGl%2Bqq9TmTMLLJPahkpY9psjkNOPxLEFfL%2B9Aw4bQPFCADV2SuuJpNwrVLmeKCxlTPTkQHMyH6HhidZQAq3usYL%2FI4aiuRxqmOC9oTlgKmo5nIjvGa3zYYfCcD%2B4f%2Bie8F7OFu1otF%2Bl4zFKUMwJ5tQZkvJzTbD4dj5YeGyeXW4uupSWqT4oINNTo91AjUn9f%2F3YET99yQrDFlTBUirX55X%2BPZ%2BP2XnhdvRKij%2FzaD6BNsb0gbMUDEH5boigQhfKIUbu9yC9s60UZHbtdGWjHKwE8UZUfBb4ct7e3qDaoDdzoNdhEz74tzLZfF%2BXmxwI9I2kwW0CHWacfKwRWHkEO1NPB7K5R8XGDs2LagzZf4UZhi11OmtPY7p5I7GqrcDUiZjZ3C295%2FddX7aOT%2FiNWDu%2BlLMVyfIMfXN5jYBMiJWBZdi67evn0syYjkkzgHyCsTwWTLek%2BP1Q9E3jsADjnqo2aSSLmqlUgEzOvXwL2ZX1BB5VFmYpTRxdYWCf0SdNe5cUHvGxQVFql9RNSLDtT2mwFDWd7DGmN9K1rOobuGKp9Kr8opwg60LtxV2bZV8MwUWrstLZIaVd4u63WdTIcNE3dqzYXMXlyvgJd8g9ktcH8gnU8nFZ9MJtQTmbFIfqLTT4ojz2TwGiFP%2FGHcxNHrOjrzmfAKcIMPnYfAja77WLUO4jd6NB0Z987hkaXUMXFUNdxlDBErI%2B3isiQRYmoAlF1GFMdMS2AucZe6qAb6MIr5m6r3UTJ6el83fw485gvQagsDZ%2B0iRBpJYBTqxZquJYoLY5treWl%2FhraO2ihWSUcmkb4fEH%2FV5rAJgw6JYqf88FcdvzFKtjlNAxJJsC0EpDEwgNsa6ys0qofOSf2EftfphSHckHVB6RYnS3LzXpqB6ACYBxgIxAb6oSCG%2BptOPexsHb2JDF50tpLd3paitwInISBoqgGt%2FVwS431V%2FvYFnD2X5IcPp7cDAGULtYYIpbn%2Fw6Ltmef7ZrH1q93GW7tviEpDWP3jGShF8kCjg95MX7eZmMsV4ZCusL5q43HaORCNQ2SsIyVUezlfbylyCqKmt9w0O9agrAsE3mMdSshrgWmpdgn1LTsF3Fm31QGGnGWl%2F7YhEIiETLJDFcadm71nQ20mkI5T1oh%2BSKUg0B9hPaujVN631FDjw%3D%3D&__VIEWSTATEENCRYPTED=&__EVENTVALIDATION=oHEY1U0qNJvE4GD7j5WLYvNGNDH%2F1Jps1bhKzdAQlFw9Xvth3I3UlU44cooi86oeXYk15%2B624kF6rtJHUCRsdZP%2FvAzkom%2FW3JaPIxiZUXt92XTojyfRWmrVnPYxx3yyeUpkpXoaQoZpb1UAjl5oFA%3D%3DHTTP/1.0 302 Moved Temporarily
+Content-Length: 163
+Date: Sat, 24 Mar 2012 14:35:34 GMT
+Location: /PublicationCard.aspx?product_no=1043619
+Content-Type: text/html; charset=utf-8
+Cache-Control: private
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.18)
+Connection: keep-alive
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="%2fPublicationCard.aspx%3fproduct_no%3d1043619">here</a>.</h2>
+</body></html>
+GET /PublicationCard.aspx?product_no=1043619 HTTP/1.1
+Host: rbip.bookchamber.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://rbip.bookchamber.ru/PublicationsView.aspx
+Cookie: ASP.NET_SessionId=addchln5bnmgqpesvjupln45
+DNT: 1
+Connection: keep-alive
+
+HTTP/1.0 200 OK
+Content-Length: 74251
+Date: Sat, 24 Mar 2012 14:35:34 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private
+Server: Microsoft-IIS/7.0
+X-AspNet-Version: 2.0.50727
+X-Powered-By: ASP.NET
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.18)
+Connection: keep-alive
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Российская книжная палата: Книги в наличии и печати
+</title><link rel="stylesheet" href="StyleSheet.css" />
+    
+    <script language="javascript" type="text/javascript">
+        // <![[CDATA[
+
+        var tm;
+        
+        var tm1;
+        
+        var tm2;    
+        
+        var imgTimeOut=3000; 
+        
+        var imgTimeOut1=40;
+       
+        var imgTimeOut2=40; 
+        
+        var imgStepsCount=8;
+        
+        var leftImgPathDefault = '';
+               
+        var leftImgChangingFlag = 0;
+        
+        var maxLeftImgCount = 10;
+        
+        var leftImgNum = 0;
+ 
+        var leftImgCounter = 0;
+        
+        var leftImgSizeCounter1 = 0; 
+        
+        var leftImgSizeCounter2 = 0;
+        
+        var leftSideBarWidth = 0;          
+                            
+        //alert('Начало imgCounter='+imgCounter);                               
+
+        var leftImgCacheArr = new Array();
+        
+        var leftImgPathArr = new Array();
+        
+        var curLeftImgPath='';
+        
+        var curLeftImgI010o='';     
+ 
+        
+        var attrWin;        
+        var clientWin;   
+        var calendarWin; 
+        
+        var defaultPageFlag=0; 
+
+        var isSearchingFlag=0;
+                
+        
+        function RB_getElementById(id)
+        { 
+        
+            var el=window.document.getElementById(id);
+            
+            if (!el)
+            {
+            
+                if (window.document.all)
+                {
+            
+                    el=window.document.all.item(id);
+                
+                }
+            
+            }
+            
+            return el;
+        
+        }                     
+  
+        function RB_popupAttrDictionary(attrId)
+        {  
+                    
+ 
+                RB_closeAttrDictionary();
+ 
+                var dictHeight=0.7*window.screen.availHeight;
+                
+                var dictWidth=0.6*window.screen.availWidth;   
+                
+                var dictTop=0.1*window.screen.availHeight;
+                
+                var dictLeft=0.1*window.screen.availWidth;                               
+                
+                var options='width='+dictWidth+', height='+dictHeight+', top='+dictTop+', left='+dictLeft+', scrollbars=1, status=1';
+                              
+                attrWin = window.open('AttrDictionary.aspx?attrId='+attrId,'',options);
+                                                                                                                                                                                     
+                 
+        }
+        
+        function RB_popupClientDictionary(attrId)
+        {  
+        
+         
+                RB_closeClientDictionary(); 
+                
+                
+                var dictHeight=0.7*window.screen.availHeight;
+                
+                var dictWidth=0.6*window.screen.availWidth;   
+                
+                var dictTop=0.1*window.screen.availHeight;
+                
+                var dictLeft=0.1*window.screen.availWidth;                               
+                
+                var options='width='+dictWidth+', height='+dictHeight+', top='+dictTop+', left='+dictLeft+', scrollbars=1, status=1';
+                                                                    
+                clientWin = window.open('ClientDictionary.aspx?clientAttrId='+attrId,'',options);
+                                                                                                  
+                 
+        }  
+        
+        function RB_popupCalendar(attrId)
+        {  
+                    
+ 
+                RB_closeCalendar();
+ 
+                
+                calendarWin = window.open('Calendar.aspx?attrId='+attrId,'','width=500, height=400, top=30, left=30, scrollbars=1,status=1');
+                                                                                                                                                                      
+                 
+        }        
+        
+        function RB_closeAttrDictionary()
+        {  
+                    
+                if (attrWin)
+                {
+                    attrWin.close();
+                }
+                
+                             
+        }   
+        
+        function RB_closeClientDictionary()
+        {  
+                    
+                if (clientWin)
+                {
+                    clientWin.close();
+                }
+                
+                             
+        }   
+        
+        function RB_closeCalendar()
+        {  
+                    
+                if (calendarWin)
+                {
+                    calendarWin.close();
+                }
+                
+                             
+        }         
+        
+        function RB_closeDicts()
+        {
+        
+      
+            RB_closeAttrDictionary();
+            
+            RB_closeClientDictionary();
+            
+            RB_closeCalendar();            
+        
+        }             
+      
+       function RB_clearEdit(attrId)
+       {                
+                
+             var editor = RB_getElementById("ee" + attrId);
+             
+             if (editor)
+             {
+              
+                 editor.value = ""; 
+                 
+                 editor.focus;
+             
+             }             
+                 
+       } 
+       
+       function RB_changeMenu1Button(el, x)
+       {
+       
+            var g = el.getElementsByTagName('img');
+            
+            if (g)
+            {
+                    
+                if (x=="0")
+                {
+                   g[0].src='IMAGES/buttonMenu.gif';
+                }
+                else
+                {
+                   g[0].src='IMAGES/buttonMenu-h.gif';                
+                }
+                
+            
+            }
+       
+       }    
+       
+   function RB_changeMenu2Button(el, x)
+       {
+       
+            var g = el.getElementsByTagName('img');
+            
+            if (g)
+            {
+                    
+                if (x=="0")
+                {
+                   g[0].src='IMAGES/TreeButton.gif';
+                }
+                else
+                {
+                   g[0].src='IMAGES/TreeButton-h.gif';                
+                }
+                
+            
+            }
+       
+       }                                 
+
+      function RB_changeTreeButton(el,idx1,idx2,x)
+      {
+        
+            var row = el.parentNode; 
+            
+            var tds = row.getElementsByTagName('td');                                                 
+    
+            if (tds)
+            
+            {                                                                                 
+                var td1 = tds[idx1];
+                
+                if (td1)
+                {
+                
+                    var td2 = tds[idx2];
+                    
+                }
+                    
+            }                                                                                      
+          
+            var gg = td1.getElementsByTagName('img');
+            
+            if (gg)
+            {
+                       
+                var ggg = gg[0];
+                
+                if (ggg)
+                {
+                                      
+                    if (x=='1')
+                    {                       
+                        
+                        ggg.src='IMAGES/TreeButton-h.gif'; 
+                        
+                    
+                    }
+                    else
+                    {
+                         ggg.src='IMAGES/TreeButton.gif';
+                                              
+                                                 
+                    }
+                
+                }
+            
+            }   
+         
+         
+       }  
+       
+       
+       function RB_initTree0()
+       {
+            RB_initTreeEx('ctl00_TreeView1',1,2,1);       
+       }  
+       
+       function RB_initTree1()
+       {
+            RB_initTreeEx('ctl00_TreeView1n0Nodes',2,3,100);
+       }             
+
+
+       function RB_initTreeEx(id,idx1,idx2,nMax)
+       {
+       
+         
+            var tv = RB_getElementById(id);       
+                                          
+            if (tv)
+            {
+                       
+                var rows = tv.getElementsByTagName('tr');
+                
+                                                           
+                if (rows)
+                
+                {
+                
+                    var rowsCount = rows.length;
+                                   
+                             
+                    for (var i = 0; i < Math.min(rowsCount,nMax); i++)
+                    {
+                    
+                        var row = rows[i];
+                                     
+                    
+                        var tds = row.getElementsByTagName('td');
+                                                            
+                
+                        if (tds)
+                        
+                        {                                                                                 
+                                var td1 = tds[idx1];
+                                
+                                if (td1)
+                                {
+                                
+                                    var td2 = tds[idx2];
+                                                               
+                    
+                                    td1.onmouseover = function(){RB_changeTreeButton(this,idx1,idx2,1)};
+                                    
+                                    td2.onmouseover = function(){RB_changeTreeButton(this,idx1,idx2,1);TreeView_HoverNode(ctl00_TreeView1_Data,this)};
+                                                            
+                                    td1.onmouseout =  function(){RB_changeTreeButton(this,idx1,idx2,0)}; 
+                                    
+                                    td2.onmouseout = function(){RB_changeTreeButton(this,idx1,idx2,0);TreeView_UnhoverNode(this)};
+ 
+                                                                                     
+                                
+                                }                                                     
+                                                           
+                           
+                        }
+                
+                    }
+                
+                }
+            
+            }
+       
+       } 
+ 
+       
+       function RB_clearTimeout()
+       {
+           
+            if (tm)
+            {
+                window.clearTimeout(tm);
+                                
+            }
+          
+       
+       }
+       
+       function RB_clearTimeout1()
+       {
+           
+            if (tm1)
+            {
+                window.clearTimeout(tm1);
+                                
+            }
+          
+       
+       }   
+       
+      function RB_clearTimeout2()
+       {
+           
+            if (tm1)
+            {
+                window.clearTimeout(tm2);
+                                
+            }
+          
+       
+       }             
+           
+       function RB_setExpressFocus()
+       {
+       
+            var el=RB_getElementById('ctl00_eExpress');
+            
+            if (el)
+            {
+            
+                el.focus();
+            
+            }
+ 
+       
+       } 
+       
+       
+       function RB_setMainSize()
+       {
+       
+            
+            if (defaultPageFlag==1)
+            
+            {            
+       
+                var el=RB_getElementById('MainCell');
+                     
+                if (el)
+                {
+                
+                    var h=Math.round(0.94*screen.availHeight);
+                                 
+                    el.height=h; 
+                                  
+                
+                }
+     
+ 
+            }
+       
+       }
+       
+       function RB_saveLeftImgI010o()
+       {
+            var el = RB_getElementById("eeLeftImgI010o"); 
+            
+            if (el)
+            {
+                el.value=curLeftImgI010o;  
+            }        
+       }   
+       
+       function RB_readLeftImgI010o()
+       {
+            var el = RB_getElementById("eeLeftImgI010o"); 
+            
+            if (el)
+            {
+                curLeftImgI010o = el.value; 
+                
+                //alert('RB_readLeftImgI010o = '+ curLeftImgI010o);
+                 
+            }        
+       }     
+
+       function RB_syncLeftImgCounter()
+       {
+                                
+            if (curLeftImgI010o!='')
+            {
+                                                  
+                   for (var i=0;i<leftImgNum;i++)
+                   {                                                   
+                        
+                        if (leftImgPathArr[i])
+                        {
+                        
+                            if (leftImgPathArr[i].indexOf(curLeftImgI010o)>=0)
+                            {
+                            
+                                leftImgCounter=i;
+                                
+                                break;
+                            
+                            }
+                        
+                        }
+                       
+                    
+                    }                            
+                                    
+            
+            } 
+       
+       } 
+       
+       function RB_showPublicationCard()
+       {
+       
+            RB_clearLeftImgChanging();
+       
+            RB_clearTimeouts();
+                                
+            RB_saveLeftImgI010o();
+                                                                                                                                
+            if (curLeftImgI010o!='')
+            {                        
+                
+                var el=RB_getElementById('ctl00_btnShowPublicationCard');
+                
+                if (el)
+                {
+                
+                    el.click();
+                
+                }
+                                              
+  
+            }
+          
+       
+       }   
+
+ 
+       
+                     
+                                   
+       
+    //]]>   
+       
+    </script> 
+    
+    <script language="javascript" type="text/javascript">
+        // <![[CDATA[
+        
+              
+          
+        function RB_prepareLeftImgArr()
+        {
+        
+            if (defaultPageFlag==1)
+            {
+            
+                leftImgNum=0;
+                  
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                
+                {
+                
+                    leftImgPathDefault = img.src;
+       
+                    var el = RB_getElementById("eeLeftImgPathArrStr");
+                    
+                    if (el)
+                    {
+                    
+                        var v = el.value;              
+                                      
+                        if ((v)&&(v.length>0))
+                        {
+                        
+                            //alert('prepareImgCache v1='+v1);
+                                                                 
+                            eval(v);                             
+                              
+                            for (var i=0;i<maxLeftImgCount;i++)
+                            {
+                            
+                                if (leftImgPathArr[i])
+                                {
+                            
+                                    leftImgCacheArr[i]=new Image();
+                                    
+                                    leftImgCacheArr[i].src = leftImgPathArr[i];
+                                    
+                                    leftImgNum++;
+                                
+                                }
+                               
+                            
+                            }
+                        
+                        }
+                                                                              
+                    
+                    }
+                
+                }                 
+                
+                
+            }                
+         
+       } //конец RB_prepareLeftImgArr 
+       
+       
+       function RB_setLeftImgSize1()
+       {
+       
+            if (leftImgChangingFlag==1)
+            {
+       
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                {
+                
+                    if (img.src!=leftImgPathDefault)
+                    {
+                
+                        var newWidth=Math.round(leftSideBarWidth*((leftImgSizeCounter1+1)/imgStepsCount));
+                                 
+                        img.style.width = newWidth + "px";
+                    
+                    }
+                            
+                
+                }    
+                
+                leftImgSizeCounter1++;
+                
+                if (leftImgSizeCounter1>=imgStepsCount)
+                {
+                    leftImgSizeCounter1=0;                
+                    leftImgSizeCounter2=0; 
+                    
+                    RB_setLeftImgTimeout();
+                                                                
+                                           
+                } 
+                else
+                {
+                
+                    RB_setLeftImgTimeout1();
+                           
+                }
+                       
+            }
+                
+       }       
+       
+       
+       function RB_setLeftImgSize2()
+       {
+     
+     
+            if (leftImgChangingFlag==1)
+            {
+       
+                var img = RB_getElementById("LeftImg");
+                
+                if (img)
+                {
+                
+                    if (img.src!=leftImgPathDefault)
+                    {
+                
+                        var newWidth=Math.round(leftSideBarWidth*(1-leftImgSizeCounter2/imgStepsCount));
+                    
+                        img.style.width = newWidth + "px";                         
+                    
+                    }
+                
+                }    
+                
+                leftImgSizeCounter2++;
+                
+                if (leftImgSizeCounter2>=imgStepsCount)
+                {
+                    leftImgSizeCounter2=0;                             
+                    RB_setLeftImg();                         
+                } 
+                else
+                {
+                
+                    RB_setLeftImgTimeout2();
+                 
+                }
+             
+            }                    
+              
+       }       
+       
+       function RB_setLeftImg()
+       { 
+              
+            if (leftImgChangingFlag==1)
+            {                  
+                       
+                curLeftImgPath = leftImgPathArr[leftImgCounter];
+                
+                //alert('RB_setLeftImg leftImgCounter=' +leftImgCounter + ' curLeftImgPath=' + curLeftImgPath);
+                                       
+                if (curLeftImgPath)
+                {       
+     
+                    var i1=curLeftImgPath.indexOf('/');
+                    
+                    var i2=curLeftImgPath.indexOf('.');
+                    
+                    curLeftImgI010o = curLeftImgPath.slice(i1+1,i2);
+
+                    RB_saveLeftImgI010o();
+                                                                                                     
+                    var img = RB_getElementById("LeftImg");
+                    
+                    if (img)
+                    {
+                    
+                        if (leftSideBarWidth>0)
+                        {
+                    
+                            img.style.width = "5px";                        
+                       
+                            img.src = curLeftImgPath;                             
+                            
+                            leftImgCounter++;
+                            
+                            if (leftImgCounter>=leftImgNum)
+                            {            
+                                leftImgCounter=0;            
+                            }
+                            
+                            leftImgSizeCounter1=0;                           
+                            RB_setLeftImgTimeout1();
+                        
+                        }
+                        else
+                        {
+                                             
+                            img.src = curLeftImgPath;                             
+                            
+                            leftImgCounter++;
+                            
+                            if (leftImgCounter>=imgStepsCount)
+                            {            
+                                leftImgCounter=0;            
+                            }
+                                                           
+                            leftSideBarWidth=img.width; 
+                            
+                            //alert('leftSideBarWidth='+leftSideBarWidth);                                                                      
+                                                   
+                            leftImgSizeCounter2=0;                           
+                            RB_setLeftImgTimeout();                   
+                        
+                        }
+                    
+                    }
+                
+                }
+             
+            }        
+                          
+                
+       }  //конец RB_setLeftImg 
+       
+       
+       function RB_setLeftImgTimeout()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+      
+               tm2=window.setTimeout('RB_setLeftImgSize2()',  imgTimeOut);      
+           
+           }
+       }
+       
+       function RB_setLeftImgTimeout1()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+           
+               tm1=window.setTimeout('RB_setLeftImgSize1()',  imgTimeOut1);
+                    
+           }
+       }   
+       
+       function RB_setLeftImgTimeout2()
+       {
+       
+           if (leftImgChangingFlag==1)
+           { 
+           
+                tm2=window.setTimeout('RB_setLeftImgSize2()', imgTimeOut2);  
+                    
+           }
+       } 
+       
+       function RB_setLeftImgChanging()
+       {
+       
+            if (defaultPageFlag==1)
+            {
+       
+                leftImgChangingFlag = 1;
+            
+            }
+            else
+            {
+                leftImgChangingFlag = 0;           
+            }
+                        
+       
+       }  
+       
+       function RB_clearLeftImgChanging()
+       {
+       
+            leftImgChangingFlag = 0;
+       
+       } 
+       
+       function RB_clearTimeouts()
+       {
+       
+            if (defaultPageFlag==1)
+            {
+       
+                RB_clearTimeout2();
+                RB_clearTimeout1();            
+                RB_clearTimeout();            
+            
+            }
+       
+       }  
+              
+       function RB_startDefaultPage()
+       {
+       
+             //alert('flag='+defaultPageFlag);   
+              
+             if (defaultPageFlag==1)
+             {   
+           
+                 RB_prepareLeftImgArr();
+                 
+                 RB_readLeftImgI010o();
+                 
+                 RB_syncLeftImgCounter();
+                 
+                 RB_setLeftImgChanging();          
+                                  
+                 RB_setLeftImg();
+                 
+                 RB_setExpressFocus()             
+             
+             }
+
+       
+       } 
+       
+       function RB_stopDefaultPage()
+       {
+             if (defaultPageFlag==1)
+             {             
+                RB_clearLeftImgChanging();
+                RB_clearTimeouts();
+                RB_saveLeftImgI010o();            
+             }      
+       } 
+       
+       function RB_changeDoSearchButton(el,op)
+       {
+       
+           if (isSearchingFlag==0)
+           {  
+       
+                if (op==1)
+                {
+                    el.src='IMAGES/SmallSearch-h.gif';
+                }
+                else if (op==2)
+                {
+                   el.src='IMAGES/SmallSearch-d.gif';
+                   
+                 
+                }
+                else if (op==3)
+                {
+                
+                   el.src='IMAGES/SmallSearch-p.gif';
+                   
+                   //isSearchingFlag=1;
+                   
+                }
+                
+            }                                    
+                                                   
+            return true;          
+          
+       }                   
+                                                          
+        
+    //]]>   
+       
+    </script>            
+    
+     
+<style type="text/css">
+	.ctl00_Menu1_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_Menu1_1 { text-decoration:none; }
+	.ctl00_Menu1_2 { width:100%; }
+	.ctl00_Menu1_3 { padding:0px 0px 0px 0px; }
+	.ctl00_Menu1_4 { border-style:none; }
+	.ctl00_Menu1_5 {  }
+	.ctl00_Menu1_6 { border-style:none; }
+	.ctl00_Menu1_7 {  }
+	.ctl00_Menu2_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_Menu2_1 { text-decoration:none; }
+	.ctl00_Menu2_2 { width:100%; }
+	.ctl00_Menu2_3 { border-style:none; }
+	.ctl00_Menu2_4 {  }
+	.ctl00_Menu2_5 { padding:0px 0px 0px 0px; }
+	.ctl00_Menu2_6 { border-style:none; }
+	.ctl00_Menu2_7 {  }
+	.ctl00_Menu2_8 { border-style:none; }
+	.ctl00_Menu2_9 {  }
+
+</style></head>
+<body onload="RB_startDefaultPage()" onunload="RB_stopDefaultPage();RB_closeDicts()">
+    <form name="aspnetForm" method="post" action="PublicationCard.aspx?product_no=1043619" id="aspnetForm">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="d8vuGe2U72RE4rk9tfdrxTeuj2kR+Und8iPtYRFNdPYtcB29OzbAh/tYUY92u1u76DYzQ6J1N/48ADFPZSMiduv3wcW/r1cabe3LU7PKJ7akGFPy/wwGUd4rdpM3NVQv9rjHo9iS1WLFoF8rL7IutCpv6HXGQUl4Mi4lFY/F3Nb+OzIlr3vWBuPABdSaG+ZzDBLKmrPjs8nwamRpjPAaA7s63dzdhzBANigxbsZZMKjkZoqIbQC9bFYSNfT0TL18GavqVonDgueyGTDcd6XPD1NQoBArnTZnN7Q0JEF3eJ1EWGMeGzYTy5uF6BQudQV8cyJYs1wSCrp/bRTtyJQDM6eCvQVvywBOwSbOVYMnAqqAsqwa2Sc3YzGqHxugKna95jECa8qMRHIRSnsS0DRRjHavCyKFGyjGw1ngbFMAjfIzvWVZwRuRzdoDKgggvsj97kaMTrcJ6cAldDy+rYhLZqnEiMBAlctY67rP3rWfJ03LNsyFhewLKDPW4LlxxCY1dDAR8x4ucmhpdKpL7yp0jqtyt6ib4bSnMXztYaqcQ80N6vmfE89hzbn7nWffN/oXVbx4DD9mRo2wDzxoUSebWtfuQFDzVUj/9WSSUx+E5u0iJW1NWPr9XuV84qANATGQJvbNDufnRiSypA5gA+nmVW9K7O3z17I3nECLu/QaqAWoUHWIinlUnQw/OH0CQ0BwCuAE5OD8QLaa26VoegQhNjqrFcg1BwS/ELkVTIush3W2f6Av0w4nfozl8JFn8ZXUlcKsYxPQWK0NZKrOe3rjkl6X+syGrujePQdPMcVVBCRROKOp4Fqo1WQ/eW0UqE0/dd+pPXahYHvimL9rQGojEh3Ko4zYQ6L7o8aYzNw3izlJ7i1NkHFjAQ4X7EF1mRkYl9xO5OFBHkHGZEWY4PUtAh7oydEZCvrBgyZvFtnqVwMbCTbCAwwwYpoZvzZMUcdcWBijjXO5EjaVVU6wgYuMn4SGubiM2FPW+vXVaOMbSqVhPTPi3zSZ3ImDYnekTwUBR2I5BADvi7Rot4WDM5bkxh7Rxa/XOodXWqDZW9HAiK6tZwdfzuzKOqjxytI+Vu5TEo06w0xa6c/yLc7l0mtctbsyS4L6wZHo9nOVzSMRr9o6uRGYLU/oqlNaDVg4tPE0MyudB9ug4j0V9G1YCqE3ymigcQdaMHTFRBmSW20b3o6qEyyt6vXhcrlHmLm6+u6fFN9Fn/nQ/ZN35RBjSOYDmlMPsYaMeZ0A6YXfo808l0L0gAbf32xgdlt7yKw5iqsJ9z/uCwmFE5x50wGEzhfnCD6BqHEwdgv1LLEabWpIpiAA0g+7vmDBkj1h8ppDdE6vvHpONCKKINbDLFWl71vULxEVdv7V+jgmCH2Me2XUgYOStZWDQ6ZQk8PvIHMKI7IfI88gMykbRjQBEqSpGt4ZmoTT2x9PQTACKSJntLU6HXg+2xIIVuG5z006wzF5aboWWzpzSBnO6xoSU4WWbSDhipozlP885vb8bSUa60O8kuViHxHp/GIdh+3qk4YdAIagktNONdjhA7C8znuI0gXqhCNd0g46kmlDkKA0wLlYPYLAExUngZcQ5FqKCmRgdROHmoTniFLFuzbEV53QXR49psu0aCl1hIkcC1Fl1aN0yJudXNVDHyYaRvT6dH3Yh7GwVwxSpe2ijzj4qjFK4HVaMqodUbnHLvE1PuXbi7RkQ2yb7ziCGaeQ356F2EEEFVE0ewtE8auHwri8h5oF5FsSDtpk+kAvkVRfRIRb8615LGvj/5X2i2wh85gS1t5xPVc4RTML+o5PyP8xPGrewkOwohYnVuIMpYtI0WOsJksXVZBx2GRHxUNq+iroi4rQhRCtfa4K3YcSxIFL2EuZj4Cafx5lznSYv3qWA4xx+zBxNm4F4/xuLLRQCy/a28X4jANwDzZuIDjdMyXFnP2Wsfd/K9TYB9Tu4BMsgLvT4nNVTMEr8OXWrqFtfAfLXm//Wk6LMoVYGHRrwX5CGRDATvfa7bSAaYd1HwlArRPGmw6k37LDj8pRjxCAm2FatLCdztFOeaSIDRcQDi/x599kmzcgwk2vi9hIF6CY74edYGTyBlIl54V2c+ZHEtXcVIetQGMEq9G20PDCFuLoBu8CPCx1jz6Poah9qA0u0O2sMAWLP/78M4aj0mRgWYcNKpYP2Gi/uaRT7vUn/mjtCGm2Vd7f5M5wJa8C7fc0deKPauV1GhPVROrCIZ1K/m2yJEgGj2V5RNgMHxkp1LVr9+xZWfNQp/MdrRQHk3+noorNJtwXkErYSrUoQYj1sM/XaUp1vMT3EaVJGi6H3rygzYQFlS/u9noJwJQ7388du33Po/DEgr2VkzGPAe4GP6xHzo+prbZ+BtL+OBaHmxNl+o77N1EBH6fpihyCxhVq6HRnEKRpsbPCsDY1+G8M6DpqEgaKXUPcc8PM2iGhvl5ZSjBJy7ISz2sxZd/DeJBvgGAKYEFhe6ZGrapEYFQ8rMWcTLcqLx4cB1U7RdhlE8vC7jAUKvcNJkpdjIdFv94IKLU9V7CSZEhHS0u70sqo1f1NVtbMVSPtJ+UcInafrm233oK65tW/Q2lADUnvNkStp1ZlQMXqZpYJ3SWFmi6QII9LqCBZRFYKk7p0eVozRDQzsvrr7kmAX9C/baAPN6ltEdmg5FdptY8rm3+pNa4gPWlEzJ2zACdIYGbPy6PerLyXU7YmFF+FrqYH/JukgVvv1WUWpNDxkqoIflofSLOTBjEzs60NW48jop1mC0UCTvYvfpLSX3HO9O6ByUe+SynEVJcMNtBeRLYIjrx8zxbZxhy58UIeGtd1Srx/q66B4RTvP9wb8DI/QiUbbgtGoncLIfVes96XoZIqKD8aaxOH2Gjy6E7G4fBmbrDqEFTLQyqu7jdQtm5U7TipDNgoW7mL744+65HHA6RwMYT6CUen/lrNPjERBm4LC5hAqIT7l3l2IMymlZvSDKWpuoJjxR0i4ZPRCWRYZMz+u3ZIOSa3QANekvbecUydl1sFEnXLAzOax7419kpMHE124uTI00xtZNtzxo5tUOSJctIYK4YZiUojfSNWAz73zdLpY3oj1aOhDN1yWR/1KkHMC9+ETGgadZsBCCfkktPGkA86CbWCEdFd6hXnKwjNC3xpa6Qu56GV1wFbWmdAChHn8Ow+FaAnUaR+jT3n0+3zrAMpD0756ah5Iimm9DZMEjsYOKyZg5bNl2ilsXqm4HzFXqsYqr6xMmC0VUveztxjrVMYn/lCc6Snq7iZNONeJQgOv0TPSe1QXKqmq8jF8ktyNNT5mslBf8Mev0RED64nJi+vy0037Pj6alWGzNmWQwapagFmyI/YdlKN9mCByhB6Rq+kNTNNLdzVv1atCQ5yalu/kqVu1d2n0nizP3e/9ff0IA4wy3/m7UmR9jnEnAX/T4+iy81QsFUwnm3oDjEZzbl7xQzAI62ak5kXUZ1ChyJ7k3PqIQMAchVtQGyk2l6WCezHzKuqLc6jdDarpr+VI4DXPZ/Ui8J6pWVjUOp4o4979BZyLCMU0/Vh6Se7rekRDBP3WOhfdWYiZIY43TSKZWJjJKZnayIsv6yr0N6C6UYWa1x5evc8ZajQbW5OqkhCxeFzZf23TU7S7I+sA+5M1MHAOXdFng/NTvLW6bc8hyvK98oHy/DSjJPSpdAyF12VfM9dIn4gZH4IDLA+ZI9zTNbE1iKccz48+B9rnsFpRHxnXGKiDUsR4fGfj1VarOlSyzvX1L9DKhxU92UWIT70EEf0eVXaBoWo3gmgN4S9RJO4GjwnGoP38vjVHBJ4FKqwmSa+yRoj0MHmU1fVlRo4QP+Cu89NBangeEUr2N4+Xo+4zrfV8csqo6R2xNQeAW2jB9Zv4Bhma7y0xy+B+szwrPUYxZan+R3/HCu4hf1jUFSc9DgC679WDfA0xcOwD6EtS5eP6PRv5e3iZqFzGT+3FQjSgr967ZTs+vpwm5nquLyFLhK8moSOnPlxeIdXUQWxWSOOsCj9TVNvWRjaNPxUVBeQVHs0RDaDJyqs6LTEzoZeuig3HXMpKMG5DXCZE4TY0XzdpbfQR+ke+LqDEYdJZyhdP5RSS7T92JuGP2Nuff+mtdf33siYUVUyniM1Art1wvaDm7nUcGYZEL3+HeIDBuNKMmL/RTB0e1JBzeHls+EDnnSJ6TiLezMk8sNLz0geRynBQA+h78HNxhj/+KRZ+SQcDadrIseLpeKXeJkMPHwbDszELa5D8eOhsZ9TeNSZGdOfqAl1lpKJ6c3xrVaMgAIK5TR+A1T34qt3DeBlH6lS0ZVyoKXH/kLlNmAOJBjVUNdtBMbYYcz+G9C8YugkNyRZblHyv+xo7x+dNFejkZJeYTTDvK9DqE6i1S3owyAYg/uC1qOvTX5RtN5NUV3rogSWR3jzWzb/E95vZviLLnnDNq/MCKghZ+i5523/k81VlERS9pkhXS9eZKRVr6ShiOcrLV1Nk/CsJnAfrpe9Yjmisrd3LfpgfkndIWxr/C0Pd0d8OpgdPLn3yhJ+W05cn380lyQMS53o4Jfuf6UFQAo3SMuGR75nzNSF9SwIL6twqJtbxuIvWMKtaemFmcEQgTfBM7Umr1gZlKctsDq2WGrAe2dYHsVVOe/ZOXckZGUm3+vAWCO6q/uQKUqFEnd7CySH2s9MXy25DqpSF5AII563TmkDIjNVk2Ph9oGHYIgrfKtdpmMptufhcC1Gv1mCYLNIUIO0ORI0MBzHvhfdj1+X/blaGD09RaS2mqcbQ9avfDeJ5ixnnGhumQU2Fhi/jCIhJ7YLuyV9BVOKhdXmCmPwGx2t78M2oKwQwa8BVqwTEyWda9mEWThM6lYxb0oUbf8vZosaTfOU5mLUlK2Hy6NiLEgslgHlNYuG47cQYMXaJXAOSS4q6ldO8Jn06R7b0Lc5U2OItv1vAWEjaoqv4gtTuR2xcMzK/v54Yho0gmUeoPZWoUVxz6PwxrNOEBoh2l5ddzSDM5j5CNePnbzy6bmMFSVn545c8AnovXg8L8F+de2Z/FD1mJW2S3vJAN/B37rW5D3tn3rkN2iJTShZKx0d5tfDGALjMfDYdN72Um6Iq6Eb+lrcdhCbKDUefqe4w53+WQoWxEUdFC4kuownPRQosWImqWPd4ewyVN/iUFkk3/l9+auYvntHCajkzhGN67i/Uam88hfxpuSHRUDppPNkGNEeId3SrMlIsBixblzkHPzDDfnbW5ipcWMdXhPdoD/z4hmaG93KY40mS7SqnmIApVjzbu/DPyLeZFG83AG2NtHwgC0jdSePycIPrYcg+lzoF+Upo2npp6PTzYOct36s8COXrrvCvM6BItbw4B+OnrfAqF3nSGTK05uLACncuVxaCmqp68ErVJdpCvh6bNKc4Kz2ULxypTzWIEfi/zqLTkQ96gMLBKovj2atJWocoEoI1XoT0UsFCj2CyFTUXXIxO1uVchwHRzVQ180GiiJwQW+JWeS8/occItStq1rCLravw9brDwAYTBXCAAH46Jvs0+fYm6T73CbeP2S3qA+oeYJRYLJiLGbZ10TdIDF4Zb4q6AbPEWhLr2ohv74YGhWz34blFrSyRKLrOGWTpEv8os0vh/sjfezWmFwbPCYKNAPVUjpFUs0iBT74LFmiNVwtQKjw9UquYTkClTv9jPpjo3hvdNY8lMT4d5OTdlrCRIcpjSiWh4lP1BpS+hfgi69H85ckhWZo0ouxKrN9F+FXt1Ire214LjW+oLKPjaSJyqNU5PD2WKf1p8TJ606xkKb9PheuzgWRnjXCttdszD2j31RjKw9s3p0bFobMzky4ZSnfsU1ntGtebU8lMfpksKzVr7ehvC5YSpjLivJ62fqsNLESU0Ine1UFbgWug3fI+cEEcor2dWIIMiX1YOfe27DKA6ZK0ubshQ1NcGgpGucX9qum71A0Ued/vaFj1i4VZOU2MbgzFLuZwts2Sd0MMMhtoprH5hXoOdxaMPOidSdz8wvf33vYhwJimg4kF9/7/tJjMt8GiMlHy9zIAj14Vykt1H+PtZc94W/irty9raqneue/WtgEzXQgllxc3PeKlwlyxyhBdtOo6gu2C1ADdmhqpsUGNbEQvC4B7xwGPj2lcco0SipnRtpPDdMXByog22x+7ubPOdPfeD+ln5wP6Qzl8yKZCaMb6W6grOPHCSNNkuKY2fGIhFXtZeNz545ySnFoGES+yWqFTbG0AR+lvP+N830kEsINfJxC5P1AYPzvX+9LdkTvQnqm+5d1ooMPNAo2MP3kv4Cpk5o8CC6EY1mVAKYdBR0lYjn2g01Sgv16T4Did/U/xSxo8OiBmGpk0MyoFv6Jo0SvLq7J8sTTtrZ1gfynF08pODNkythXpL68TYh3xUc6S8z1WdxwdURNOtYi81sGz5Vc4sSrlTvtzdW8AHy5/n4wqOGojbp9+zaGHaqPsDDyOpL0mEQ5it307YlZ7CWbPr5MpO20M6DQlRbk4SmF+meAuptGjiG74bWL5WW5MXGBPIGFaSZ5r/y5vSKaIVW2Pe1lx84P7FUzAusOHLqlkwy6hZTeMUSjzAXii+EvTwNHVB7RCpywY6q9MOvJKdgBdldrcYtXuomKcNRjvSeMmh0JzFAZq/YCX43hKB86CsyljHkHBu19Bt01t1iX6q89YK1OfcF9iXHc7JTAN/dwd7ckyF8vzhMH9/UeUFw/xTn9Krrv9MeUzvzdovtKyFcyHdyuCH2+tZ9TVNPkpJULzCTpSSMwGoRuVXGuoAdkT2vpAD3DDwbJqXJxre6Q5hDYvR5Zpdhi0roeTS+MnDgkRQL8Y+kPoFjwf6bYGoyXtjEWNcIdVcJiQBcHvELkHQD/PdOVW/8XeHusTD+vesx58ofccM6WYhpyK7PvmivhInrqF7dZOIG98MolucaY2gjmE1d2eoHDqedOAXsEQKr5nAe38qed4PRngQNlzrFEdt+k/YZaAPRuIs3x2ntmWjtJEF6nTLu0KFNfFaxdQM2yIgRbJL6wNLn00x0DJLEau9P3+YjpxMKOd1t6l8bAmSH3GxnFckDNaVHW5ZukJBt06aK4c4NjJPfKkFUMwLsC/bBdp52AuhGLRADSoU9m/iqGOUrvZzI0NeaVjJ2a+QSFcQ5OnvDNsgbu4q41AGJZWcyfE0lfLo1Su2TirsB8i2XZQ+Ej/zCPDD8YyyoPwfmp5heoG422n6Bd0OstccMIJJNAqbtGctsuj/NNYW/KsS3gVoalueMiqz/WlLt8TDlLhnrJ6nP9wMFj/sHWAZZ0oQ3ygWzKw4BkP+0xTVlVzoEzGN3nx0NfVnAhqrh28ueB1cxAbVMKZInhZ5efVZJ8TWvkvn626hq0XcpofD7/UVSFHBvDsRz58tlEqM56E2SndYkdsCN6LwtaVEjLa1NHFpk4TR9ljr0AiSPzrmOar6TFoScz2DhJQK+jAbnycrefFYaMDWHilWwzL7SDRza7DNY5TTcUaMU96j5TiopQpbbKzzz4YAdYwukLwuBoaXWmpLlwMZ+IqXTp82l/8CcKUWFoDba1W6pZX/W5TSBYFTfVNlJwJfsLUUzURyxDktwyV3LJzFt5z3peE61uUW61gST/z0JqusrIppjOwqJy9iA4B82zzwfrc55mggoxOdCkz+q99h4RUCNjHnN+qiP0Wpg84BVzh/kEqCzawXwTQ65USTY7qS/O3+HNn5afMabNQXF7XsxZZIBYvvlRYou8OMc+uGbMgA+ijSQ4MXC1vMlUj2EgNa0Pb/KBXWQN4oUXXnAUnamOSZaSWewDlpV5dUxyod1hsdtQQN6oNe1EDzz3UbLiLIMk+s3MKbaP8RDUHfuIFlvjv9GxcjXfii0lbu3jyMjCp6H58UwlAod3iCGakyGcmbJLryDaxJbT1AOSvZmDDssQdMWE3k7XSvAqDQpgJqxGhukQ2hZ3sfWL122w+Gu016b803Y9Ee2tMgeJMFGiHjSSWR0oC307U09FbWv7DEcAkdbadJSMyZE73LuCHielSw4aCV4LVEjb4rzPM3A00IVOSX60rOvmTMyknVLUgpaT5dOdmmY4c8Po6fdN1PCq9G9vD1myzJrOqjZlSuvx5GV9TK+4UHdnjv9uCOm34WH07LJT17FSYQ96Sd9z5w84ce+zsW92g0/15gENJII/XWeBXGyiGkPTxhTOHSpg+9dI1NpgBShE4ykzyEnsQQR/tqydFL4C87XS/I/xJmWtURmqxHff37R4lv4FZcFkIFgyohnihMUpIa8K6dRppf7EuzE+76UmfCSwQLqG/yaIo5e+pgOE6L0eTWafZBggt4LY2qjAYbazz1xOLg4YjtqMIQ4te5RAFWC3U6uVlQzFqjYOWgDmobiCRE+0+IOAj+ZZD48Fb5QilJ4LjZJW8wCt40R6QwL4qvkgonyecskieez5oS22SBXXeY9rfQBusqspSXlodMQ7Sc+qnTzVIzQH0Z7TQOJ3ab7SdKgbyp18pysGFDmlb967rTLpcuHZW4yj2yaIlfAXgP9Jtfu0ZVrfvxzKpAP3NXLXTD/l/h+UrNfRJ71X4TkQHNKBmti+Ae2lLmfF7d3qDMJOieViASaodNn199WxeOOs8RESlPHGnQe8FM43ZoVPZiiKnU5mieKvinVkCbvjhUigiVF+svAVUdmXaPXDdjodVRlRTa7NvBFDjVkYnz4U6MFS2WVQRvDNwnVuAWXnR+V0p6y1sObNKJKtpnxKetwEgaOaWjdF8X98KHn2T2rfLcxSkg80l/HATyAJT49befBwHqXPZlptOhHNwSE/3ZZ1/GdhEHhHB7n3lO+LeNksJxduu/u/KDekBujmGfnDXKGtWOzWihXzBxJCjoBzrJEDFdSfNfXWQJTr4mDE+QxSoIIFJGnbd41rNvwsyXLSfZItXB2kOeHT3JpBsFETBCsR7nFof0RWGE4UzLcMdWdiJAWiTJ7VR2Y9glyqwhpHlQvCljG5K8ma6Oto6TogLn3cmPubaqEbiKuc/1VoylX7LWLyhA/VwfGzWnYbmepjYrArQ4DXGgyfL4EBPw1RpQFJTnn+ypMBVxjYY+LL+3bse80bXeAIY4gSdiah6aYqOUUktN95w+kf8paLtkiMSN2uF+xljxvdT0b0kAONLneYiimvVQwbYw09wXnaqyuo+IgbX/lCTv8+AUTrdPnEJIe6MFNDkPD+3gu6jSF47gQxZO5km+g5FthGMFd2y+IAo09RoU5ffHVMoefyCJLYgvSIGe3msMrUtgD/9vKzF8o5/nq9phlWpg6CVgOcJxyw3zR4l5f8Yp/Ox7e9muspp2xIWMlexVUuolHzRflD0YAiZtRMPBJ097XqflBbxSsrzjdBGzcSeeaFqRjlKVnZkog06aK7zk66usJAJWRgFJmaY2F+E6VdxxBh3yU7KJZX4Za7RzXFC6UblxwKvxsOyKnG36YcbHHf8pDl9cn0UhNkEXQdhuM0vmmqEdzqoI/3o9bfEd27uzxLmbo6xUC3qWhL6cFMyyTAiL7OeN9AHp8mkpJYTQ5MnUslQ3vhYtaZjXz9zLhJRd9y6iNOsqEfWpaxZLgCocCzvc+S96XIAJczWeK9NaDUjNVj+QUeH/L8ZtvsryXk2wTIAZfVh0VEVBf/X9DKMkbXGNicxJ8CiDpfEeATsEnyyVVDnzNNwqYdw1yAoSCpotsOdOrU8taOedX0YMI9sKRQ2gDGYsgatCXt8bAecPgfghA0azB+sBtN2bwWyf5LTIIa80GL04w+he1lBXWY9TM3Y7JyMpWq0uGtQbhWsgJHFTuSIWYTSpQMk/8frrvrtMSMJlBYlJC2Mhd303tlQgon8c1P3zcLuNkD3Zjs+ygxi2TSGJb5eaVvINzR10ry8JxBKW/LMWqSuYK/oxSIN01JJp2weST0tjmA3tvNVFip7MjnHIqDv8gJBA8isaQ8zPAuaTwlp0ZVTkLeoktLcfTNuimXCrNhOuAnZxJOhrE97iPvcyPk9wjs/jdD3kwSWN8API5ONIuzt1FQCC/8Fw6HKICTHKW6EWVekF7WN9+GmEuOwzeuBWnJ/i8dQoiXGlrfn8hZOr/dw7xJH2XRX7MAjrCtrV/4fcIOmXN4/fVTh8ZgDBKLY135cJckX51EkguOVG8s4TQAm/ewd7vLIARgRLSKR1IRILX7BCjTrDY8piG5dhHrLGgdC4SFOGRPLQKb1vOrrQSKNQGXxxmg/PhHqJDosSvxzIm674XDDI6XUzrK/2iltv9ZOxJNzTlCcd1anx/qIA8Irs6bjfZBezHLA+2tCGpa13m5d8LsQAY05KfsIN00Kb2ae0pF5wDvlRipqWsMPc1PISNCLwoSkTHP+pEHctiP9GOa3vpvA0tJet5+9aUwgTkX5xkWKmEgo9i9PbFRvUKYGYj960DfMySQD/InSGbnM2PkYpD8CDMHVZcQfWDV8is4YXZj6q6j3xXr6hVNN5ul2jXR7aEl+zx7scZhOnn5qVvW2dzx1aZQk2Ou0HjCXYkRGgb/vcelNN/0eg4Klep3b7qYrk4/pmivYoUBDZPXiD24g1rKUKI6jLa715A2gRHWd0d/s88XbIqiy6GcpNx2ywUX2FD0BIswrT8kejHHFq4T3GUF14IqcoIy7ykWBIO8QnyW/g43KTyQiOAq1/wFytxYy1BU0KWnBaf0CRcpByw8/uStnzhP26XCOKSiCNbjMXs8O7cPdq1lOqKx/k+zpcgP+HuSbgb0xGDgvJHLlhsDUEwUfnVfNE4ytPa0UtqoRT7wQhKT8Jl/8STfl68HDshmHjVufxRsOgKnE3hiwF3wsggt4lKPr0zgRW360heUJPPJEd0395nSVW7YTCaQzs4WGYzms+kKrpP5uXPvDeQviAsSaHUvsB1OL9js2gR8O3XSgWoEz9ymJzyZq+XYMyKx5Ue6R6/FV7aVERzvzPmprDqvUyHNHEBtqyK1pxybBR4OgziESkItTDzCPehmY/6/XdFqmkv4anus9eQkMor5QtHuJj4yi3wCCewLtEGQO7bEpobENarmuy4QhFe1g77YtA+VDlRG8afCDb5U4JXqHfreEoMS16QL29rvrefC4/mpNr+qeF7dmuajJQWPMPVb8Ssu0Cg5Ho5PrbL8SpO63s00dIZqofZ5e43veCbkQ5HJQQKmnJXTng+fvdR9pGWVSipKl7j0IQv0iTTtSv2Q16FeDSw4NjyixQ4zmbvtjsntc0dl/XBiScMz1HnKzT8Y/NB9Nm9KNMNKYovsj+b42emYlyze2pr4h2TmxPte3QzhezPF52W1j4fr3DtBmuNN3fzcz+W1a8oxYNkgkvX2pe/YwLEL6hOsELso0OhiTfPtrivFBIDq6dePWo9V4bS2Zwy1b/LZBa+ydARAhaxUwany84/nVGriQpyKt60=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=K8Z-1blS2YDnbdPkWvAsLQ2&amp;t=633527929956801634" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=gi_JsZ7G4PBcii9H5DYteg2&amp;t=633527929956801634" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SGQFh+woGJ4/wHRl2d/MRPYr1SNu0NblyV1BGNzgYe9r/y1juMxpKcT9qXYj+5kU5V37LOIuoo6RVpBrEi59mXvigVaPxobFr8gpy6vAkbApzgWIiA62bqBxHaTuxcP/vw42R1CTFUmA4602QbV9YRcHmWHI3G6AK/fRKs7ZXvXCsUA0pqmH4+XbLw+pFu/5" />
+</div>
+    <div>
+    
+        <table class="MainTable" >
+        
+        <tr>
+        
+        <td class="MainCellTd">
+    
+        <table class="MainFormTable">
+        
+            <tr>
+                <td class="TopBarTd" colspan="3">
+                    <img id="ctl00_TopBarImg" src="Images/title.gif" style="border-width:0px;" />
+                </td>        
+            </tr>
+                  
+            <tr>
+            
+                <td class="Menu1BarTd" colspan="3">
+                
+                    <table class="Menu1Bar1Table" width="100%">
+                    
+                    <tr>
+                                        
+                    <td align="left" valign="bottom" class="Menu1Bar1Td">
+                    
+                    <a href="#ctl00_Menu1_SkipLink"><img alt="Проход по ссылкам навигации" src="/WebResource.axd?d=gam73ZOu9JE2AF6YSkFI8Q2&amp;t=633527929956801634" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_Menu1" class="Menu1BarCtrl ctl00_Menu1_3 ctl00_Menu1_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n0"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          В начало
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_Menu1_3">
+			<tr>
+				<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n1"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Он-лайн каталог')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Он-лайн каталог
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n2"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Поставщики')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Поставщики
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n3"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\О сайте')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          О сайте
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n4"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\О проекте')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          О проекте
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n5"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\Контактная информация')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Контактная информация
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n6"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu1_1" href="javascript:__doPostBack('ctl00$Menu1','В начало\\На главную РКП')">
+                                                   
+                          <span onmouseover="RB_changeMenu1Button(this, '1')" onmouseout="RB_changeMenu1Button(this, '0')">
+  
+     
+                          <img src= "IMAGES/buttonMenu.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          На главную РКП
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Menu1_SkipLink"></a> 
+                    
+                   </td>                                        
+                   </tr>                                       
+                   </table>                    
+                                   
+                </td>
+                
+                 
+            </tr>
+         
+                                     
+            <tr>
+            
+                
+            
+                <td  class="ContentBarTd">
+                    
+
+    <table>
+    <tr>
+    
+    <td>
+ 
+    <table class="PublicationFormViewCtrl" cellspacing="0" border="0" id="ctl00_cphMain_frvPublication" style="border-collapse:collapse;">
+	<tr>
+		<td colspan="2">
+        
+            <table class="PublicationTable">
+
+            <tr>
+            
+            <td class="PublicationTitleTd" colspan="2">
+            
+                <span>Шмидт Д., Хьюстон С. </span> <span>Программирование сетевых приложений на С++: пер. с англ. Т.1. Т:1</span>
+            
+            </td>
+            
+            </tr>
+
+            <tr>
+            
+            <td  class="PublicationImgTd">
+         
+                <!--
+                <img src="IMAGES/noImage.gif" />
+                -->
+                
+                <img class=PublicationImgCtrl src="images/noImage.gif" />
+
+          
+                      
+            </td>
+                 
+            <td class="PublicationDescriptionTd">
+         
+            <table class="Publication2Table">
+          
+ 
+                <tr><td class="PublicationSectionNameTd" colspan="2">Общие&nbsp;сведения</td></tr><tr><td class="PublicationAttrLabelTd">Статус публикации</td><td class="PublicationAttrValueTd">В наличии</td></tr><tr><td class="PublicationAttrLabelTd">Дата&nbsp;поступления</td><td class="PublicationAttrValueTd">30.11.2009 16:01:14</td></tr><tr><td class="PublicationAttrLabelTd">Дата&nbsp;обновления</td><td class="PublicationAttrValueTd">12.12.2011 20:29:18</td></tr>
+
+                <tr><td class="PublicationSectionNameTd" colspan="2">Идентификация</td></tr><tr><td class="PublicationAttrLabelTd">Первый&nbsp;ISBN</td><td class="PublicationAttrValueTd"><span class="FoundTextFrag">978-5-9518-0362-7</span></td></tr>
+ 
+                
+                              
+                <tr><td class="PublicationSectionNameTd" colspan="2">Блок&nbsp;описательной&nbsp;информации</td></tr><tr><td class="PublicationAttrLabelTd">Основное&nbsp;заглавие публикации</td><td class="PublicationAttrValueTd">Программирование сетевых приложений на С++: пер. с англ. Т.1. Т:1</td></tr><tr><td class="PublicationAttrLabelTd">Место&nbsp;издания</td><td class="PublicationAttrValueTd">М.</td></tr><tr><td class="PublicationAttrLabelTd">Год&nbsp;издания</td><td class="PublicationAttrValueTd">2009</td></tr><tr><td class="PublicationAttrLabelTd">Издательство</td><td class="PublicationAttrValueTd">Бином</td></tr><tr><td class="PublicationAttrLabelTd">Количество&nbsp;страниц</td><td class="PublicationAttrValueTd">302</td></tr> 
+                              
+               <tr><td class="PublicationSectionNameTd" colspan="2">Блок&nbsp;интеллектуальной&nbsp;ответственности</td></tr><tr><td class="PublicationAttrLabelTd">Авторы&nbsp;публикации</td><td class="PublicationAttrValueTd">Шмидт Д., Хьюстон С.</td></tr><tr><td class="PublicationAttrLabelTd">Первый&nbsp;автор публикации</td><td class="PublicationAttrValueTd">Шмидт Д.</td></tr>                                
+                              
+                 
+                              
+               
+                              
+  
+                              
+                
+                              
+               
+                              
+              <tr><td class="PublicationSectionNameTd" colspan="2">Доп.сведения</td></tr><tr><td class="PublicationAttrLabelTd">Сведения&nbsp;о полиграфическом исполнении переплета</td><td class="PublicationAttrValueTd">Обл.</td></tr><tr><td class="PublicationAttrLabelTd">Аннотация</td><td class="PublicationAttrValueTd">Для разработчиков-практиков, студентов, аспирантов</td></tr>
+            </table>
+ 
+            </td>
+            
+            </tr>            
+            
+            </table>                            
+                  
+        </td>
+	</tr>
+</table>
+ 
+ 
+    &nbsp;
+    
+    <table class="SalesViewTable">
+  
+    <tr>
+    <td class="SalesLabelTd">
+    
+        <b>Книгораспространители и цены</b>       
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    <td  class="SalesGridViewTd">
+      
+    <div>
+	<table class="SalesGridViewCtrl" cellspacing="2" cellpadding="2" rules="all" border="1" id="ctl00_cphMain_GridView1">
+		<tr>
+			<th scope="col">&nbsp;</th><th scope="col">Кратк. наименование,<br> ссылка на сайт</th><th scope="col">Полн. наименование</th><th scope="col">Город</th><th scope="col">Адрес</th><th scope="col">Цена, руб.</th><th scope="col">Дата обновления</th>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$0')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://aliansbook.ru" TARGET="+_blank ">Альянс</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Издательский Дом "Альянс"                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Новослободская, д. 62, корп. 19                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    198,5                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    30.08.2011                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$1')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://www.bhv.ru" TARGET="+_blank ">БХВ-Петербург</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    БХВ-Петербург                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Санкт-Петербург                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Бобруйская, д. 4, офис 25, 26                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    215,2                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    07.11.2011                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$2')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://litera.by" TARGET="+_blank ">Интернет-магазин "Литера"</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Интернет-магазин "Литера"                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Минск                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                                      
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ?                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    02.03.2011                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$3')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://www.infra-m.ru" TARGET="+_blank ">Инфра-М</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Издательский дом Инфра-М                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Полярная, д. 31в                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    189                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    06.05.2011                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$4')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://knorus.ru" TARGET="+_blank ">КноРус</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Издательский торговый дом КноРус                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Б. Переяславская, д. 46                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    219,5                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    12.12.2011                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$5')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://colibri.ru" TARGET="+_blank ">Колибри</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    ООО «КолибриРу»                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                                      
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    258                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    16.02.2010                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$6')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://novakniga.ru" TARGET="+_blank ">Новая книга</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Торговая компания "Новая книга"                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Екатеринбург                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Первомайская,  д 109, офис 21                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    207,91                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    21.01.2010                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$7')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://omega-l.ru" TARGET="+_blank ">Омега-Л</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Группа компаний "Омега-Л"                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    Энтузиастов шоссе, д. 56                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    198,9                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    18.10.2010                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$8')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://cepl-book.ru" TARGET="+_blank ">ЦУПЛ</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Центр Учебной и Профессиональной Литературы                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Москва                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    Шоссе Энтузиастов, д.56, стр. 2, территория завода "Московский прожектор"                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    198,5                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    14.06.2011                  
+                    </span>                                      
+                 </td>
+		</tr><tr>
+			<td class="DetailsSelectButtonCtrl"><a href="javascript:__doPostBack('ctl00$cphMain$GridView1','Select$9')">Подробно...</a></td><td>
+                    <span>
+                    <A HREF="http://www.bookmagazin.ru" TARGET="+_blank ">Эврика</A>                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Эврика (ИП Слепченко П.В.)                  
+                    </span>                                      
+                 </td><td>
+                    <span>
+                    Челябинск                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    ул. Барбюса, д. 61                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    278                  
+                    </span>                                      
+                 </td><td>
+                    <span class="PublicationClientRefSpan">
+                    18.12.2009                  
+                    </span>                                      
+                 </td>
+		</tr>
+	</table>
+</div>
+    
+    </td>    
+    </tr>
+
+    <tr>
+    <td>
+    
+        <br />
+    
+    </td>
+    
+    </tr>
+
+   </table>
+
+    </td>
+
+    </tr>
+    
+    </table>
+   
+    
+    &nbsp;
+    
+        
+
+  <script language="javascript" type="text/javascript">
+
+    //<!CDATA[ 
+ 
+   
+
+        defaultPageFlag = 0;
+       
+         
+
+    //]]>  
+    
+    </script>    
+
+        
+
+                </td>
+                                
+            </tr>
+                
+            
+            <tr>
+                        
+                <td class="BottomBarTd">
+                
+                <table class="BottomBarTable">
+                <tr>
+                
+                <td>
+                </td>
+                
+                <td  class="Menu2BarTd">
+                
+                <a href="#ctl00_Menu2_SkipLink"><img alt="Проход по ссылкам навигации" src="/WebResource.axd?d=gam73ZOu9JE2AF6YSkFI8Q2&amp;t=633527929956801634" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_Menu2" class="Menu2BarCtrl ctl00_Menu2_5 ctl00_Menu2_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverRoot(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n0"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          В начало
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%" class="ctl00_Menu2_5">
+			<tr>
+				<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n1"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало\\Он-лайн каталог')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Он-лайн каталог
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu2n2"><table class="Menu2BarCtrl ctl00_Menu2_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;"><a class="ctl00_Menu2_1 Menu2BarCtrl ctl00_Menu2_3" href="javascript:__doPostBack('ctl00$Menu2','В начало\\Поставщики')" style="border-style:none;font-size:1em;">
+                        
+                            
+                          <span onmouseover="RB_changeMenu2Button(this, '1')" onmouseout="RB_changeMenu2Button(this, '0')">
+      
+                          <img src= "IMAGES/TreeButton.gif" border="0"  align="absmiddle"  height="16px" width="16px" />
+  
+                          Поставщики
+                          &nbsp;
+                          </span>                          
+                          
+                        </a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><a id="ctl00_Menu2_SkipLink"></a>
+                                 
+                </td>
+                <td>
+                </td>
+                </tr>                
+                <tr>
+               
+                <td  class="CopyRightTd" colspan="3">
+                  ©&nbsp;Российская&nbsp;книжная&nbsp;палата,&nbsp;1995-2012                
+                </td>
+                </tr>
+                </table>
+                 
+                </td>
+                
+                 
+            </tr>
+            
+        </table>
+        
+        
+        </td>        
+        </tr>          
+        </table>        
+  
+               
+    </div>
+        
+        &nbsp;&nbsp;
+                
+        <div>
+                                  
+        
+                   
+        </div>
+        
+        <a href="Web2.sitemap"></a>         
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_Menu1_Data = new Object();
+ctl00_Menu1_Data.disappearAfter = 0;
+ctl00_Menu1_Data.horizontalOffset = 0;
+ctl00_Menu1_Data.verticalOffset = 0;
+ctl00_Menu1_Data.staticHoverClass = 'ctl00_Menu1_7 Menu1BarHoverCtrl';
+ctl00_Menu1_Data.staticHoverHyperLinkClass = 'ctl00_Menu1_6 Menu1BarHoverCtrl';
+var ctl00_Menu2_Data = new Object();
+ctl00_Menu2_Data.disappearAfter = 0;
+ctl00_Menu2_Data.horizontalOffset = 0;
+ctl00_Menu2_Data.verticalOffset = 0;
+ctl00_Menu2_Data.staticHoverClass = 'ctl00_Menu2_9 Menu2BarHoverCtrl';
+ctl00_Menu2_Data.staticHoverHyperLinkClass = 'ctl00_Menu2_8 Menu2BarHoverCtrl';
+//]]>
+</script>
+</form>  
+    
+    <script language="javascript" type="text/javascript">
+    //<!CDATA[ 
+ 
+   
+        RB_initTree0();
+        RB_initTree1(); 
+        
+        RB_setMainSize();        
+         
+
+    //]]>
+    
+    </script>    
+    
+</body>
+</html>

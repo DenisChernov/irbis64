@@ -1,0 +1,7 @@
+немчинова
+продлить
+
+http://opac.mgounb.ru/opacg/inter1.htm
+
+http && (ip.dst == opac.mgounb.ru && ip.src == root) || (ip.dst == root && ip.src = opac.mgounb.ru)
+http && (ip.dst == opac.mgounb.ru || ip.src == opac.mgounb.ru)

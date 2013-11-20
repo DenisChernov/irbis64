@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_Information</class>
+ <widget class="QDialog" name="form_Information">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>656</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Автоматизатор справок &lt;Development&gt; Follow The Blind</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/info.png</normaloff>images/info.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="gbParametrs">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>26</y>
+     <width>481</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Параметры справок</string>
+   </property>
+   <widget class="QGroupBox" name="gbChose">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>461</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Критерии выбора</string>
+    </property>
+    <widget class="QComboBox" name="cbType_6">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>20</y>
+       <width>161</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>Тематическая</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Уточняющая</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Фактографическая</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Адресно-библиографическая</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Социальная</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="lblTarget_4">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>21</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Цель запроса:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cbTarget_4">
+     <property name="geometry">
+      <rect>
+       <x>87</x>
+       <y>20</y>
+       <width>121</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>учебная</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>специальная</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>досуговая</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>самообразование</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="lblType_6">
+     <property name="geometry">
+      <rect>
+       <x>217</x>
+       <y>21</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Тип справки:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbParametrsReg">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>461</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Параметры регистрации справок</string>
+    </property>
+    <widget class="QGroupBox" name="gbSource">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>441</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Источник выполнения</string>
+     </property>
+     <widget class="QCheckBox" name="cbAK">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>АК</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbCK">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>СК</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbCKC">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>СКС</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbKnF">
+      <property name="geometry">
+       <rect>
+        <x>53</x>
+        <y>40</y>
+        <width>51</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Кн.Ф.</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbAC2Krai">
+      <property name="geometry">
+       <rect>
+        <x>53</x>
+        <y>60</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>АС-2 Край</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbCF">
+      <property name="geometry">
+       <rect>
+        <x>53</x>
+        <y>20</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>СФ</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbIRBIS_CKC">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ИРБИС - СКС</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbIRBIS_EK">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ИРБИС - ЭК</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbConsultant">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>40</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Консультант</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbCodecs">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>60</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Кодекс</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbInternet">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>20</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Интернет</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbAC2CKC">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>АС-2 СКС</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbFSO">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>40</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ФСО</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="cbGarant">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>20</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Гарант</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="gbStat">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>190</y>
+     <width>481</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Статистика справок</string>
+   </property>
+   <widget class="QGroupBox" name="gbStatByTarget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>201</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>По цели</string>
+    </property>
+    <widget class="QLabel" name="lblStudy_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>19</y>
+       <width>46</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>учебная</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leStudy_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>18</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leSpecial_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>36</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblSpecial_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>36</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>специальная</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblDosug_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>54</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>досуговая</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leDosug_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>53</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leSelfStudy_4">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblSelfStudy_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>71</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>самообразование</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbStatByType">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>По типу</string>
+    </property>
+    <widget class="QLineEdit" name="leAddresBiblio_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>70</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leYtochn_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>36</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leTemat_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>18</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblFactograf_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>54</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Фактографическая</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblYtochn_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>36</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Уточняющая</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblAdressBiblio_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>71</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Адресно-библиографическая</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblTemat_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>19</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Тематическая</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leFactograf_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>53</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblSocio_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Социальная</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leSocio_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>88</y>
+       <width>61</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pbSearch">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>241</y>
+     <width>481</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Искать</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="twInfosInIrbis64">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>272</y>
+     <width>481</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget::item {
+    border: 1px solid #d9d9d9;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+ 
+QTableWidget::item:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+    border: 1px solid #bfcde4;
+}
+ 
+QTableWidget::item:selected {
+    border: 1px solid #567dbc;
+}
+ 
+QTableWidget::item:selected:active{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #567dbc);
+}
+ 
+QTableWidget::item:selected:!active {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6b9be8, stop: 1 #577fbf);
+}</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>436</y>
+     <width>481</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="twInfosChosed">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>456</y>
+     <width>481</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget::item {
+    border: 1px solid #d9d9d9;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+ 
+QTableWidget::item:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+    border: 1px solid #bfcde4;
+}
+ 
+QTableWidget::item:selected {
+    border: 1px solid #567dbc;
+}
+ 
+QTableWidget::item:selected:active{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #567dbc);
+}
+ 
+QTableWidget::item:selected:!active {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6b9be8, stop: 1 #577fbf);
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbAdd">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>436</y>
+     <width>75</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>630</y>
+     <width>481</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbRemove">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>630</y>
+     <width>75</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbSendInfosToIrbis64">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>630</y>
+     <width>75</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записать</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gbCreateBDMsg">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>50</y>
+     <width>281</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QProgressBar" name="pbProgress">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>77</y>
+      <width>241</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+    <property name="textVisible">
+     <bool>false</bool>
+    </property>
+    <property name="format">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>16</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string>Получение справок из IRBIS64.
+В первый раз это длительный процесс.
+Пожалуйста ждите.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAmountInfo">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>82</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="lblFilial">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>6</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Maker:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbFilial">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>4</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gbInSearching">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>220</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblInSearching">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monotype Corsiva</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выборка... ждите...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="lblInfoStatus">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>7</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Загрузка справок</string>
+   </property>
+  </widget>
+  <zorder>twInfosInIrbis64</zorder>
+  <zorder>twInfosChosed</zorder>
+  <zorder>gbParametrs</zorder>
+  <zorder>gbStat</zorder>
+  <zorder>pbSearch</zorder>
+  <zorder>line</zorder>
+  <zorder>pbAdd</zorder>
+  <zorder>line_2</zorder>
+  <zorder>pbRemove</zorder>
+  <zorder>pbSendInfosToIrbis64</zorder>
+  <zorder>gbCreateBDMsg</zorder>
+  <zorder>lblFilial</zorder>
+  <zorder>cbFilial</zorder>
+  <zorder>gbInSearching</zorder>
+  <zorder>lblInfoStatus</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

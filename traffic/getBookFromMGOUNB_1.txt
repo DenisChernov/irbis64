@@ -1,0 +1,237 @@
+POST /cgiopac/opacg/opac.exe HTTP/1.1
+Host: opac.mgounb.ru
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:9.0) Gecko/20100101 Firefox/9.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://opac.mgounb.ru/opacg/inter1.htm
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 44
+
+arg0=GUES2&arg1=GUESTE2&TypeAccess=PayAccessHTTP/1.0 200 OK
+Date: Tue, 22 Nov 2011 10:19:49 GMT
+Server: Apache/2.0.63 (Win32) mod_fastcgi/2.4.2
+Content-Type: text/html
+X-Cache: MISS from murmanlib.ru
+Via: 1.0 murmanlib.ru (squid/3.1.8)
+Connection: close
+
+<html>
+<head>
+<title>OPAC-Global</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<meta http-equiv="cache-control" content="no-cache" />
+
+<noscript>
+Ваш броузер не поддерживает Javascript!
+</noscript>
+<script src="/opacg/js/function.js"></script>
+<script src="/opacg/js/data.js"></script>
+<script src="/opacg/js/catalog.js"></script>
+<script src="/opacg/js/newf.js"></script>
+<script src="/opacg/js/el.js"></script>
+<script src="/opacg/js/srch.js"></script>
+<script src="/opacg/js/ini.js"></script>
+<script src="/opacg/js/sets.js"></script>
+<script src="/opacg/js/tamino.js"></script>
+<script src="/opacg/html/hidden_query_frame/hidden_query_frame_initializations.js"></script>
+<script src="/opacg/html/common/js/input_routine_library.js"></script>
+<script src="/opacg/html/common/js/windowmanager.js"></script>
+<script language="JavaScript">
+<!--
+var FullNameL="ELENA1";
+var EdtNameL="ELENA2";
+var identif="GUES2";
+var numsean="201576";
+var MainMenuF=new Array();
+MainMenuF[1]="Поиск";
+MainMenuF[12]="Список выдачи";
+var SearchLevels=new Array();
+SearchLevels[0] = "Full";
+SearchLevels[1] = "Retro";
+SearchLevels[2] = "Unfinished";
+SearchLevels[3] = "Unknown";
+SearchLevels[4] = "Identify";
+var InfoDB=new Array();
+InfoDB[1]=new Array();
+InfoDB[1][0]=new Array();
+InfoDB[1][0][0]="1";
+InfoDB[1][0][1]="BIBL";
+InfoDB[1][0][2]="Электронный каталог";
+InfoDB[1][0][3]="Local";
+InfoDB[1][0][4]=" ";
+InfoDB[1][0][5]="#";
+InfoDB[1][0][6]="201576";
+InfoDB[1][1]=new Array();
+InfoDB[1][1][0]="BIBCARD";
+InfoDB[1][1][1]="FULLFORM";
+InfoDB[1][2]=new Array();
+InfoDB[1][2][23]="Печать биб.карточки";
+InfoDB[1][2][29]="Печать требований (с формой)";
+InfoDB[1][2][34]="Печать требований (без формы)";
+InfoDB[1][2][40]="Добавить в заказ";
+InfoDB[1][3]=new Array();
+InfoDB[1][4]=new Array();
+InfoDB[1][4][0]="FT#Y#Y#N#Y#Y#Y#Y#Все поля";
+InfoDB[1][4][1]="AU#Y#Y#N#Y#Y#Y#Y#Индивид. автор, редактор, составитель и др.";
+InfoDB[1][4][2]="CA#Y#Y#N#Y#Y#Y#Y#Коллективный автор";
+InfoDB[1][4][3]="TI#Y#Y#N#Y#Y#Y#Y#Заглавие";
+InfoDB[1][4][4]="IN#Y#Y#N#Y#Y#Y#Y#Инвентарный номер/Баркод";
+InfoDB[1][4][5]="PF#Y#Y#N#Y#Y#Y#Y#Местонахождение";
+InfoDB[1][4][6]="SH2#Y#Y#N#Y#Y#Y#Y#ПРЕДМЕТНЫЕ РУБРИКИ";
+InfoDB[1][4][7]="SH#Y#Y#N#Y#Y#Y#Y#Предметные рубрики";
+InfoDB[1][4][8]="PP#Y#Y#N#Y#Y#Y#Y#Место издания";
+InfoDB[1][4][9]="PU#Y#Y#N#Y#Y#Y#Y#Издательство";
+InfoDB[1][4][10]="PY#Y#Y#N#Y#Y#Y#Y#Год публикации";
+InfoDB[1][4][11]="SE#Y#Y#N#Y#Y#Y#N#Серия";
+InfoDB[1][4][12]="BC#Y#Y#N#Y#Y#Y#Y#ББК";
+InfoDB[1][4][13]="PS#Y#Y#N#Y#Y#N#N#Имя лица (SH)";
+InfoDB[1][4][14]="GH#Y#Y#N#Y#Y#N#N#География(SH)";
+InfoDB[1][4][15]="KW#Y#Y#N#Y#Y#Y#Y#Ключевые слова";
+InfoDB[1][4][16]="LA#Y#Y#N#Y#Y#N#Y#Язык публикации";
+InfoDB[1][4][17]="SB#Y#Y#N#Y#N#Y#Y#ISBN";
+InfoDB[1][4][18]="SR#Y#Y#N#N#N#Y#Y#Источник записи";
+InfoDB[1][4][19]="ST#Y#Y#N#Y#Y#Y#Y#Источник записи 2";
+InfoDB[1][4][20]="DT#Y#Y#N#Y#N#Y#Y#Дата ввода записи";
+InfoDB[1][4][21]="ID#N#N#N#Y#N#Y#Y#Идентификатор записи";
+InfoDB[1][4][22]="RT#N#N#N#N#N#Y#Y#Тип документа";
+InfoDB[1][4][23]="SS#N#N#N#N#N#Y#Y#ISSN";
+InfoDB[1][4][24]="DN#N#N#N#N#N#Y#Y#Шифр хранения";
+InfoDB[1][4][25]="CL#N#N#N#N#N#Y#Y#Степень полноты записи";
+InfoDB[1][4][26]="CS#Y#Y#N#N#N#N#N#Организация (SH)";
+InfoDB[1][4][27]="SU#Y#Y#N#N#N#N#N#Тема(SH)";
+InfoDB[1][4][28]="BL#N#N#N#N#N#N#N#Библиографический уровень";
+InfoDB[1][4][29]="CTG#N#N#N#N#N#N#N#Предметная категория";
+InfoDB[1][4][30]="CN#N#N#N#N#N#N#N#Форма содержания";
+InfoDB[1][4][31]="AT#N#N#N#N#N#N#N#Имя+Заглавие(SH)";
+InfoDB[1][4][32]="DI#N#N#N#N#N#N#N#Дисциплина";
+InfoDB[1][4][33]="FS#N#N#N#N#N#N#N#Родовое имя (SH)";
+InfoDB[1][4][34]="FA#N#N#N#N#N#N#N#Родовое имя";
+InfoDB[1][4][35]="GC#N#N#N#N#N#N#N#ГАСНТИ код";
+InfoDB[1][4][36]="AS#N#N#N#N#N#N#N#Общая тема";
+InfoDB[1][4][37]="GNR#N#N#N#N#N#N#N#Форма, жанр и т.д. (SH)";
+InfoDB[1][4][38]="IL#N#N#N#N#N#N#N#Иерархический уровень";
+InfoDB[1][4][39]="IMP#N#N#N#Y#N#Y#Y#Идент. другой системы";
+InfoDB[1][4][40]="LG#N#N#N#N#N#N#N#НГР";
+InfoDB[1][4][41]="MS#N#N#N#N#N#N#N#MeSH";
+InfoDB[1][4][42]="MT#N#N#N#N#N#N#N#Check tags MeSH";
+InfoDB[1][4][43]="NT#N#N#N#N#N#N#N#N НТД, неопубликованные документы";
+InfoDB[1][4][44]="NP#N#N#N#N#N#N#N#Выпуск серии, номер журнала и т.д.";
+InfoDB[1][4][45]="OC#N#N#N#N#N#N#N#OKS";
+InfoDB[1][4][46]="RE#Y#Y#N#Y#Y#N#N#Идент. встроенной записи";
+InfoDB[1][4][47]="RL#N#N#N#N#N#N#N#Идент. других связанных документов";
+InfoDB[1][4][48]="S1#Y#Y#N#Y#Y#Y#Y#Сортировка по автору";
+InfoDB[1][4][49]="S2#Y#Y#N#Y#Y#Y#Y#Сортировка по заглавию";
+InfoDB[1][4][50]="S4#Y#Y#N#Y#Y#Y#Y#Сортировка по тому, выпуску, номеру и т.д.";
+InfoDB[1][4][51]="SC#N#N#N#N#N#N#N#Специальность";
+InfoDB[1][4][52]="SCB#N#N#N#N#N#N#N#КСУ";
+InfoDB[1][4][53]="SD#N#N#N#N#N#N#N#Тема";
+InfoDB[1][4][54]="SO#N#N#N#N#N#N#N#Заглавие источника";
+InfoDB[1][4][55]="SP#N#N#N#N#N#N#N#Коды специальностей";
+InfoDB[1][4][56]="KI#Y#Y#N#Y#Y#Y#Y#Виды издания";
+InfoDB[1][4][57]="SUP#N#N#N#N#N#N#N#Приложения";
+InfoDB[1][4][58]="TP#N#N#N#N#N#N#N#Вид документа для эл. б-ки";
+InfoDB[1][4][59]="TS#N#N#N#N#N#N#N#Заглавие (SH)";
+InfoDB[1][4][60]="TU#N#N#N#N#N#N#N#Унифицированное заглавие";
+InfoDB[1][4][61]="UD#N#N#N#N#N#N#N#УДК";
+InfoDB[1][4][62]="VD#N#N#N#N#N#N#N#Лист ввода";
+InfoDB[1][4][63]="AC#N#N#N#N#N#N#N#Автор+Кол.автор";
+InfoDB[1][4][64]="FD#Y#Y#N#Y#Y#Y#Y#Фонд/Коллекция";
+InfoDB[1][4][65]="ED#Y#Y#N#N#N#N#N#Наличие электронного документа";
+InfoDB[1][5]=new Array();
+
+var Dbs = new Array();
+Dbs[0] = 1;
+
+var RMBIBL=new Array();
+var RMAF=new Array();
+for(var i=0;i<InfoDB.length;i++)
+{
+	if(InfoDB[i] && InfoDB[i][3] && InfoDB[i][3] && InfoDB[i][3][0]=="all")
+	{
+		var fieldsList;
+		if(InfoDB[i][0][1]=="BIBL" && RMBIBL && RMBIBL.length)
+			fieldsList = RMBIBL;
+		else if(InfoDB[i][0][1]=="AF" && RMAF && RMAF.length)
+			fieldsList = RMAF;
+
+		var counter = 0;
+		for(var j=1000;j<fieldsList.length;j++)
+		{
+			if(fieldsList[j])
+			{
+				InfoDB[i][3][counter++] = ("" + j).slice(1);
+			}
+		}
+	}
+}
+
+CountMM();
+
+var Arg0=identif;
+var Arg1="";
+var Arg2="";
+var Arg3="";
+var Arg4="";
+var Arg5="";
+var Arg6="";
+var Arg7="";
+var Arg8="";
+var Arg9="";
+var Arg10="";
+var ArgEnd="";
+var ArgBRID="";
+var ArgLmtDB="";
+var PrgMainFr1="";
+
+var ParmScr = "menubar=yes,width=" + (screen.width - 12) +
+	",height=" + (screen.height - 123) +
+	",left=0,top=0,resizable=no,toolbar=no,location=no,scrollbars=yes,directories=no,status=yes";
+
+var ScrW = screen.width - 12;
+var ScrH = screen.height - 123;
+var ParmScrY = "menubar=yes,width=" + ScrW +
+	",height=" + ScrH +
+	",left=0,top=0,resizable=no,toolbar=no,location=no,scrollbars=yes,directories=no,status=no";
+var ParmScrN = "menubar=no,width=" + ScrW +
+	",height=" + ScrH +
+	",left=0,top=0,resizable=no,toolbar=no,location=no,scrollbars=yes,directories=no,status=no";
+
+var flagUnload="Данная операция завершит работу с системой OPAC!";
+
+function srcELEMENT(flag) 
+{
+	if(flag==0)
+		flagUnload=null;
+
+}
+
+function closeOPACG()
+{
+	if(flagUnload==null)
+		return;
+	else
+		return flagUnload;
+}
+
+window.onbeforeunload=closeOPACG;
+//-->
+</script>
+<script src="/opacg/html/select/js/select_view_class.js"></script>
+<script type="text/javascript" src="/opacg/html/billing/js/billingdata.js"></script>
+<link rel="SHORTCUT ICON" href="/opacg/favicon.ico"/>
+</head>
+<frameset rows="10%,*,8%,0%"  border="0">	
+	<frameset cols="70%,30%" border="0" noresize="noresize">
+		<frame src="/opacg/html/frame11.html" name="frame11" scrolling="no" noresize="noresize" />
+		<frame src="/opacg/html/frame12.html" name="frame12" scrolling="no" noresize="noresize" />
+	</frameset>		
+	<frame src="/opacg/html/frame2.xml" name="frame2" scrolling="auto" />
+	<frameset cols="100%,*" border="0">
+		<frame src="/opacg/html/frame3.html" name="frame3" scrolling="no"/>
+		<frame src="/opacg/html/frame32.html" name="frame32" scrolling="no" />
+	</frameset>
+	<frame src="/opacg/html/hidden_query_frame/index.html" name="query_frame" noresize="noresize" border="0"/>
+</frameset>
+</html>

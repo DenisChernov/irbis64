@@ -1,0 +1,17 @@
+INPUT(
+./bdOper.o
+./datetime.o
+./form_BookWork.o
+./form_Information.o
+./form_loadfile.o
+./form_UserRegistration.o
+./form_UserReRg.o
+./formLogin.o
+./isbnWork.o
+./main.o
+./mainForm.o
+./parser.o
+./tcpSocket.o
+./threads.o
+./loglib.o
+);

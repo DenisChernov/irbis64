@@ -1,0 +1,22 @@
+No.     Time        Source                Destination           Protocol Length Info
+   7126 238.805962  192.168.9.120         192.168.9.20          TCP      259    18495 > 6666 [PSH, ACK] Seq=1 Ack=1 Win=64240 Len=205
+
+Frame 7126: 259 bytes on wire (2072 bits), 259 bytes captured (2072 bits)
+Ethernet II, Src: Giga-Byt_a5:c5:8d (00:1d:7d:a5:c5:8d), Dst: IntelCor_4e:85:9c (00:15:17:4e:85:9c)
+Internet Protocol Version 4, Src: 192.168.9.120 (192.168.9.120), Dst: 192.168.9.20 (192.168.9.20)
+Transmission Control Protocol, Src Port: 18495 (18495), Dst Port: 6666 (6666), Seq: 1, Ack: 1, Len: 205
+Data (205 bytes)
+
+0000  32 30 31 0a 44 0a 43 0a 44 0a 37 31 36 35 39 39   201.D.C.D.716599
+0010  0a 35 39 0a 66 31 30 0a 66 31 30 0a 0a 0a 0a 55   .59.f10.f10....U
+0020  43 48 45 54 53 50 52 0a 30 0a 31 0a 30 23 30 1f   CHETSPR.0.1.0#0.
+0030  1e 30 23 30 1f 1e 39 32 30 23 55 43 48 45 54 53   .0#0..920#UCHETS
+0040  50 52 1f 1e 32 23 32 30 31 31 31 30 32 34 1f 1e   PR..2#20111024..
+0050  33 23 d1 84 20 31 30 1f 1e 34 23 d1 83 d1 87 d0   3#.. 10..4#.....
+0060  b5 d0 b1 d0 bd d0 b0 d1 8f 1f 1e 35 23 d1 82 d0   ...........5#...
+0070  b5 d1 81 d1 82 d0 b8 d1 80 d0 be d0 b2 d0 b0 d0   ................
+0080  bd d0 b8 d0 b5 1f 1e 36 23 d0 a2 d0 b5 d0 bc d0   .......6#.......
+0090  b0 d1 82 d0 b8 d1 87 d0 b5 d1 81 d0 ba d0 b0 d1   ................
+00a0  8f 1f 1e 37 23 d0 98 d0 a0 d0 91 d0 98 d0 a1 20   ...7#.......... 
+00b0  2d 20 d0 ad d0 9a 1f 1e 38 23 d1 84 20 31 30 1f   - ......8#.. 10.
+00c0  1e 39 23 2b 1f 1e 31 31 23 38 33 1f 1e            .9#+..11#83..

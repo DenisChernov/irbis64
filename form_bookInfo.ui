@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form_bookInfo</class>
+ <widget class="QDialog" name="form_bookInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>253</green>
+        <blue>215</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Сырые данные</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QGroupBox" name="gbCurrentBookNumber">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>161</width>
+     <height>76</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Текущий результат</string>
+   </property>
+   <widget class="QLabel" name="lbl">
+    <property name="geometry">
+     <rect>
+      <x>77</x>
+      <y>20</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>из</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbGoLeft">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;&lt;</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbGoRight">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>40</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leCurNumber">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>18</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leMaxNumber">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>18</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="gbBookInfo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>571</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Сведения о книге</string>
+   </property>
+   <widget class="QLabel" name="lblAutor">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Автор:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leAutor">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leBookName">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>451</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblBookName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Заглавие:</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbMultiVollume">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>173</y>
+      <width>541</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Многотомник?</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>27</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>#</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spVollumeNumber">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>24</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSpinBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="leVollumeName">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>24</y>
+       <width>451</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lblPublishing">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>243</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Издательство:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbPublishing">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>245</y>
+      <width>291</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbCityOfPublishing">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>273</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCityOfPublishing">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>273</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Город:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leCity">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>273</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbAutorSign">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Авт. знак</string>
+    </property>
+    <widget class="QLineEdit" name="leAutorSign">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lblYearOfPublishing">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>246</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Год:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="sbYearOfPublihsing">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>243</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="suffix">
+     <string/>
+    </property>
+    <property name="prefix">
+     <string/>
+    </property>
+    <property name="maximum">
+     <number>2012</number>
+    </property>
+    <property name="value">
+     <number>2012</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCountPages">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>303</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Объем:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="sbCountPages">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>299</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>2000</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblIndexUDK">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>343</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Индекс УДК:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbIndexUDK">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>340</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblBBK">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>343</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ББК:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbBBK">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>340</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSectionOfKnowlidge">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>343</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Раздел знаний:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbSectionOfKnowlidge">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>340</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbAboutBook">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>551</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Аннотация</string>
+    </property>
+    <widget class="QTextEdit" name="teAboutBook">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>531</width>
+       <height>101</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="leAdditionalBookName">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>451</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAdditionalBookName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Уточнение:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leSeries">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>451</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+padding: 1px;
+border-style: solid;
+border: 2px solid gray;
+border-radius: 8px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSeries">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Серия:</string>
+    </property>
+   </widget>
+   <zorder>lblAutor</zorder>
+   <zorder>leAutor</zorder>
+   <zorder>lblBookName</zorder>
+   <zorder>gbMultiVollume</zorder>
+   <zorder>lblPublishing</zorder>
+   <zorder>cbPublishing</zorder>
+   <zorder>cbCityOfPublishing</zorder>
+   <zorder>lblCityOfPublishing</zorder>
+   <zorder>leCity</zorder>
+   <zorder>gbAutorSign</zorder>
+   <zorder>leBookName</zorder>
+   <zorder>lblYearOfPublishing</zorder>
+   <zorder>sbYearOfPublihsing</zorder>
+   <zorder>lblCountPages</zorder>
+   <zorder>sbCountPages</zorder>
+   <zorder>lblIndexUDK</zorder>
+   <zorder>cbIndexUDK</zorder>
+   <zorder>lblBBK</zorder>
+   <zorder>cbBBK</zorder>
+   <zorder>lblSectionOfKnowlidge</zorder>
+   <zorder>cbSectionOfKnowlidge</zorder>
+   <zorder>gbAboutBook</zorder>
+   <zorder>leAdditionalBookName</zorder>
+   <zorder>lblAdditionalBookName</zorder>
+   <zorder>leSeries</zorder>
+   <zorder>lblSeries</zorder>
+  </widget>
+  <zorder>gbBookInfo</zorder>
+  <zorder>gbCurrentBookNumber</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
