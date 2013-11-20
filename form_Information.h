@@ -20,7 +20,7 @@
 #include "engine.h"
 #include "datetime.h"
 #include "form_loadfile.h"
-#include "../lib/Updater/updater.h"
+//#include "../lib/Updater/updater.h"
 
 #define MSG_CREATEBD_X 10
 #define MSG_CREATEBD_Y 10

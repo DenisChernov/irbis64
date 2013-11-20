@@ -665,3 +665,60 @@ string bdOper::bdConnStatus()
     }
     return "@#$";
 }
+
+bool bdOper::connectROOTtoBD()
+{
+    string connStr = boost::str(format("user=%s password=%s hostaddr=%s") % PSQL_ROOT_LOGIN % PSQL_ROOT_PASSWD % HOSTBD);
+    db = PQconnectdb(connStr.c_str());
+
+    if (PQstatus(db) == CONNECTION_BAD)
+    {
+        cout << "Unable connect to DB: " << endl;
+        //QMessageBox m;
+        //m.setText(db.lastError().text());
+        //m.exec();
+        return false;
+    }
+    else
+    {
+        cout << "connected to " << HOSTBD << " % " << endl;
+        return true;
+    }
+}
+
+void bdOper::prepareBookBase()
+{
+    if (this->isConnected())
+    {
+        string query("CREATE DATABASE testBD;");
+        cout << query << endl;
+        PGresult* result = PQexec(db, query.c_str());
+        if (PQresultStatus(result) != PGRES_COMMAND_OK)
+        {
+            queryError(result);
+        }
+        else
+        {
+            cout << "database successfuly created" << endl;
+        }
+    }
+}
+
+void bdOper::prepareRoles()
+{
+
+    if (this->isConnected())
+    {
+        string query("CREATE ROLE oa LOGIN ENCRYPTED PASSWORD 'md5cee060c5bef0635e2893f9687e9b5ed5' NOSUPERUSER NOINHERIT CREATEDB NOCREATEROLE REPLICATION;");
+        cout << query << endl;
+        PGresult* result = PQexec(db, query.c_str());
+        if (PQresultStatus(result) != PGRES_COMMAND_OK)
+        {
+            queryError(result);
+        }
+        else
+        {
+            cout << "role 'oa' successfuly created" << endl;
+        }
+    }
+}

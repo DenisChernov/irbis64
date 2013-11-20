@@ -8,8 +8,6 @@
 #ifndef BDOPER_H
 #define	BDOPER_H
 
-//#include <QtNetwork/QHostAddress>
-//    #include <QtNetwork/QNetworkInterface>
 #include <ace/INET_Addr.h>
 #include <ace/SOCK_Acceptor.h>
 #include <ace/SOCK_Connector.h>
@@ -35,9 +33,9 @@
 using namespace std;
 using boost::format;
 
-//#define HOSTBD "127.0.0.1"
+#define HOSTBD "127.0.0.1"
 //#define HOSTBD "192.168.9.254"
-#define HOSTBD "192.168.9.250"
+//#define HOSTBD "192.168.9.250"
 
 #define DBNAME_IPLIST "OurIP"
 #define DBLOGIN_IPLIST "apm"
@@ -46,6 +44,8 @@ using boost::format;
 const string DBNAME_BOOKBASE = "bookbase";
 const string DBLOGIN_BOOKBASE = "apm";
 const string DBPASS_BOOKBASE = "apm";
+const string PSQL_ROOT_LOGIN = "postgres";
+const string PSQL_ROOT_PASSWD = "123";
 
 class bdOper {
 public:
@@ -149,6 +149,28 @@ public:
     
     bool connectToBD(string db, string login, string pass);
     void disconnect();
+
+    /*
+     *  Подключение к СУБД с правами владельца
+     */
+    bool connectROOTtoBD();
+    
+    /*
+     * Создание базы книг ->
+     * CREATE DATABASE bookbase
+     * (
+     * 
+     * );
+     * 
+     * CREATE UNIQUE index
+     */
+    void prepareBookBase();
+    
+    /*
+     *  Создание ролей для доступа к БД
+     *  CREATE ROLE oa LOGIN NOSUPERUSER NOINHERIT CREATEDB NOCREATEROLE REPLICATION;
+     */
+    void prepareRoles();
     
 private:
 //    bool connectToBD(string db, string login, string pass);
@@ -164,7 +186,9 @@ private:
      */
     void sendQuery(string* query);
     
-    void prepareBookBase();
+
+    
+    
     void prepareReadersBase();
 };
 

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=crossIrbis
+PROJECTNAME=irbis64
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -17,11 +17,11 @@ CND_PACKAGE_PATH_Debug=dist/Debug/MinGW_Qt4.7.3-Windows/package/crossIrbis.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=.
-CND_ARTIFACT_NAME_Release=crossIrbis
-CND_ARTIFACT_PATH_Release=./crossIrbis
+CND_ARTIFACT_NAME_Release=irbis64
+CND_ARTIFACT_PATH_Release=./irbis64
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=crossIrbis.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/crossIrbis.tar
+CND_PACKAGE_NAME_Release=irbis64.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/irbis64.tar
 #
 # include compiler specific variables
 #

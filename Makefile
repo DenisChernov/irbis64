@@ -1455,8 +1455,6 @@ moc_form_Information.cpp: ui_form_Information.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtCore/qdatetime.h \
 		form_loadfile.h \
 		ui_form_loadfile.h \
-		../lib/Updater/updater.h \
-		../lib/Updater/ui_updater.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QMainWindow \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/qmainwindow.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QMenuBar \
@@ -1465,7 +1463,6 @@ moc_form_Information.cpp: ui_form_Information.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QStatusBar \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/qstatusbar.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QWidget \
-		../lib/Updater/ddll.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtCore/QtGlobal \
 		/opt/ACE_wrappers/ace/SSL/SSL_SOCK_Connector.h \
 		/opt/ACE_wrappers/ace/SSL/SSL_Export.h \
@@ -5601,8 +5598,6 @@ form_Information.o: form_Information.cpp /opt/Qt5.1.0/5.1.0/gcc/include/QtCore/q
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtCore/qdatetime.h \
 		form_loadfile.h \
 		ui_form_loadfile.h \
-		../lib/Updater/updater.h \
-		../lib/Updater/ui_updater.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QMainWindow \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/qmainwindow.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QMenuBar \
@@ -5611,7 +5606,6 @@ form_Information.o: form_Information.cpp /opt/Qt5.1.0/5.1.0/gcc/include/QtCore/q
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QStatusBar \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/qstatusbar.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QWidget \
-		../lib/Updater/ddll.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtCore/QtGlobal \
 		/opt/ACE_wrappers/ace/SSL/SSL_SOCK_Connector.h \
 		/opt/ACE_wrappers/ace/SSL/SSL_Export.h \
@@ -7870,8 +7864,6 @@ main.o: main.cpp /opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QApplication \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtCore/qlibrary.h \
 		form_loadfile.h \
 		ui_form_loadfile.h \
-		../lib/Updater/updater.h \
-		../lib/Updater/ui_updater.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QMainWindow \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/qmainwindow.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QMenuBar \
@@ -7879,7 +7871,6 @@ main.o: main.cpp /opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QApplication \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QStatusBar \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/qstatusbar.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtWidgets/QWidget \
-		../lib/Updater/ddll.h \
 		/opt/Qt5.1.0/5.1.0/gcc/include/QtCore/QtGlobal \
 		/opt/ACE_wrappers/ace/SSL/SSL_SOCK_Connector.h \
 		/opt/ACE_wrappers/ace/SSL/SSL_Export.h \

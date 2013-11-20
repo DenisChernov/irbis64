@@ -17,8 +17,8 @@
 //#define DEBUG_REREG
 //#define DEBUG_ISBN
 //#define DEBUG_DOWNLOADBOOKS
-#define DEBUG_UPDATER
-#define DEBUG_BOOKSEARCH
+//#define DEBUG_UPDATER
+//#define DEBUG_BOOKSEARCH
 //#define DEBUG_BOOKBASEUPDATER
 
 
@@ -230,7 +230,11 @@ int main(int argc, char *argv[]) {
         }
 #endif
 
-
-        
+    cout << "try prepare book bd" << endl;
+    bdOper* bd = new bdOper();
+    bd->connectROOTtoBD();
+    bd->prepareRoles();
+    bd->prepareBookBase();
+    
     return app.exec();
 }
