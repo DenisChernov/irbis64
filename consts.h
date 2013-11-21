@@ -53,5 +53,27 @@
      */
     const std::string colors[] = {"de3163", "1faee9", "3b5998", "9c7c1e", "871e9c", "1e9c91", "1e9c55", "00ff00", "d7ff00", "7e8944"};
     
+    /*
+     *  Цвета вывода в консоль
+     */
+    const std::string txt_black = "\x1b[30m";
+    const std::string txt_b_black = "\x1b[1;30m";
+    const std::string txt_red = "\x1b[31m";
+    const std::string txt_b_red = "\x1b[1;31m";
+    const std::string txt_green = "\x1b[32m";
+    const std::string txt_b_green = "\x1b[1;32m";
+    const std::string txt_yellow = "\x1b[33m";
+    const std::string txt_b_yellow = "\x1b[1;33m";
+    const std::string txt_blue = "\x1b[34m";
+    const std::string txt_b_blue = "\x1b[1;34m";
+    const std::string txt_purple = "\x1b[35m";
+    const std::string txt_b_purple = "\x1b[1;35m";
+    const std::string txt_lblue = "\x1b[36m";
+    const std::string txt_b_lblue = "\x1b[1;36m";
+    const std::string txt_white = "\x1b[37m";
+    const std::string txt_b_white = "\x1b[1;37m";
+    const std::string txt_end = "\x1b[0m";
+
+    
 #endif	/* CONSTS_H */
 

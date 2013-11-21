@@ -23,6 +23,7 @@
 #include <iostream>
 #include <vector>
 #include "structs.h"
+#include "consts.h"
 
 #ifdef WIN32
     #include <psql/9.1/libpq-fe.h>
@@ -41,8 +42,27 @@ using boost::format;
 #define DBLOGIN_IPLIST "apm"
 #define DBPASS_IPLIST "apm"
 
+/*
+ * db: bookbase
+ */
 const string DBNAME_BOOKBASE = "bookbase";
-const string DBLOGIN_BOOKBASE = "apm";
+
+/*
+ *  table books
+ */
+const string TABLE_NAME_BOOKS = "books";
+/*
+ *  table books units
+ */
+const string TABLE_NAME_BOOK_UNITS = "booksunits";
+
+/*
+ * login: irbis64Soft
+ */
+const string DBLOGIN_BOOKBASE = "irbis64soft";
+/*
+ * pass: apm
+ */
 const string DBPASS_BOOKBASE = "apm";
 const string PSQL_ROOT_LOGIN = "postgres";
 const string PSQL_ROOT_PASSWD = "123";
@@ -147,9 +167,28 @@ public:
      */
     void insertOneFieldToTable(string table, string field);
     
-    bool connectToBD(string db, string login, string pass);
+    bool connectToBD(string login, string pass, string db);
     void disconnect();
 
+    /*
+     *  Подготовить базуданных в СУБД
+     */
+    void prepareBD();
+    
+private:
+//    bool connectToBD(string db, string login, string pass);
+//    void disconnect();
+    void queryError(PGresult* result);
+    void getResult(PGresult** result, unsigned short int items, vector<string>* container);
+/*    bool connectToBD();
+    void disconnect();
+    void queryError(QSqlQuery query); */
+
+    /*
+     *  послать запрос в базу и получить ответ
+     */
+    bool sendQuery(string* query);
+    
     /*
      *  Подключение к СУБД с правами владельца
      */
@@ -172,21 +211,12 @@ public:
      */
     void prepareRoles();
     
-private:
-//    bool connectToBD(string db, string login, string pass);
-//    void disconnect();
-    void queryError(PGresult* result);
-    void getResult(PGresult** result, unsigned short int items, vector<string>* container);
-/*    bool connectToBD();
-    void disconnect();
-    void queryError(QSqlQuery query); */
-
     /*
-     *  послать запрос в базу и получить ответ
+     *  Сброс активных подключений к базе данных
+     *  SELECT pid as procpid FROM pg_catalog.pg_stat_activity WHERE datname = 'testbd';
+     *  SELECT pg_terminate_backend(procpid) FROM pg_stat_activity WHERE datname = 'testbd';
      */
-    void sendQuery(string* query);
-    
-
+    void dropConnectionsToBD();
     
     
     void prepareReadersBase();

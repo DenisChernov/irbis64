@@ -6,8 +6,10 @@
  */
 
 #include <QtWidgets/QMessageBox>
+#include <boost/foreach.hpp>
 
 #include "bdOper.h"
+#include "consts.h"
 
 bdOper::bdOper() {
 /*    QList<QHostAddress> myIpAddresses = QNetworkInterface::allAddresses();
@@ -105,7 +107,7 @@ vector<string> bdOper::getFilialsID()
     {
 
         string query("SELECT \"filialID\" FROM \"ipList\" WHERE \"ip\" = '" + myIp.toLatin1() + "'");
-        cout << query << endl;
+        cout << txt_b_yellow << query << txt_end << endl;
         PGresult* result = PQexec(db, query.c_str());
 
         getResult(&result, 1, &list);
@@ -144,7 +146,7 @@ vector<string> bdOper::getFilialNames(QStringList ids)
         foreach (QString id, ids)
         {
             string query = "SELECT \"filial\" FROM \"filials\" WHERE \"id\" = '" + id.toStdString() + "'";
-            cout << query << endl;
+            cout << txt_b_yellow << query << txt_end << endl;
             PGresult* result = PQexec(db, query.c_str());
 
             getResult(&result, 1, &list);
@@ -164,7 +166,7 @@ void bdOper::disconnect()
 void bdOper::queryError(PGresult* result)
 {
 	//QTextCodec::setCodecForCStrings(QTextCodec::codecForName("cp1251"));
-    cerr << PQresultErrorMessage(result) << endl;
+    cerr << txt_b_red << PQresultErrorMessage(result) << txt_end << endl;
     //QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
 }
 
@@ -457,7 +459,7 @@ vector <QStringList> bdOper::getBooks(string condition)
                     left join filials on filials.\"ID\" = booksunits.filial \
                     WHERE " + condition;
         
-        cout << query << endl;
+        cout << txt_b_yellow << query << txt_end << endl;
 
     PGresult *result = PQexec(db, query.c_str());
 
@@ -531,7 +533,7 @@ void bdOper::sendNewBookToBase(string isbn, string title, string autor, string m
 //                                                                                                                   % booksCount.at(2));//.substr(0, booksCount.at(2).length() - 1));
     
     string query = boost::str(format("INSERT INTO bookbase VALUES ('%s', '%s', '%s', '%s', '%s', '%s', %d, %d, %d, %d, '%s', %d, %d, %d, %d)") % isbn % title % autor % multiTitle % addTitle % vollume % pageCount % city % publish % year % subj % BBK % knowledgeSection % autorSign % series);
-    //cout << query << endl;
+    //cout << txt_b_yellow << query << txt_end << endl;
     
     sendQuery(&query);
 }
@@ -539,28 +541,30 @@ void bdOper::sendNewBookToBase(string isbn, string title, string autor, string m
 void bdOper::sendBookUnits(string index, int filial, string status, unsigned int bookID)
 {
     string query = boost::str(format("INSERT INTO booksunits VALUES ('%s', '%d', '%s', %d)") % index % filial % status % bookID);
-    //cout << query << endl;
+    //cout << txt_b_yellow << query << txt_end << endl;
     
     sendQuery(&query);
 }
 
-void bdOper::sendQuery(string* query)
+bool bdOper::sendQuery(string* query)
 {
     PGresult *result = PQexec(db, (*query).c_str());
     if (PQresultStatus(result) != PGRES_COMMAND_OK)
     {
         queryError(result);
+        return false;
     }
     else
     {
         //cout << "...inserted!!" << endl;
+        return true;
     }   
 }
 
 void bdOper::insertOneFieldToTable(string table, string field)
 {
     string query = boost::str(format("INSERT INTO %s VALUES ('%s')") % table % field);
-    //cout << query << endl;
+    //cout << txt_b_yellow << query << txt_end << endl;
     
     sendQuery(&query);
 }
@@ -686,22 +690,87 @@ bool bdOper::connectROOTtoBD()
     }
 }
 
+void bdOper::dropConnectionsToBD()
+{
+    if (this->isConnected())
+    {
+        vector <string> pids;
+        string query(boost::str(format("SELECT pid FROM pg_catalog.pg_stat_activity WHERE datname = '%s'") % DBNAME_BOOKBASE));
+        cout << txt_b_yellow << query << txt_end << endl;
+        PGresult* result = PQexec(db, query.c_str());
+        getResult(&result, 1, &pids);
+        BOOST_FOREACH(string pid, pids)
+        {
+            query = boost::str(format("SELECT pg_terminate_backend(%s) FROM pg_stat_activity WHERE datname = '%s';") % pid % DBNAME_BOOKBASE);
+            cout << txt_b_yellow << query << txt_end << endl;
+            sendQuery(&query);
+        }
+    }
+}
+
 void bdOper::prepareBookBase()
 {
     if (this->isConnected())
     {
-        string query("CREATE DATABASE testBD;");
-        cout << query << endl;
-        PGresult* result = PQexec(db, query.c_str());
-        if (PQresultStatus(result) != PGRES_COMMAND_OK)
-        {
-            queryError(result);
-        }
-        else
-        {
-            cout << "database successfuly created" << endl;
-        }
+        string query(boost::str(format("DROP DATABASE %s;") % DBNAME_BOOKBASE));
+        if (sendQuery(&query))
+            cout << "database " << txt_b_green << DBNAME_BOOKBASE << txt_end << " successfuly dropped" << endl;
+
+        query = boost::str(format("CREATE DATABASE %s WITH OWNER %s;") % DBNAME_BOOKBASE % DBLOGIN_BOOKBASE);
+        cout << txt_b_yellow << query << txt_end << endl;
+        if (sendQuery(&query))
+            cout << "database " << txt_b_green << DBNAME_BOOKBASE << txt_end << " successfuly created" << endl;
+        this->disconnect();
     }
+    connectToBD(DBLOGIN_BOOKBASE, DBPASS_BOOKBASE, DBNAME_BOOKBASE);
+    
+    if (this->isConnected())
+    {
+        string query = boost::str(format("DROP TABLE %s;\n \
+                                   CREATE TABLE %s \
+                                   ( \
+                                    id serial NOT NULL, \
+                                    isbn character varying, \
+                                    title character varying, \
+                                    autor character varying, \
+                                    multiTitle character varying, \
+                                    addTitle character varying, \
+                                    vollume character varying, \
+                                    pageCount integer, \
+                                    city integer, \
+                                    subj character varying, \
+                                    bbk integer, \
+                                    knoledgeSection character varying, \
+                                    autorSign integer, \
+                                    series integer, \
+                                    CONSTRAINT %s_pkey PRIMARY KEY (id) \
+                                   );\n \
+                                   ALTER TABLE %s OWNER TO %s;\n \
+                                   CREATE UNIQUE INDEX idx_%s ON %s (title, autor, multiTitle, subj, series, id);")
+                                   % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % DBLOGIN_BOOKBASE % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS);
+        cout << txt_b_yellow << query << txt_end << endl;
+        if (sendQuery(&query))
+            cout << "table " << txt_b_green << TABLE_NAME_BOOKS << txt_end << " successfuly created" << endl;
+
+        query = boost::str(format("DROP TABLE %s;\n \
+                                   CREATE TABLE %s \
+                                   ( \
+                                    id serial NOT NULL, \
+                                    index character varying, \
+                                    filial integer, \
+                                    status character varying, \
+                                    bookID integer, \
+                                    CONSTRAINT %s_pkey PRIMARY KEY (id) \
+                                   );\n \
+                                   ALTER TABLE %s OWNER TO %s;\n \
+                                   CREATE UNIQUE INDEX idx_%s ON %s (index);")
+                                   % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % DBLOGIN_BOOKBASE % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS);
+        cout << txt_b_yellow << query << txt_end << endl;
+        if (sendQuery(&query))
+            cout << "table " << txt_b_green << TABLE_NAME_BOOK_UNITS << txt_end << " successfuly created" << endl;
+    }
+    
+    
 }
 
 void bdOper::prepareRoles()
@@ -709,16 +778,91 @@ void bdOper::prepareRoles()
 
     if (this->isConnected())
     {
-        string query("CREATE ROLE oa LOGIN ENCRYPTED PASSWORD 'md5cee060c5bef0635e2893f9687e9b5ed5' NOSUPERUSER NOINHERIT CREATEDB NOCREATEROLE REPLICATION;");
-        cout << query << endl;
+        vector <string> roles;
+        bool isFound = false;
+        
+        string query("SELECT rolname FROM pg_roles;");
         PGresult* result = PQexec(db, query.c_str());
-        if (PQresultStatus(result) != PGRES_COMMAND_OK)
+        getResult(&result, 1, &roles);
+        BOOST_FOREACH(string role, roles)
         {
-            queryError(result);
+            if (role.compare(DBLOGIN_BOOKBASE) == 0)
+            {
+                cout << txt_lblue << role << txt_end << endl;
+                isFound = true;
+                cout << "role found... now will be deleted" << endl;
+                break;
+            }
+            else
+                cout << role << endl;
         }
-        else
+            
+        if (isFound)
         {
-            cout << "role 'oa' successfuly created" << endl;
+            bool roleIsFree = true;
+        
+            string connStr = boost::str(format("user=%s password=%s dbname=%s hostaddr=%s") % PSQL_ROOT_LOGIN % PSQL_ROOT_PASSWD % DBNAME_BOOKBASE % HOSTBD);
+            PGconn* dbTables = PQconnectdb(connStr.c_str());
+
+            if (PQstatus(dbTables) == CONNECTION_BAD)
+            {
+                cout << "Unable connect to DB: " << DBNAME_BOOKBASE << endl;
+            }
+            else
+            {
+                cout << "connected to " << HOSTBD << " % " << DBNAME_BOOKBASE << endl;
+            
+                vector <string> tables;
+                query = boost::str(format("SELECT tablename FROM pg_tables WHERE tableowner = '%s';") % DBLOGIN_BOOKBASE);
+                cout << txt_b_yellow << query << txt_end << endl;
+                result = PQexec(dbTables, query.c_str());
+                getResult(&result, 1, &tables);
+                BOOST_FOREACH(string table, tables)
+                {
+                    query = boost::str(format("ALTER TABLE %s OWNER TO %s") % table % PSQL_ROOT_LOGIN);
+                    cout << txt_b_yellow << query << txt_end << endl;            
+                    result = PQexec(dbTables, query.c_str());
+                    if (PQresultStatus(result) != PGRES_COMMAND_OK)
+                    {
+                        queryError(result);
+                        roleIsFree = false;
+                    }
+                    else
+                    {
+                        roleIsFree = true;
+                    }
+                    
+                }
+                PQfinish(dbTables);
+            }
+            if (roleIsFree)
+            {
+                query = boost::str(format("ALTER DATABASE %s OWNER TO %s") % DBNAME_BOOKBASE % PSQL_ROOT_LOGIN);
+                cout << txt_b_yellow << query << txt_end << endl;            
+                if (sendQuery(&query))
+                {
+                    query = boost::str(format("DROP ROLE %s;") % DBLOGIN_BOOKBASE);
+                    cout << txt_b_yellow << query << txt_end << endl;
+                    if (sendQuery(&query))
+                        cout << "role " << txt_lblue << "'" << DBLOGIN_BOOKBASE << "'" << txt_end << " successfully deleted" << endl;
+                    
+                }
+            }
         }
+    
+        query = boost::str(format("CREATE ROLE %s LOGIN ENCRYPTED PASSWORD 'md529093d65ee11534799d2d0df70107c76' NOSUPERUSER NOINHERIT CREATEDB NOCREATEROLE REPLICATION;") % DBLOGIN_BOOKBASE);
+        cout << txt_b_yellow << query << txt_end << endl;
+        if (sendQuery(&query))
+             cout << boost::str(format("new role " + txt_lblue + "'%s'" + txt_end + " successfully created") % DBLOGIN_BOOKBASE) << endl;
     }
+}
+
+void bdOper::prepareBD()
+{
+    cout << "try prepare "<< txt_b_green << "book" << txt_end << " bd" << endl;
+    connectROOTtoBD();
+    dropConnectionsToBD();    
+    prepareRoles();
+    prepareBookBase();
+    disconnect();
 }

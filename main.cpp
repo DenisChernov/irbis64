@@ -230,11 +230,8 @@ int main(int argc, char *argv[]) {
         }
 #endif
 
-    cout << "try prepare book bd" << endl;
+
     bdOper* bd = new bdOper();
-    bd->connectROOTtoBD();
-    bd->prepareRoles();
-    bd->prepareBookBase();
-    
+    bd->prepareBD();
     return app.exec();
 }
