@@ -726,8 +726,12 @@ void bdOper::prepareBookBase()
     
     if (this->isConnected())
     {
-        string query = boost::str(format("DROP TABLE %s;\n \
-                                   CREATE TABLE %s \
+        string query (boost::str(format ("DROP TABLE %s;") % TABLE_NAME_BOOKS));
+        cout << txt_b_yellow << query << txt_end << endl;
+        if (sendQuery(&query))
+            cout << "table " << txt_b_green << TABLE_NAME_BOOKS << txt_end << " successfuly dropped" << endl;
+        
+        query = boost::str(format("CREATE TABLE %s \
                                    ( \
                                     id serial NOT NULL, \
                                     isbn character varying, \
@@ -738,6 +742,8 @@ void bdOper::prepareBookBase()
                                     vollume character varying, \
                                     pageCount integer, \
                                     city integer, \
+                                    publish integer, \
+                                    year integer, \
                                     subj character varying, \
                                     bbk integer, \
                                     knoledgeSection character varying, \
@@ -747,13 +753,17 @@ void bdOper::prepareBookBase()
                                    );\n \
                                    ALTER TABLE %s OWNER TO %s;\n \
                                    CREATE UNIQUE INDEX idx_%s ON %s (title, autor, multiTitle, subj, series, id);")
-                                   % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % DBLOGIN_BOOKBASE % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS);
+                                   % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS % DBLOGIN_BOOKBASE % TABLE_NAME_BOOKS % TABLE_NAME_BOOKS);
         cout << txt_b_yellow << query << txt_end << endl;
         if (sendQuery(&query))
             cout << "table " << txt_b_green << TABLE_NAME_BOOKS << txt_end << " successfuly created" << endl;
 
-        query = boost::str(format("DROP TABLE %s;\n \
-                                   CREATE TABLE %s \
+        query = boost::str(format ("DROP TABLE %s;") % TABLE_NAME_BOOK_UNITS);
+        cout << txt_b_yellow << query << txt_end << endl;
+        if (sendQuery(&query))
+            cout << "table " << txt_b_green << TABLE_NAME_BOOK_UNITS << txt_end << " successfuly dropped" << endl;
+        
+        query = boost::str(format("CREATE TABLE %s \
                                    ( \
                                     id serial NOT NULL, \
                                     index character varying, \
@@ -764,7 +774,7 @@ void bdOper::prepareBookBase()
                                    );\n \
                                    ALTER TABLE %s OWNER TO %s;\n \
                                    CREATE UNIQUE INDEX idx_%s ON %s (index);")
-                                   % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % DBLOGIN_BOOKBASE % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS);
+                                   % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS % DBLOGIN_BOOKBASE % TABLE_NAME_BOOK_UNITS % TABLE_NAME_BOOK_UNITS);
         cout << txt_b_yellow << query << txt_end << endl;
         if (sendQuery(&query))
             cout << "table " << txt_b_green << TABLE_NAME_BOOK_UNITS << txt_end << " successfuly created" << endl;
