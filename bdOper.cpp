@@ -695,7 +695,7 @@ void bdOper::dropConnectionsToBD()
     if (this->isConnected())
     {
         vector <string> pids;
-        string query(boost::str(format("SELECT pid FROM pg_catalog.pg_stat_activity WHERE datname = '%s'") % DBNAME_BOOKBASE));
+        string query(boost::str(format("SELECT procpid FROM pg_catalog.pg_stat_activity WHERE datname = '%s'") % DBNAME_BOOKBASE));
         cout << txt_b_yellow << query << txt_end << endl;
         PGresult* result = PQexec(db, query.c_str());
         getResult(&result, 1, &pids);
@@ -860,7 +860,7 @@ void bdOper::prepareRoles()
             }
         }
     
-        query = boost::str(format("CREATE ROLE %s LOGIN ENCRYPTED PASSWORD 'md529093d65ee11534799d2d0df70107c76' NOSUPERUSER NOINHERIT CREATEDB NOCREATEROLE REPLICATION;") % DBLOGIN_BOOKBASE);
+        query = boost::str(format("CREATE ROLE %s LOGIN ENCRYPTED PASSWORD 'md5%s' NOSUPERUSER NOINHERIT CREATEDB NOCREATEROLE REPLICATION;") % DBLOGIN_BOOKBASE % crypt.md5(DBPASS_BOOKBASE.c_str(), DBPASS_BOOKBASE.length()));
         cout << txt_b_yellow << query << txt_end << endl;
         if (sendQuery(&query))
              cout << boost::str(format("new role " + txt_lblue + "'%s'" + txt_end + " successfully created") % DBLOGIN_BOOKBASE) << endl;
@@ -875,4 +875,9 @@ void bdOper::prepareBD()
     prepareRoles();
     prepareBookBase();
     disconnect();
+}
+
+void bdOper::dropTable(string table)
+{
+
 }

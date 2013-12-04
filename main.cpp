@@ -230,8 +230,9 @@ int main(int argc, char *argv[]) {
         }
 #endif
 
-
+    
     bdOper* bd = new bdOper();
     bd->prepareBD();
+
     return app.exec();
 }

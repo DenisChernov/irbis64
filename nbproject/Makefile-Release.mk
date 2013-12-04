@@ -52,7 +52,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=../psql/9.0/lib/libpq.a ../../Qt/4.8.0/lib/libcurl.a -lcurl -lpq -lACE
+LDLIBSOPTIONS=../psql/9.0/lib/libpq.a ../../Qt/4.8.0/lib/libcurl.a -lcurl -lpq -lACE -lcrypto
 
 nbproject/qt-${CND_CONF}.mk: nbproject/qt-${CND_CONF}.pro FORCE
 	${QMAKE} VPATH=. -o qttmp-${CND_CONF}.mk nbproject/qt-${CND_CONF}.pro

@@ -7,7 +7,7 @@ TARGET = crossIrbis
 DEPENDPATH += .
 INCLUDEPATH += . /opt/ACE_wrappers /usr/include/postgresql
 # c:/develop/openssl/include
-LIBS += -lboost_thread -lboost_system -lboost_regex -lboost_filesystem -L/opt/ACE_wrappers/lib -lACE -L/usr/lib/ -lpq
+LIBS += -lboost_thread -lboost_system -lboost_regex -lboost_filesystem -L/opt/ACE_wrappers/lib -lACE -lcrypto -L/usr/lib/ -lpq
 #LIBS += c:/proj/psql/9.0/lib/libpq.a c:/proj/psql/9.0/lib/libpq.dll c:/develop/boost/stage/lib/libboost_thread-mgw46-mt-1_50.dll.a c:/develop/boost/stage/lib/libboost_thread-mgw46-mt-1_50.dll
 #LIBS += c:/develop/ACE_6.1.1/lib/libACE.dll c:/develop/ACE_6.1.1/lib/libACE_SSL.dll c:/develop/boost/stage/lib/libboost_regex-mgw46-mt-1_50.dll c:/develop/boost/stage/lib/libboost_system-mgw46-mt-1_50.dll
 #LIBS += -L../lib/Updater/release -lUpdater0
@@ -34,6 +34,7 @@ HEADERS += bdOper.h \
            parser.h \
            passports.h \
            structs.h \
+		   crypto.h \
            form_BookBaseUpdater.h \
            ui_form_BookWork.h \
            ui_form_Information.h \
@@ -77,4 +78,5 @@ SOURCES += bdOper.cpp \
            searchbook.cpp \
            bookParsing.cpp \
            form_BookBaseUpdater.cpp \
-			appUpdater.cpp
+		   appUpdater.cpp \
+		   crypto.cpp

@@ -7,6 +7,7 @@
       <itemPath>appUpdater.cpp</itemPath>
       <itemPath>bdOper.cpp</itemPath>
       <itemPath>bookParsing.cpp</itemPath>
+      <itemPath>crypto.cpp</itemPath>
       <itemPath>datetime.cpp</itemPath>
       <itemPath>engine.cpp</itemPath>
       <itemPath>filework.cpp</itemPath>
@@ -33,6 +34,7 @@
       <itemPath>bdOper.h</itemPath>
       <itemPath>bookParsing.h</itemPath>
       <itemPath>consts.h</itemPath>
+      <itemPath>crypto.h</itemPath>
       <itemPath>datetime.h</itemPath>
       <itemPath>engine.h</itemPath>
       <itemPath>filework.h</itemPath>
@@ -121,6 +123,10 @@
       <item path="bookParsing.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="consts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crypto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crypto.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="datetime.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -252,6 +258,7 @@
             <linkerLibLibItem>curl</linkerLibLibItem>
             <linkerLibLibItem>pq</linkerLibLibItem>
             <linkerLibLibItem>ACE</linkerLibLibItem>
+            <linkerLibLibItem>crypto</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
@@ -275,6 +282,10 @@
       <item path="bookParsing.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="consts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crypto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="crypto.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="datetime.cpp" ex="false" tool="1" flavor2="0">
       </item>

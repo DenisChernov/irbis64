@@ -24,6 +24,7 @@
 #include <vector>
 #include "structs.h"
 #include "consts.h"
+#include "crypto.h"
 
 #ifdef WIN32
     #include <psql/9.1/libpq-fe.h>
@@ -64,6 +65,7 @@ const string DBLOGIN_BOOKBASE = "irbis64soft";
  * pass: apm
  */
 const string DBPASS_BOOKBASE = "apm";
+
 const string PSQL_ROOT_LOGIN = "postgres";
 const string PSQL_ROOT_PASSWD = "123";
 
@@ -176,6 +178,8 @@ public:
     void prepareBD();
     
 private:
+    cryptographic crypt;
+    
 //    bool connectToBD(string db, string login, string pass);
 //    void disconnect();
     void queryError(PGresult* result);
@@ -218,6 +222,7 @@ private:
      */
     void dropConnectionsToBD();
     
+    void dropTable(string table);
     
     void prepareReadersBase();
 };

@@ -8,8 +8,8 @@ CONFIG -= debug_and_release app_bundle lib_bundle
 CONFIG += release 
 PKGCONFIG +=
 QT = core gui
-SOURCES += appUpdater.cpp bdOper.cpp bookParsing.cpp datetime.cpp engine.cpp filework.cpp formLogin.cpp form_BookBaseUpdater.cpp form_BookWork.cpp form_DownloadBooks.cpp form_Information.cpp form_UserReRg.cpp form_UserRegistration.cpp form_bookInfo.cpp form_loadfile.cpp importBooks.cpp isbnWork.cpp main.cpp parser.cpp searchBook.cpp
-HEADERS += appUpdater.h bdOper.h bookParsing.h consts.h datetime.h engine.h filework.h formLogin.h form_BookBaseUpdater.h form_BookWork.h form_DownloadBooks.h form_Information.h form_UserReRg.h form_UserRegistration.h form_bookInfo.h form_loadfile.h importBooks.h isbnWork.h parser.h passports.h searchBook.h structs.h
+SOURCES += appUpdater.cpp bdOper.cpp bookParsing.cpp crypto.cpp datetime.cpp engine.cpp filework.cpp formLogin.cpp form_BookBaseUpdater.cpp form_BookWork.cpp form_DownloadBooks.cpp form_Information.cpp form_UserReRg.cpp form_UserRegistration.cpp form_bookInfo.cpp form_loadfile.cpp importBooks.cpp isbnWork.cpp main.cpp parser.cpp searchBook.cpp
+HEADERS += appUpdater.h bdOper.h bookParsing.h consts.h crypto.h datetime.h engine.h filework.h formLogin.h form_BookBaseUpdater.h form_BookWork.h form_DownloadBooks.h form_Information.h form_UserReRg.h form_UserRegistration.h form_bookInfo.h form_loadfile.h importBooks.h isbnWork.h parser.h passports.h searchBook.h structs.h
 FORMS += appUpdater.ui formLogin.ui form_BookBaseUpdater.ui form_BookWork.ui form_DownloadBooks.ui form_Information.ui form_UserReRg.ui form_UserRegistration.ui form_bookInfo.ui form_loadfile.ui searchBook.ui
 RESOURCES +=
 TRANSLATIONS +=
@@ -21,7 +21,7 @@ QMAKE_CC = gcc
 QMAKE_CXX = g++
 DEFINES += 
 INCLUDEPATH += 
-LIBS += ../psql/9.0/lib/libpq.a ../../Qt/4.8.0/lib/libcurl.a -lcurl -lpq -lACE  
+LIBS += ../psql/9.0/lib/libpq.a ../../Qt/4.8.0/lib/libcurl.a -lcurl -lpq -lACE -lcrypto  
 equals(QT_MAJOR_VERSION, 4) {
 QMAKE_CXXFLAGS += -std=c++11
 }
